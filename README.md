@@ -44,6 +44,17 @@ MIT
 If you find this repository useful, please consider citing our related works:
 
 ```bibtex
+@article{WANG2022110768,
+  title={When and why PINNs fail to train: A neural tangent kernel perspective},
+  author={Wang, Sifan and Yu, Xinling and Perdikaris, Paris},
+  journal={Journal of Computational Physics},
+  volume={449},
+  pages={110768},
+  year={2022},
+  doi={https://doi.org/10.1016/j.jcp.2021.110768},
+  publisher={Elsevier}
+}
+
 @article{xiong2025high,
   title={High-frequency flow field super-resolution via physics-informed hierarchical adaptive Fourier feature networks},
   author={Xiong, Xiong and Lu, Kang and Zhang, Zhuo and Zeng, Zheng and Zhou, Sheng and Hu, Rongchun and Deng, Zichen},
