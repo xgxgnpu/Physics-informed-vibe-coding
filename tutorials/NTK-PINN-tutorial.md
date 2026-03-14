@@ -74,6 +74,12 @@ $$u(t, 0) = u(t, 1) = 0, \quad t \in [0, 1]$$
 
 $$u(t, x) = \sin(\pi x)\cos(2\pi t) + 0.5\sin(4\pi x)\cos(8\pi t)$$
 
+下图展示了 PINN 求解波动方程的整体框架：
+
+![PINN Framework for Wave Equation](https://pic1.imgdb.cn/item/69b4e8f6963e55431f540517.png)
+
+**图 S1**：PINN 框架示意图。神经网络 $u_\theta(t,x)$ 接收时空坐标作为输入，输出预测解 $\hat{u}$。通过自动微分获取高阶导数以构建 PDE 残差，与边界/初始条件损失一起组成加权总损失，反向传播更新网络参数。
+
 PINN 的损失函数分解为四个分量：
 
 | 损失分量 | 数学表达式 | 物理含义 |
@@ -140,6 +146,12 @@ $$J_{u_t} = \frac{\partial \mathbf{u}_t(\theta)}{\partial \theta} \in \mathbb{R}
 $$J_r = \frac{\partial \mathbf{r}(\theta)}{\partial \theta} \in \mathbb{R}^{N_r \times P}$$
 
 其中 $\mathbf{u}$ 为边界/初始位移预测向量，$\mathbf{u}_t$ 为初始速度预测向量，$\mathbf{r}$ 为 PDE 残差向量。
+
+下图直观展示了 NTK 分块结构及其与自适应权重的关系：
+
+![NTK Block Structure and Adaptive Weights](https://pic1.imgdb.cn/item/69b4e8f7963e55431f540518.png)
+
+**图 S2**：NTK 分块结构与自适应权重示意图。三组 Jacobian 矩阵构成全 NTK 矩阵的分块结构，对角块的迹（trace）决定各损失分量的有效收敛速率。自适应权重 $\lambda_i = \mathrm{Tr}(K)/\mathrm{Tr}(K_{ii})$ 如同一个"天平"，通过增大慢收敛分量的权重来平衡训练动态。
 
 全 NTK 矩阵为：
 
@@ -228,7 +240,11 @@ $$r = \frac{1}{\sigma_t^2} \frac{\partial^2 \hat{u}}{\partial \tilde{t}^2} - c^2
 
 ### 3.1 网络结构与维度分析
 
-本算例使用一个 4 层全连接网络，结构为 `[2, 500, 500, 500, 1]`，激活函数为 $\tanh$，初始化采用 Xavier 方法。
+本算例使用一个 4 层全连接网络，结构为 `[2, 500, 500, 500, 1]`，激活函数为 $\tanh$，初始化采用 Xavier 方法。下图展示了完整的网络结构、各层维度变换以及归一化链式法则修正：
+
+![Network Architecture and Dimension Flow](https://pic1.imgdb.cn/item/69b4e8f9963e55431f54051a.png)
+
+**图 S3**：网络结构与维度变换示意图。归一化坐标 $(\tilde{t}, \tilde{x})$ 经过 3 个隐藏层（各 500 神经元，$\tanh$ 激活）到输出层，总参数量 502,001。下方展示了物理空间导数与归一化坐标导数之间的链式法则修正关系。
 
 #### 3.1.1 层级维度变换
 
