@@ -41,4 +41,41 @@ MIT
 
 ## Citation
 
-If you find this repository useful, please consider citing the original papers referenced in each tutorial.
+If you find this repository useful, please consider citing our related works:
+
+```bibtex
+@article{xiong2025high,
+  title={High-frequency flow field super-resolution via physics-informed hierarchical adaptive Fourier feature networks},
+  author={Xiong, Xiong and Lu, Kang and Zhang, Zhuo and Zeng, Zheng and Zhou, Sheng and Hu, Rongchun and Deng, Zichen},
+  journal={Physics of Fluids},
+  volume={37},
+  number={9},
+  year={2025},
+  publisher={AIP Publishing}
+}
+
+@article{xiong2025j,
+  title={J-PIKAN: A physics-informed KAN network based on Jacobi orthogonal polynomials for solving fluid dynamics},
+  author={Xiong, Xiong and Lu, Kang and Zhang, Zhuo and Zeng, Zheng and Zhou, Sheng and Deng, Zichen and Hu, Rongchun},
+  journal={Communications in Nonlinear Science and Numerical Simulation},
+  pages={109414},
+  year={2025},
+  publisher={Elsevier}
+}
+
+@article{xiong2025separated,
+  title={Separated-variable spectral neural networks: a physics-informed learning approach for high-frequency pdes},
+  author={Xiong, Xiong and Zhang, Zhuo and Hu, Rongchun and Gao, Chen and Deng, Zichen},
+  journal={arXiv preprint arXiv:2508.00628},
+  year={2025}
+}
+
+@article{zhang2025legend,
+  title={Legend-KINN: A Legendre Polynomial-Based Kolmogorov-Arnold-Informed Neural Network for Efficient PDE Solving},
+  author={Zhang, Zhuo and Xiong, Xiong and Zhang, Sen and Wang, Wei and Zhong, Yanxu and Yang, Canqun and Yang, Xi},
+  journal={Expert Systems with Applications},
+  pages={129839},
+  year={2025},
+  publisher={Elsevier}
+}
+```
