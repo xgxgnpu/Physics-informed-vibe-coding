@@ -4,7 +4,7 @@
 >
 > 本学期，我们将持续推出一系列 **Physics-Informed Vibe Coding** 的代码算法实验与教程，致力于践行 **Vibe Coding & Vibe Researching** 的理念——**人类负责设计、指挥和验收把控，AI 智能体负责执行**，即不用手写一行代码，（尝试）完成完整的复杂科研项目。
 >
-> 我们的全部代码和教程将开源在 [GitHub: Physics-informed-vibe-coding](https://github.com/) 仓库，所有实现均采用 **JAX** 语言进行 GPU 加速编程。
+> 我们的全部代码和教程将开源在 [GitHub: Physics-informed-vibe-coding](https://github.com/xgxgnpu/Physics-informed-vibe-coding) 仓库，所有实现均采用 **JAX** 语言进行 GPU 加速编程。
 >
 > 本期主题：**NTK-PINN —— 基于神经正切核的自适应权重物理信息神经网络**，以一维波动方程为算例，详解 NTK 理论在 PINN 训练中的应用。
 
