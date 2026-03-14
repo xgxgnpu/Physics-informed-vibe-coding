@@ -595,3 +595,11 @@ $$u(t, x) = \underbrace{\sin(\pi x)\cos(2\pi t)}_{\text{低频模式}} + \underb
 [4] Kingma, D. P., & Ba, J. (2015). Adam: A method for stochastic optimization. *International Conference on Learning Representations (ICLR)*.
 
 [5] Bradbury, J., Frostig, R., Hawkins, P., Johnson, M. J., Leary, C., Maclaurin, D., ... & Zhang, Q. (2018). JAX: Composable transformations of Python+NumPy programs. *http://github.com/google/jax*.
+
+[6] Xiong, X., Lu, K., Zhang, Z., Zeng, Z., Zhou, S., Hu, R., & Deng, Z. (2025). High-frequency flow field super-resolution via physics-informed hierarchical adaptive Fourier feature networks. *Physics of Fluids*, 37(9).
+
+[7] Xiong, X., Lu, K., Zhang, Z., Zeng, Z., Zhou, S., Deng, Z., & Hu, R. (2025). J-PIKAN: A physics-informed KAN network based on Jacobi orthogonal polynomials for solving fluid dynamics. *Communications in Nonlinear Science and Numerical Simulation*, 109414.
+
+[8] Xiong, X., Zhang, Z., Hu, R., Gao, C., & Deng, Z. (2025). Separated-variable spectral neural networks: A physics-informed learning approach for high-frequency PDEs. *arXiv preprint arXiv:2508.00628*.
+
+[9] Zhang, Z., Xiong, X., Zhang, S., Wang, W., Zhong, Y., Yang, C., & Yang, X. (2025). Legend-KINN: A Legendre Polynomial-Based Kolmogorov-Arnold-Informed Neural Network for Efficient PDE Solving. *Expert Systems with Applications*, 129839.
