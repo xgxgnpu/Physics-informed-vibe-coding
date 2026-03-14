@@ -14,14 +14,9 @@ Every algorithm in this repository is implemented in **JAX** with GPU accelerati
 |---|-----------|-----------|----------|--------|
 | 1 | **NTK-PINN** — Neural Tangent Kernel adaptive weighting | [`NTK-PINN-jax/`](NTK-PINN-jax/) | [NTK-PINN 教程](tutorials/NTK-PINN-tutorial.md) | Done |
 
-## Environment
+## Dependencies
 
-```bash
-# JAX 0.6.0 + CUDA GPU
-source /root/autodl-tmp/pinn_env/bin/activate
-```
-
-Key dependencies: `jax`, `jaxlib` (CUDA), `optax`, `matplotlib`, `numpy`, `scipy`
+`jax`, `jaxlib` (CUDA), `optax`, `matplotlib`, `numpy`, `scipy`
 
 ## How to Run
 
