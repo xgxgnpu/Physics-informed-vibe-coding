@@ -425,13 +425,13 @@ $$u(t, x) = \underbrace{\sin(\pi x)\cos(2\pi t)}_{\text{低频模式}} + \underb
 
 下图展示了训练过程中各损失分量和 L2 相对误差的变化：
 
-![Loss curves and L2 error](../NTK-PINN-jax/case2_wave1d/figures/fig1_loss_curves.png)
+![Loss curves and L2 error](https://pic1.imgdb.cn/item/69b4e7ca963e55431f540487.png)
 
 **图 1**：(a) 各损失分量的训练曲线。可以观察到在 NTK 自适应权重的作用下，PDE 残差损失 $\mathcal{L}_r$（蓝色）与边界条件损失 $\mathcal{L}_u$（橙色）的量级保持在相近范围，避免了一方主导训练的情况。(b) L2 相对误差曲线。误差在约 20,000 步后进入稳定下降阶段，最终达到 $4.806 \times 10^{-3}$。
 
 #### 4.3.2 预测结果可视化
 
-![Prediction comparison](../NTK-PINN-jax/case2_wave1d/figures/fig2_prediction.png)
+![Prediction comparison](https://pic1.imgdb.cn/item/69b4e7cd963e55431f54048a.png)
 
 **图 2**：(a) 精确解 $u(t, x)$；(b) NTK-PINN 预测解；(c) 逐点绝对误差。预测解能够较好地捕捉波动方程的双频模式结构，最大误差集中在高频模式的峰值区域附近。
 
@@ -439,7 +439,7 @@ $$u(t, x) = \underbrace{\sin(\pi x)\cos(2\pi t)}_{\text{低频模式}} + \underb
 
 #### 4.4.1 NTK 特征值演化
 
-![NTK eigenvalues](../NTK-PINN-jax/case2_wave1d/figures/fig3_ntk_eigenvalues.png)
+![NTK eigenvalues](https://pic1.imgdb.cn/item/69b4e7cf963e55431f54048e.png)
 
 **图 3**：三个 NTK 子矩阵（$K_u$, $K_{u_t}$, $K_r$）的特征值在不同训练阶段的分布。可以观察到：
 
@@ -449,7 +449,7 @@ $$u(t, x) = \underbrace{\sin(\pi x)\cos(2\pi t)}_{\text{低频模式}} + \underb
 
 #### 4.4.2 自适应权重演化
 
-![Adaptive weights](../NTK-PINN-jax/case2_wave1d/figures/fig4_adaptive_weights.png)
+![Adaptive weights](https://pic1.imgdb.cn/item/69b4e7d2963e55431f540490.png)
 
 **图 4**：三个自适应权重 $\lambda_u, \lambda_{u_t}, \lambda_r$ 的演化曲线。可以看到：
 
