@@ -41,7 +41,7 @@ MIT
 
 ## Citation
 
-If you find this repository useful, please consider citing our related works:
+If you find this repository useful, please consider citing the following related works:
 
 ```bibtex
 @article{WANG2022110768,
