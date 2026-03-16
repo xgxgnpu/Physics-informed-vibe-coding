@@ -1,0 +1,7 @@
+model  adaptive  n_params  best_l2  final_l2  time_s
+Plain_fixed  False  81201  1.004700e+00  1.005013e+00  596.2
+Plain_adapt  True  81201  8.086785e-01  8.086774e-01  685.4
+MFF_fixed  False  80801  1.035369e+00  1.039636e+00  285.5
+MFF_adapt  True  80801  9.975594e-01  9.975648e-01  320.8
+ST_MFF_fixed  False  80601  1.002986e+00  1.023583e+00  178.2
+ST_MFF_adapt  True  80601  1.725459e-03  1.950262e-03  437.5
