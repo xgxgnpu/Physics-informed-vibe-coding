@@ -19,6 +19,7 @@ Every algorithm in this repository is implemented in **JAX** with GPU accelerati
 | # | Algorithm | Directory | Tutorial | Status |
 |---|-----------|-----------|----------|--------|
 | 1 | **NTK-PINN** — Neural Tangent Kernel adaptive weighting | [`NTK-PINN-jax/`](NTK-PINN-jax/) | [NTK-PINN 教程](tutorials/NTK-PINN-tutorial.md) | Done |
+| 2 | **MultiScale-PINN** — Multi-scale Fourier feature networks for PDEs | [`MultiScalePINN_jax/`](MultiScalePINN_jax/) | [MultiScale-PINN 教程](tutorials/MultiScale-PINN/MultiScale-PINN-tutorial.md) | Done |
 
 ## Dependencies
 
@@ -31,6 +32,11 @@ Each case directory contains a single self-contained `.py` file:
 ```bash
 cd NTK-PINN-jax/case2_wave1d/
 python wave1d_ntk_pinn.py
+```
+
+```bash
+cd MultiScalePINN_jax/case1_heat1d/
+python heat1d_multiscale_pinn.py
 ```
 
 All results (data `.txt`, figures `.png`, checkpoints `.pkl`) are saved automatically.
@@ -52,6 +58,17 @@ If you find this repository useful, please consider citing the following related
   pages={110768},
   year={2022},
   doi={https://doi.org/10.1016/j.jcp.2021.110768},
+  publisher={Elsevier}
+}
+
+@article{WANG2021113938,
+  title={On the eigenvector bias of Fourier feature networks: From regression to solving multi-scale PDEs with physics-informed neural networks},
+  author={Wang, Sifan and Wang, Hanwen and Perdikaris, Paris},
+  journal={Computer Methods in Applied Mechanics and Engineering},
+  volume={384},
+  pages={113938},
+  year={2021},
+  doi={https://doi.org/10.1016/j.cma.2021.113938},
   publisher={Elsevier}
 }
 
