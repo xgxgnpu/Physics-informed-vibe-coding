@@ -58,3 +58,5 @@ case1_ns2d/
 6. Glorot, X., & Bengio, Y. (2010). Understanding the difficulty of training deep feedforward neural networks. In *Proceedings of the 13th International Conference on Artificial Intelligence and Statistics (AISTATS)*, pp. 249–256.
 7. Lu, L., Meng, X., Mao, Z., & Karniadakis, G. E. (2021). DeepXDE: A deep learning library for solving differential equations. *SIAM Review*, 63(1), 208–228.
 8. Bradbury, J., Frostig, R., Hawkins, P., Johnson, M. J., Leary, C., Maclaurin, D., Necula, G., Paszke, A., VanderPlas, J., Wanderman-Milne, S., & Zhang, Q. (2018). JAX: Composable transformations of Python+NumPy programs. http://github.com/jax-ml/jax
+9. Xiong, X., Lu, K., Zhang, Z., Zeng, Z., Zhou, S., Hu, R., & Deng, Z. (2025). High-frequency flow field super-resolution via physics-informed hierarchical adaptive Fourier feature networks. *Physics of Fluids*, 37(9).
+10. Xiong, X., Lu, K., Zhang, Z., Zeng, Z., Zhou, S., Deng, Z., & Hu, R. (2025). J-PIKAN: A physics-informed KAN network based on Jacobi orthogonal polynomials for solving fluid dynamics. *Communications in Nonlinear Science and Numerical Simulation*, 109414.
