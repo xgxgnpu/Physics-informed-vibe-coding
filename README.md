@@ -20,6 +20,7 @@ Every algorithm in this repository is implemented in **JAX** with GPU accelerati
 |---|-----------|-----------|----------|--------|
 | 1 | **NTK-PINN** — Neural Tangent Kernel adaptive weighting | [`NTK-PINN-jax/`](NTK-PINN-jax/) | [NTK-PINN 教程](tutorials/NTK-PINN-tutorial.md) | Done |
 | 2 | **MultiScale-PINN** — Multi-scale Fourier feature networks for PDEs | [`MultiScalePINN_jax/`](MultiScalePINN_jax/) | [MultiScale-PINN 教程](tutorials/MultiScale-PINN/MultiScale-PINN-tutorial.md) | Done |
+| 3 | **VS-PINN** — Variable-Scaling PINN for Navier-Stokes | [`VSPINN_jax/`](VSPINN_jax/) | 待发布 | Done |
 
 ## Dependencies
 
@@ -37,6 +38,11 @@ python wave1d_ntk_pinn.py
 ```bash
 cd MultiScalePINN_jax/case1_heat1d/
 python heat1d_multiscale_pinn.py
+```
+
+```bash
+cd VSPINN_jax/case1_ns2d/
+python ns2d_vspinn_pinn.py
 ```
 
 All results (data `.txt`, figures `.png`, checkpoints `.pkl`) are saved automatically.
