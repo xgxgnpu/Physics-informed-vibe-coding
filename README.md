@@ -12,6 +12,7 @@
 - Research interests: AI4PDE, Physics-Informed Deep Learning, Data-Driven Discovery
 - Email: xiongxiongnwpu@mail.nwpu.edu.cn
 - Google Scholar: [Xiong Xiong](https://scholar.google.com.hk/citations?user=j1M9tkwAAAAJ)
+- ResearchGate: [Xiong Xiong](https://www.researchgate.net/profile/Xiong-Xiong-19)
 
 ---
 
