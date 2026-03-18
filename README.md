@@ -4,6 +4,17 @@
 >
 > The first open-source repository dedicated to PINN research via the Vibe Coding paradigm.
 
+## Author
+
+**熊 雄 (Xiong Xiong)**
+
+- 西北工业大学 (Northwestern Polytechnical University, NWPU)
+- 研究方向：Physics-Informed Deep Learning, Data-Driven Discovery, 计算流体力学
+- 邮箱：xiongxiongnwpu@mail.nwpu.edu.cn
+- Google Scholar：[Xiong Xiong](https://scholar.google.com.hk/citations?user=j1M9tkwAAAAJ)
+
+---
+
 本项目提供一系列**完整、自包含的 JAX-GPU 实现**，覆盖 PINN 领域的前沿算法，并配套详细的中文学术教程。所有代码均由 AI 智能体在人类指导下完成，不手写一行代码。
 
 ## Philosophy
