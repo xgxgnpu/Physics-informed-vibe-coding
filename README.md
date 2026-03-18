@@ -6,12 +6,12 @@
 
 ## Author
 
-**熊 雄 (Xiong Xiong)**
+**Xiong Xiong (熊雄)**
 
-- 西北工业大学 (Northwestern Polytechnical University, NWPU)
-- 研究方向：Physics-Informed Deep Learning, Data-Driven Discovery, 计算流体力学
-- 邮箱：xiongxiongnwpu@mail.nwpu.edu.cn
-- Google Scholar：[Xiong Xiong](https://scholar.google.com.hk/citations?user=j1M9tkwAAAAJ)
+- Northwestern Polytechnical University (NWPU)
+- Research interests: AI4PDE, Physics-Informed Deep Learning, Data-Driven Discovery
+- Email: xiongxiongnwpu@mail.nwpu.edu.cn
+- Google Scholar: [Xiong Xiong](https://scholar.google.com.hk/citations?user=j1M9tkwAAAAJ)
 
 ---
 
