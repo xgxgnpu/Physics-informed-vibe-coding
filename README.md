@@ -20,9 +20,25 @@
 
 ## Philosophy
 
-> **Vibe Coding & Vibe Researching** — 人类负责设计、指挥和验收把控，AI 智能体负责执行。不用手写一行代码，（尝试）完成完整的复杂科研项目。
+### Vibe Coding & Vibe Researching
+
+**中文版：**
+
+> 本项目践行 **Vibe Coding & Vibe Researching** 理念——一种人机协作的科研新范式。在这一范式下，人类与 AI 智能体各司其职：
 >
-> Humans design, direct, and validate; AI agents execute. Not a single line of code is written by hand.
+> - **人类**负责提出关键科学问题、设计核心算法框架与实验方案，并在最终环节进行决策、评审与质量把控；
+> - **AI 智能体**负责执行具体的编程实现、运行实验、汇总分析结果。
+>
+> 全程不手写一行代码，（尝试）完成完整的复杂科研项目。人类的核心价值在于**洞察力、判断力与创造力**，AI 的核心优势在于**高效执行与不知疲倦的迭代**。
+
+**English version:**
+
+> This project follows the **Vibe Coding & Vibe Researching** paradigm — a new model of human-AI collaborative research:
+>
+> - **Humans** are responsible for identifying critical research questions, designing core algorithmic frameworks and experimental plans, and making final decisions, reviews, and quality control;
+> - **AI agents** are responsible for executing the programming, running experiments, and summarizing results.
+>
+> Not a single line of code is written by hand. The core value of humans lies in **insight, judgment, and creativity**; the core strength of AI lies in **efficient execution and tireless iteration**.
 
 Every algorithm in this repository is implemented in **JAX** with GPU acceleration, and each case is fully reproducible with saved data, figures, and model checkpoints.
 
