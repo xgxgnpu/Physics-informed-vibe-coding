@@ -1,8 +1,8 @@
 # Physics-Informed Vibe Coding
 
-> **首个采用 Vibe Coding 理念进行 Physics-Informed Neural Networks (PINNs) 相关研究的开源仓库。**
+> **首个采用 Vibe Coding & Vibe Researching 理念进行 Physics-Informed Neural Networks (PINNs) 相关研究的开源仓库。**
 >
-> The first open-source repository dedicated to PINN research via the Vibe Coding paradigm.
+> The first open-source repository dedicated to PINN research via the Vibe Coding & Vibe Researching paradigm.
 
 ## Author
 
