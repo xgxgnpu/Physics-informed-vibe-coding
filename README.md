@@ -34,6 +34,7 @@ Every algorithm in this repository is implemented in **JAX** with GPU accelerati
 | 2 | **MultiScale-PINN** — Multi-scale Fourier feature networks for PDEs | [`MultiScalePINN_jax/`](MultiScalePINN_jax/) | [MultiScale-PINN 教程](tutorials/MultiScale-PINN/MultiScale-PINN-tutorial.md) | Done |
 | 3 | **VS-PINN** — Variable-Scaling PINN for Navier-Stokes | [`VSPINN_jax/`](VSPINN_jax/) | 待发布 | Done |
 | 4 | **GW-PINN** — Gradient-Weighted adaptive loss balancing | [`GradientWeighted_PINN_jax/`](GradientWeighted_PINN_jax/) | 待发布 | Done |
+| 5 | **Scale-PINN** — Evolutionary regularization for high-Re flows | [`ScalePINN-jax/`](ScalePINN-jax/) | [Scale-PINN 教程](tutorials/ScalePINN/ScalePINN-tutorial.md) | Done |
 
 ## Dependencies
 
@@ -61,6 +62,11 @@ python ns2d_vspinn_pinn.py
 ```bash
 cd GradientWeighted_PINN_jax/case2_klein_gordon/
 python klein_gordon_gw_pinn.py
+```
+
+```bash
+cd ScalePINN-jax/case1_ldc_re7500/
+python ldc_re7500_scalepinn.py
 ```
 
 All results (data `.txt`, figures `.png`, checkpoints `.pkl`) are saved automatically.
