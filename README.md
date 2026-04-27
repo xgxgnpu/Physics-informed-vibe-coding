@@ -1,8 +1,8 @@
 # Physics-Informed Vibe Coding
 
-> **首个采用 Vibe Coding & Vibe Researching 理念进行 Physics-Informed Neural Networks (PINNs) 相关研究的开源仓库。**
+> **首个采用 Vibe Coding 理念进行 Physics-Informed Neural Networks (PINNs) 相关研究的开源仓库。**
 >
-> The first open-source repository dedicated to PINN research via the Vibe Coding & Vibe Researching paradigm.
+> The first open-source repository dedicated to PINN research via the Vibe Coding paradigm.
 
 ## Author
 
@@ -20,37 +20,24 @@
 
 ## Philosophy
 
-### Vibe Coding & Vibe Researching
-
-**中文版：**
-
-> 本项目践行 **Vibe Coding & Vibe Researching** 理念——一种人机协作的科研新范式。在这一范式下，人类与 AI 智能体各司其职：
+> **Vibe Coding & Vibe Researching** — 人类负责设计、指挥和验收把控，AI 智能体负责执行。不用手写一行代码，（尝试）完成完整的复杂科研项目。
 >
-> - **人类**负责提出关键科学问题、设计核心算法框架与实验方案，并在最终环节进行决策、评审与质量把控；
-> - **AI 智能体**负责执行具体的编程实现、运行实验、汇总分析结果。
->
-> 全程不手写一行代码，（尝试）完成完整的复杂科研项目。人类的核心价值在于**洞察力、判断力与创造力**，AI 的核心优势在于**高效执行与不知疲倦的迭代**。
-
-**English version:**
-
-> This project follows the **Vibe Coding & Vibe Researching** paradigm — a new model of human-AI collaborative research:
->
-> - **Humans** are responsible for identifying critical research questions, designing core algorithmic frameworks and experimental plans, and making final decisions, reviews, and quality control;
-> - **AI agents** are responsible for executing the programming, running experiments, and summarizing results.
->
-> Not a single line of code is written by hand. The core value of humans lies in **insight, judgment, and creativity**; the core strength of AI lies in **efficient execution and tireless iteration**.
+> Humans design, direct, and validate; AI agents execute. Not a single line of code is written by hand.
 
 Every algorithm in this repository is implemented in **JAX** with GPU acceleration, and each case is fully reproducible with saved data, figures, and model checkpoints.
 
 ## Contents
 
-| # | Algorithm | Directory | Code | Tutorial | Status |
-|---|-----------|-----------|------|----------|--------|
-| 1 | **NTK-PINN** — Neural Tangent Kernel adaptive weighting | [`NTK-PINN-jax/`](NTK-PINN-jax/) | 已发布 | [NTK-PINN 教程](tutorials/NTK-PINN-tutorial.md) | Done |
-| 2 | **MultiScale-PINN** — Multi-scale Fourier feature networks for PDEs | [`MultiScalePINN_jax/`](MultiScalePINN_jax/) | 已发布 | 待发布 | Done |
-| 3 | **VS-PINN** — Variable-Scaling PINN for Navier-Stokes | [`VSPINN_jax/`](VSPINN_jax/) | 已发布 | 待发布 | Done |
-| 4 | **GW-PINN** — Gradient-Weighted adaptive loss balancing | [`GradientWeighted_PINN_jax/`](GradientWeighted_PINN_jax/) | 已发布 | 待发布 | Done |
-| 5 | **Scale-PINN** — Evolutionary regularization for high-Re flows | [`ScalePINN-jax/`](ScalePINN-jax/) | 已发布 | 待发布 | Done |
+| # | Algorithm | Directory | Tutorial | Status |
+|---|-----------|-----------|----------|--------|
+| 1 | **NTK-PINN** — Neural Tangent Kernel adaptive weighting | [`NTK-PINN-jax/`](NTK-PINN-jax/) | [NTK-PINN 教程](tutorials/NTK-PINN-tutorial.md) | Done |
+| 2 | **MultiScale-PINN** — Multi-scale Fourier feature networks for PDEs | [`MultiScalePINN_jax/`](MultiScalePINN_jax/) | [MultiScale-PINN 教程](tutorials/MultiScale-PINN/MultiScale-PINN-tutorial.md) | Done |
+| 3 | **VS-PINN** — Variable-Scaling PINN for Navier-Stokes | [`VSPINN_jax/`](VSPINN_jax/) | 待发布 | Done |
+| 4 | **GW-PINN** — Gradient-Weighted adaptive loss balancing | [`GradientWeighted_PINN_jax/`](GradientWeighted_PINN_jax/) | 待发布 | Done |
+| 5 | **Scale-PINN** — Evolutionary regularization for high-Re flows | [`ScalePINN-jax/`](ScalePINN-jax/) | [Scale-PINN 教程](tutorials/ScalePINN/ScalePINN-tutorial.md) | Done |
+| 6 | **Maxwell-PINN (No BO)** — Pure PINN for 2D EM scattering (Helmholtz + ABC) | [`MaxwellPINN_jax/`](MaxwellPINN_jax/) | 待发布 | Done |
+| 7 | **TINN** — Time-Induced Neural Networks with Levenberg-Marquardt for 1D Burgers | [`TINN_jax/`](TINN_jax/) | [TINN 教程](tutorials/TINN-PINN/TINN-Burgers-tutorial.md) | Done |
+| 8 | **RFM** — Random Feature Method for PDEs (non-iterative least-squares solver) | [`RFM_jax/`](RFM_jax/) | 待发布 | Done |
 
 ## Dependencies
 
