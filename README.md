@@ -37,7 +37,7 @@ Every algorithm in this repository is implemented in **JAX** with GPU accelerati
 | 5 | **Scale-PINN** — Evolutionary regularization for high-Re flows | [`ScalePINN-jax/`](ScalePINN-jax/) | [Scale-PINN 教程](tutorials/ScalePINN/ScalePINN-tutorial.md) | Done |
 | 6 | **Maxwell-PINN (No BO)** — Pure PINN for 2D EM scattering (Helmholtz + ABC) | [`MaxwellPINN_jax/`](MaxwellPINN_jax/) | 待发布 | Done |
 | 7 | **TINN** — Time-Induced Neural Networks with Levenberg-Marquardt for 1D Burgers | [`TINN_jax/`](TINN_jax/) | [TINN 教程](tutorials/TINN-PINN/TINN-Burgers-tutorial.md) | Done |
-| 8 | **RFM** — Random Feature Method for PDEs (non-iterative least-squares solver) | [`RFM_jax/`](RFM_jax/) | 待发布 | Done |
+| 8 | **RFM** — Random Feature Method for PDEs (non-iterative least-squares solver) | [`RFM_jax/`](RFM_jax/) | [RFM 教程](tutorials/RFM-PIELM/RFM-PIELM-Stokes2D-tutorial.md) | Done |
 
 ## Dependencies
 
@@ -70,6 +70,11 @@ python klein_gordon_gw_pinn.py
 ```bash
 cd ScalePINN-jax/case1_ldc_re7500/
 python ldc_re7500_scalepinn.py
+```
+
+```bash
+cd RFM_jax/case1_stokes_2d/
+python stokes_2d_rfm.py
 ```
 
 All results (data `.txt`, figures `.png`, checkpoints `.pkl`) are saved automatically.
@@ -129,6 +134,27 @@ If you find this repository useful, please consider citing the following related
   author={Xiong, Xiong and Zhang, Zhuo and Hu, Rongchun and Gao, Chen and Deng, Zichen},
   journal={arXiv preprint arXiv:2508.00628},
   year={2025}
+}
+
+@article{chen2022rfm,
+  title={Bridging Traditional and Machine Learning-based Algorithms for Solving PDEs: The Random Feature Method},
+  author={Chen, Jingrun and Chi, Xurong and E, Weinan and Yang, Zhouwang},
+  journal={Journal of Machine Learning},
+  volume={1},
+  number={3},
+  pages={268--298},
+  year={2022},
+  doi={10.4208/jml.220726}
+}
+
+@article{dwivedi2020pielm,
+  title={Physics Informed Extreme Learning Machine (PIELM)--A rapid method for the numerical solution of partial differential equations},
+  author={Dwivedi, Vikas and Srinivasan, Balaji},
+  journal={Neurocomputing},
+  volume={391},
+  pages={96--118},
+  year={2020},
+  doi={10.1016/j.neucom.2019.12.099}
 }
 
 @article{zhang2025legend,
