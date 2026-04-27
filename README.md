@@ -32,8 +32,8 @@ Every algorithm in this repository is implemented in **JAX** with GPU accelerati
 |---|-----------|-----------|----------|--------|
 | 1 | **NTK-PINN** — Neural Tangent Kernel adaptive weighting | [`NTK-PINN-jax/`](NTK-PINN-jax/) | [NTK-PINN 教程](tutorials/NTK-PINN-tutorial.md) | Done |
 | 2 | **MultiScale-PINN** — Multi-scale Fourier feature networks for PDEs | [`MultiScalePINN_jax/`](MultiScalePINN_jax/) | [MultiScale-PINN 教程](tutorials/MultiScale-PINN/MultiScale-PINN-tutorial.md) | Done |
-| 3 | **VS-PINN** — Variable-Scaling PINN for Navier-Stokes | [`VSPINN_jax/`](VSPINN_jax/) | 待发布 | Done |
-| 4 | **GW-PINN** — Gradient-Weighted adaptive loss balancing | [`GradientWeighted_PINN_jax/`](GradientWeighted_PINN_jax/) | 待发布 | Done |
+| 3 | **VS-PINN** — Variable-Scaling PINN for Navier-Stokes | [`VSPINN_jax/`](VSPINN_jax/) | [VS-PINN 教程](tutorials/VSPINN/VSPINN-tutorial.md) | Done |
+| 4 | **GW-PINN** — Gradient-Weighted adaptive loss balancing | [`GradientWeighted_PINN_jax/`](GradientWeighted_PINN_jax/) | [GW-PINN 教程](tutorials/GradientWeighted-PINN/GradientWeighted-PINN-tutorial.md) | Done |
 | 5 | **Scale-PINN** — Evolutionary regularization for high-Re flows | [`ScalePINN-jax/`](ScalePINN-jax/) | [Scale-PINN 教程](tutorials/ScalePINN/ScalePINN-tutorial.md) | Done |
 | 6 | **Maxwell-PINN (No BO)** — Pure PINN for 2D EM scattering (Helmholtz + ABC) | [`MaxwellPINN_jax/`](MaxwellPINN_jax/) | 待发布 | Done |
 | 7 | **TINN** — Time-Induced Neural Networks with Levenberg-Marquardt for 1D Burgers | [`TINN_jax/`](TINN_jax/) | [TINN 教程](tutorials/TINN-PINN/TINN-Burgers-tutorial.md) | Done |
