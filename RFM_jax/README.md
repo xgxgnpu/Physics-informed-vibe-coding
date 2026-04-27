@@ -37,14 +37,56 @@ python stokes_2d_rfm.py --plot_only
 python stokes_2d_rfm.py --sweeps sweep_Q sweep_nhidden
 ```
 
-## Reference
+## References
 
 ```bibtex
-@article{chen2024random,
-  title={Random Feature Method for Solving Partial Differential Equations},
-  author={Chen, Yifan and Bhatt, Anudeep},
-  journal={arXiv preprint arXiv:2406.xxxxx},
-  year={2024}
+@article{chen2022rfm,
+  title={Bridging Traditional and Machine Learning-based Algorithms for Solving PDEs: The Random Feature Method},
+  author={Chen, Jingrun and Chi, Xurong and E, Weinan and Yang, Zhouwang},
+  journal={Journal of Machine Learning},
+  volume={1},
+  number={3},
+  pages={268--298},
+  year={2022},
+  doi={10.4208/jml.220726}
+}
+
+@article{raissi2019pinn,
+  title={Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations},
+  author={Raissi, Maziar and Perdikaris, Paris and Karniadakis, George Em},
+  journal={Journal of Computational Physics},
+  volume={378},
+  pages={686--707},
+  year={2019},
+  doi={10.1016/j.jcp.2018.10.045}
+}
+
+@article{dwivedi2020pielm,
+  title={Physics Informed Extreme Learning Machine (PIELM)--A rapid method for the numerical solution of partial differential equations},
+  author={Dwivedi, Vikas and Srinivasan, Balaji},
+  journal={Neurocomputing},
+  volume={391},
+  pages={96--118},
+  year={2020},
+  doi={10.1016/j.neucom.2019.12.099}
+}
+
+@article{huang2006elm,
+  title={Extreme learning machine: Theory and applications},
+  author={Huang, Guang-Bin and Zhu, Qin-Yu and Siew, Chee-Kheong},
+  journal={Neurocomputing},
+  volume={70},
+  number={1-3},
+  pages={489--501},
+  year={2006},
+  doi={10.1016/j.neucom.2005.12.126}
+}
+
+@article{xiong2025separated,
+  title={Separated-variable spectral neural networks: A physics-informed learning approach for high-frequency PDEs},
+  author={Xiong, Xiong and Zhang, Zhuo and Hu, Rongchun and Gao, Chen and Deng, Zichen},
+  journal={arXiv preprint arXiv:2508.00628},
+  year={2025}
 }
 ```
 
