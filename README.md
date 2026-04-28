@@ -2,9 +2,9 @@
 
 # Physics-Informed Vibe Coding
 
-**首个采用 Vibe Coding 理念进行科学机器学习（PINNs · 随机特征方法 · 神经算子）研究的开源仓库**
+**首个采用 Vibe Coding 理念进行科学机器学习（PINNs · PIELM · 随机特征方法 · 神经算子）研究的开源仓库**
 
-The first open-source repository for Scientific Machine Learning research — PINNs, Random Feature Methods, Neural Operators, and beyond — via the Vibe Coding paradigm
+The first open-source repository for Scientific Machine Learning research — PINNs, PIELM, Random Feature Methods, Neural Operators, and beyond — via the Vibe Coding paradigm
 
 [![GitHub Stars](https://img.shields.io/github/stars/xgxgnpu/Physics-informed-vibe-coding?style=flat-square&logo=github&label=Stars)](https://github.com/xgxgnpu/Physics-informed-vibe-coding)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
@@ -34,7 +34,7 @@ We believe the future of computational research lies in a clear division of labo
 
 > **Vibe Coding & Vibe Researching** — 人类负责发现并提出重要科学问题，AI 智能体负责编程、执行实验与自动优化计算过程，最终由人类核对、验证并验收结果。全程不手写一行代码，（尝试）完成完整的复杂科研项目。
 
-本项目提供一系列**完整、自包含的 JAX-GPU 实现**，覆盖科学机器学习（Scientific Machine Learning）领域的前沿算法，包括 PINNs、随机特征方法、神经算子等，并配套详细的中文学术教程。**人类**凭借领域知识发现有价值的科学问题、设计求解策略、把控结果质量；**AI 智能体**承担从代码编写、实验运行到超参调优、可视化生成的全链路工作。这一闭环协作模式使研究者得以专注于科学洞察，而非工程细节。
+本项目提供一系列**完整、自包含的 JAX-GPU 实现**，覆盖科学机器学习（Scientific Machine Learning）领域的前沿算法，包括 PINNs、物理信息极限学习机（PIELM）、随机特征方法、神经算子等，并配套详细的中文学术教程。**人类**凭借领域知识发现有价值的科学问题、设计求解策略、把控结果质量；**AI 智能体**承担从代码编写、实验运行到超参调优、可视化生成的全链路工作。这一闭环协作模式使研究者得以专注于科学洞察，而非工程细节。
 
 ## Contents
 
@@ -104,7 +104,7 @@ If you find this repository useful, please consider citing it:
   year         = {2026},
   publisher    = {GitHub},
   url          = {https://github.com/xgxgnpu/Physics-informed-vibe-coding},
-  note         = {PINNs, Random Feature Methods, Neural Operators, and beyond}
+  note         = {PINNs, PIELM, Random Feature Methods, Neural Operators, and beyond}
 }
 ```
 
