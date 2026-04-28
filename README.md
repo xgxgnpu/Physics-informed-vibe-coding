@@ -95,7 +95,20 @@ MIT
 
 ## Citation
 
-If you find this repository useful, please consider citing the following related works:
+If you find this repository useful, please consider citing it:
+
+```bibtex
+@software{xiong2026vibecoding,
+  author       = {Xiong, Xiong},
+  title        = {Physics-Informed Vibe Coding: PINN Algorithms in JAX via Human-AI Collaboration},
+  year         = {2026},
+  publisher    = {GitHub},
+  url          = {https://github.com/xgxgnpu/Physics-informed-vibe-coding},
+  note         = {The first open-source repository dedicated to PINN research via the Vibe Coding paradigm}
+}
+```
+
+You may also cite the following related works:
 
 ```bibtex
 @article{WANG2022110768,
