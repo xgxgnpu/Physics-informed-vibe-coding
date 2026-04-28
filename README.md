@@ -1,30 +1,36 @@
+<div align="center">
+
 # Physics-Informed Vibe Coding
 
-> **首个采用 Vibe Coding 理念进行 Physics-Informed Neural Networks (PINNs) 相关研究的开源仓库。**
->
-> The first open-source repository dedicated to PINN research via the Vibe Coding paradigm.
+**首个采用 Vibe Coding 理念进行 Physics-Informed Neural Networks (PINNs) 研究的开源仓库**
 
-## Author
+The first open-source repository dedicated to PINN research via the Vibe Coding paradigm
 
-**Xiong Xiong (熊雄)**
+[![GitHub Stars](https://img.shields.io/github/stars/xgxgnpu/Physics-informed-vibe-coding?style=flat-square&logo=github&label=Stars)](https://github.com/xgxgnpu/Physics-informed-vibe-coding)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![JAX](https://img.shields.io/badge/Framework-JAX-red.svg?style=flat-square&logo=google&logoColor=white)](https://github.com/google/jax)
+[![Python 3.12+](https://img.shields.io/badge/Python-3.12+-3776AB.svg?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![GPU](https://img.shields.io/badge/GPU-CUDA-76B900.svg?style=flat-square&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
 
-- Northwestern Polytechnical University (NWPU)
-- Research interests: AI4PDE, Physics-Informed Deep Learning, Data-Driven Discovery
-- Email: xiongxiongnwpu@mail.nwpu.edu.cn
-- Google Scholar: [Xiong Xiong](https://scholar.google.com.hk/citations?user=j1M9tkwAAAAJ)
-- ResearchGate: [Xiong Xiong](https://www.researchgate.net/profile/Xiong-Xiong-19)
+</div>
+
+<div align="center">
+
+**Xiong Xiong (熊雄)** · Northwestern Polytechnical University (NWPU)
+
+AI4PDE · Physics-Informed Deep Learning · Data-Driven Discovery
+
+[Google Scholar](https://scholar.google.com.hk/citations?user=j1M9tkwAAAAJ) · [ResearchGate](https://www.researchgate.net/profile/Xiong-Xiong-19) · [Email](mailto:xiongxiongnwpu@mail.nwpu.edu.cn)
+
+</div>
 
 ---
-
-本项目提供一系列**完整、自包含的 JAX-GPU 实现**，覆盖 PINN 领域的前沿算法，并配套详细的中文学术教程。所有代码均由 AI 智能体在人类指导下完成，不手写一行代码。
-
-## Philosophy
 
 > **Vibe Coding & Vibe Researching** — 人类负责设计、指挥和验收把控，AI 智能体负责执行。不用手写一行代码，（尝试）完成完整的复杂科研项目。
 >
 > Humans design, direct, and validate; AI agents execute. Not a single line of code is written by hand.
 
-Every algorithm in this repository is implemented in **JAX** with GPU acceleration, and each case is fully reproducible with saved data, figures, and model checkpoints.
+本项目提供一系列**完整、自包含的 JAX-GPU 实现**，覆盖 PINN 领域的前沿算法，并配套详细的中文学术教程。所有代码均由 AI 智能体在人类指导下完成，不手写一行代码。Every algorithm is implemented in **JAX** with GPU acceleration, and each case is fully reproducible with saved data, figures, and model checkpoints.
 
 ## Contents
 
