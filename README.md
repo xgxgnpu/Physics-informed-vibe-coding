@@ -26,11 +26,15 @@ AI4PDE · Physics-Informed Deep Learning · Data-Driven Discovery
 
 ---
 
-> **Vibe Coding & Vibe Researching** — 人类负责设计、指挥和验收把控，AI 智能体负责执行。不用手写一行代码，（尝试）完成完整的复杂科研项目。
->
-> Humans design, direct, and validate; AI agents execute. Not a single line of code is written by hand.
+## Philosophy
 
-本项目提供一系列**完整、自包含的 JAX-GPU 实现**，覆盖 PINN 领域的前沿算法，并配套详细的中文学术教程。所有代码均由 AI 智能体在人类指导下完成，不手写一行代码。Every algorithm is implemented in **JAX** with GPU acceleration, and each case is fully reproducible with saved data, figures, and model checkpoints.
+> **Vibe Coding & Vibe Researching** — Humans discover and formulate the important scientific problems; AI agents write code, execute experiments, and automatically optimize the computation pipeline; humans verify, validate, and accept the final results. Not a single line of code is written by hand.
+
+We believe the future of computational research lies in a clear division of labor between human intellect and AI capability. **Humans** bring domain expertise to identify meaningful problems, design solution strategies, and make critical judgments on result quality. **AI agents** handle the entire implementation cycle — from writing code and running experiments to tuning hyperparameters and generating visualizations. This closed-loop workflow enables researchers to focus on scientific insight rather than engineering overhead. Every algorithm in this repository is implemented in **JAX** with GPU acceleration, and each case is fully reproducible with saved data, figures, and model checkpoints.
+
+> **Vibe Coding & Vibe Researching** — 人类负责发现并提出重要科学问题，AI 智能体负责编程、执行实验与自动优化计算过程，最终由人类核对、验证并验收结果。全程不手写一行代码，（尝试）完成完整的复杂科研项目。
+
+本项目提供一系列**完整、自包含的 JAX-GPU 实现**，覆盖 PINN 领域的前沿算法，并配套详细的中文学术教程。**人类**凭借领域知识发现有价值的科学问题、设计求解策略、把控结果质量；**AI 智能体**承担从代码编写、实验运行到超参调优、可视化生成的全链路工作。这一闭环协作模式使研究者得以专注于科学洞察，而非工程细节。
 
 ## Contents
 
