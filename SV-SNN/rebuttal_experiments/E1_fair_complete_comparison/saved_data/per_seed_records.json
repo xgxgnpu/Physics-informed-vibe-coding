@@ -1,0 +1,670 @@
+{
+  "helmholtz24pi": {
+    "SVSNN_accel": [
+      {
+        "method": "SVSNN_accel",
+        "total_params": 1170,
+        "total_time_sec": 12.400293350219727,
+        "ms_per_epoch": 1.2402773905000728,
+        "best_l2_error": 0.03623376012137109,
+        "final_l2_error": 0.08273791691844148,
+        "peak_mem_mb": 89.0112,
+        "inference_time_ms": 4.0573835372924805,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SVSNN_accel",
+        "total_params": 1170,
+        "total_time_sec": 10.600183963775635,
+        "ms_per_epoch": 1.0602304424660567,
+        "best_l2_error": 0.0344152822158111,
+        "final_l2_error": 0.04660655541113293,
+        "peak_mem_mb": 89.0112,
+        "inference_time_ms": 3.4868478775024414,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SVSNN_accel",
+        "total_params": 1170,
+        "total_time_sec": 9.11800742149353,
+        "ms_per_epoch": 0.9119831387771083,
+        "best_l2_error": 0.01878039622886367,
+        "final_l2_error": 0.01878039622886367,
+        "peak_mem_mb": 89.0112,
+        "inference_time_ms": 3.3946990966796875,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SVSNN_accel",
+        "total_params": 1170,
+        "total_time_sec": 9.362641334533691,
+        "ms_per_epoch": 0.9364514237381167,
+        "best_l2_error": 0.009002319134511228,
+        "final_l2_error": 0.009187285186778804,
+        "peak_mem_mb": 89.0112,
+        "inference_time_ms": 3.026461601257324,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SVSNN_accel",
+        "total_params": 1170,
+        "total_time_sec": 9.527697086334229,
+        "ms_per_epoch": 0.9529603006935616,
+        "best_l2_error": 0.024327667019309777,
+        "final_l2_error": 0.033472969683423254,
+        "peak_mem_mb": 89.0112,
+        "inference_time_ms": 3.3150434494018555,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      }
+    ],
+    "SPINN": [
+      {
+        "method": "SPINN",
+        "total_params": 91136,
+        "total_time_sec": 16.87872576713562,
+        "ms_per_epoch": 1.6882102187573136,
+        "best_l2_error": 0.5461203985683378,
+        "final_l2_error": 0.5461203985683378,
+        "peak_mem_mb": 140.525312,
+        "inference_time_ms": 3.7033557891845703,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SPINN",
+        "total_params": 91136,
+        "total_time_sec": 13.700940608978271,
+        "ms_per_epoch": 1.370368134524732,
+        "best_l2_error": 0.6857028957621496,
+        "final_l2_error": 0.6857028957621496,
+        "peak_mem_mb": 140.525312,
+        "inference_time_ms": 4.493141174316406,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SPINN",
+        "total_params": 91136,
+        "total_time_sec": 13.569689512252808,
+        "ms_per_epoch": 1.3572403993051416,
+        "best_l2_error": 0.7387985214079069,
+        "final_l2_error": 0.7387985214079069,
+        "peak_mem_mb": 140.525312,
+        "inference_time_ms": 3.8640499114990234,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SPINN",
+        "total_params": 91136,
+        "total_time_sec": 13.903101682662964,
+        "ms_per_epoch": 1.3905882859234813,
+        "best_l2_error": 0.6252198638040601,
+        "final_l2_error": 0.6252198638040601,
+        "peak_mem_mb": 140.525312,
+        "inference_time_ms": 4.92398738861084,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SPINN",
+        "total_params": 91136,
+        "total_time_sec": 13.813833951950073,
+        "ms_per_epoch": 1.3816597271404354,
+        "best_l2_error": 0.6152700766083911,
+        "final_l2_error": 0.6152700766083911,
+        "peak_mem_mb": 140.525312,
+        "inference_time_ms": 4.437708854675293,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      }
+    ],
+    "SIREN": [
+      {
+        "method": "SIREN",
+        "total_params": 82689,
+        "total_time_sec": 25.859601259231567,
+        "ms_per_epoch": 2.586477421407438,
+        "best_l2_error": 0.895731320690748,
+        "final_l2_error": 0.895731320690748,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 4.599642753601074,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SIREN",
+        "total_params": 82689,
+        "total_time_sec": 22.864379167556763,
+        "ms_per_epoch": 2.286895295814839,
+        "best_l2_error": 0.9425766748071516,
+        "final_l2_error": 0.9425972915182264,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 4.2823076248168945,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SIREN",
+        "total_params": 82689,
+        "total_time_sec": 22.88958430290222,
+        "ms_per_epoch": 2.2894163135529326,
+        "best_l2_error": 0.9160549516957838,
+        "final_l2_error": 0.9160549516957838,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 4.636025428771973,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SIREN",
+        "total_params": 82689,
+        "total_time_sec": 22.898761749267578,
+        "ms_per_epoch": 2.290334241775113,
+        "best_l2_error": 0.9036369144217187,
+        "final_l2_error": 0.9036723549791016,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 4.424405097961426,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SIREN",
+        "total_params": 82689,
+        "total_time_sec": 22.89563250541687,
+        "ms_per_epoch": 2.2900212547926455,
+        "best_l2_error": 0.9553306917776533,
+        "final_l2_error": 0.9553306917776533,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 4.346275329589844,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      }
+    ],
+    "FourierPINN": [
+      {
+        "method": "FourierPINN",
+        "total_params": 66177,
+        "total_time_sec": 14.263166904449463,
+        "ms_per_epoch": 1.4266020108471156,
+        "best_l2_error": 0.3462684186929134,
+        "final_l2_error": 0.34696207259422235,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 4.343962669372559,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "FourierPINN",
+        "total_params": 66177,
+        "total_time_sec": 14.19556188583374,
+        "ms_per_epoch": 1.419840156614697,
+        "best_l2_error": 0.5439523797543613,
+        "final_l2_error": 0.5441528068530183,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 4.259300231933594,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "FourierPINN",
+        "total_params": 66177,
+        "total_time_sec": 14.162560224533081,
+        "ms_per_epoch": 1.416539330319372,
+        "best_l2_error": 0.40501531107821903,
+        "final_l2_error": 0.4063482942768968,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 2.9205322265625,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "FourierPINN",
+        "total_params": 66177,
+        "total_time_sec": 14.285852432250977,
+        "ms_per_epoch": 1.4288710174285832,
+        "best_l2_error": 0.45442098623864724,
+        "final_l2_error": 0.45442098623864724,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 4.285931587219238,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "FourierPINN",
+        "total_params": 66177,
+        "total_time_sec": 14.228879690170288,
+        "ms_per_epoch": 1.4231726035377363,
+        "best_l2_error": 0.5699443416923928,
+        "final_l2_error": 0.5699443416923928,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 4.362368583679199,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      }
+    ],
+    "PINN": [
+      {
+        "method": "PINN",
+        "total_params": 50049,
+        "total_time_sec": 18.04511284828186,
+        "ms_per_epoch": 1.804872259280042,
+        "best_l2_error": 0.9860768119959337,
+        "final_l2_error": 1.043421663540217,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 1.8100738525390625,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "PINN",
+        "total_params": 50049,
+        "total_time_sec": 17.694043159484863,
+        "ms_per_epoch": 1.7697582676020067,
+        "best_l2_error": 1.0001904516987765,
+        "final_l2_error": 1.1273142165145973,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 1.8278837203979492,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "PINN",
+        "total_params": 50049,
+        "total_time_sec": 17.69456958770752,
+        "ms_per_epoch": 1.7698109209549429,
+        "best_l2_error": 0.9914833748299495,
+        "final_l2_error": 1.0212013820568526,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 1.2852907180786133,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "PINN",
+        "total_params": 50049,
+        "total_time_sec": 17.71461534500122,
+        "ms_per_epoch": 1.771815897679658,
+        "best_l2_error": 0.9994248853105487,
+        "final_l2_error": 0.9994248853105487,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 1.902914047241211,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "PINN",
+        "total_params": 50049,
+        "total_time_sec": 17.72404670715332,
+        "ms_per_epoch": 1.772759222559844,
+        "best_l2_error": 0.9977168885510431,
+        "final_l2_error": 1.0552608729208874,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 1.874542236328125,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      }
+    ],
+    "ClassicalSpectral": [
+      {
+        "method": "ClassicalSpectral",
+        "total_params": 4096,
+        "total_time_sec": 0.004992008209228516,
+        "ms_per_epoch": 0.0,
+        "best_l2_error": 4.363523524073456e-14,
+        "final_l2_error": 4.363523524073456e-14,
+        "peak_mem_mb": 324.7488,
+        "inference_time_ms": 4.992008209228516,
+        "n_collocation": 65536,
+        "includes_svd_cost": false
+      }
+    ],
+    "_svd_probe": {
+      "svd_cost_sec": 0.8666892051696777,
+      "effective_rank": 346,
+      "jacobian_shape": [
+        1600,
+        3096
+      ]
+    }
+  },
+  "helmholtz48pi": {
+    "SVSNN_accel": [
+      {
+        "method": "SVSNN_accel",
+        "total_params": 3096,
+        "total_time_sec": 14.146474123001099,
+        "ms_per_epoch": 1.4149303983797858,
+        "best_l2_error": 0.003118533252668005,
+        "final_l2_error": 0.003118533252668005,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 2.845287322998047,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SVSNN_accel",
+        "total_params": 3096,
+        "total_time_sec": 12.07241702079773,
+        "ms_per_epoch": 1.207483198719517,
+        "best_l2_error": 0.011443903859442647,
+        "final_l2_error": 0.011672228704281086,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 2.8795957565307617,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SVSNN_accel",
+        "total_params": 3096,
+        "total_time_sec": 12.10912799835205,
+        "ms_per_epoch": 1.2111550308413732,
+        "best_l2_error": 0.012985054387711692,
+        "final_l2_error": 0.012985054387711692,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 2.8449058532714844,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SVSNN_accel",
+        "total_params": 3096,
+        "total_time_sec": 13.703330993652344,
+        "ms_per_epoch": 1.3706072208093962,
+        "best_l2_error": 0.005689409296451645,
+        "final_l2_error": 0.00620642996461151,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 3.087139129638672,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SVSNN_accel",
+        "total_params": 3096,
+        "total_time_sec": 13.144599199295044,
+        "ms_per_epoch": 1.314722864502405,
+        "best_l2_error": 0.007841056685789454,
+        "final_l2_error": 0.008114793823789155,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 3.261995315551758,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      }
+    ],
+    "SPINN": [
+      {
+        "method": "SPINN",
+        "total_params": 91136,
+        "total_time_sec": 14.769786834716797,
+        "ms_per_epoch": 1.4772741382993397,
+        "best_l2_error": 1.4184445878280871,
+        "final_l2_error": 1.4184445878280871,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 4.267263412475586,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SPINN",
+        "total_params": 91136,
+        "total_time_sec": 14.662543296813965,
+        "ms_per_epoch": 1.4665476392092385,
+        "best_l2_error": 1.5301915210263761,
+        "final_l2_error": 1.5301915210263761,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 3.163290023803711,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SPINN",
+        "total_params": 91136,
+        "total_time_sec": 13.20607304573059,
+        "ms_per_epoch": 1.3208714788688327,
+        "best_l2_error": 1.388828961082144,
+        "final_l2_error": 1.388828961082144,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 2.9493331909179688,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SPINN",
+        "total_params": 91136,
+        "total_time_sec": 15.68372893333435,
+        "ms_per_epoch": 1.568686630659567,
+        "best_l2_error": 1.451588546040203,
+        "final_l2_error": 1.451588546040203,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 4.873108863830566,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SPINN",
+        "total_params": 91136,
+        "total_time_sec": 13.717145442962646,
+        "ms_per_epoch": 1.3719889420846816,
+        "best_l2_error": 1.4605923215243668,
+        "final_l2_error": 1.4605923215243668,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 4.522466659545898,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      }
+    ],
+    "SIREN": [
+      {
+        "method": "SIREN",
+        "total_params": 82689,
+        "total_time_sec": 22.749741792678833,
+        "ms_per_epoch": 2.275429265120908,
+        "best_l2_error": 0.9873495645403924,
+        "final_l2_error": 0.9873495645403924,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 4.601716995239258,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SIREN",
+        "total_params": 82689,
+        "total_time_sec": 22.79432201385498,
+        "ms_per_epoch": 2.2798881790213024,
+        "best_l2_error": 1.0075773844142968,
+        "final_l2_error": 1.0075773844142968,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 5.241680145263672,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SIREN",
+        "total_params": 82689,
+        "total_time_sec": 22.802437782287598,
+        "ms_per_epoch": 2.280699918212402,
+        "best_l2_error": 1.000863652443416,
+        "final_l2_error": 1.000863652443416,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 2.1220922470092773,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SIREN",
+        "total_params": 82689,
+        "total_time_sec": 22.82120394706726,
+        "ms_per_epoch": 2.2825769100887436,
+        "best_l2_error": 1.0055266587390619,
+        "final_l2_error": 1.0055266587390619,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 4.306197166442871,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "SIREN",
+        "total_params": 82689,
+        "total_time_sec": 22.826966762542725,
+        "ms_per_epoch": 2.2831533069156555,
+        "best_l2_error": 0.9992050892090131,
+        "final_l2_error": 0.9992050892090131,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 4.797673225402832,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      }
+    ],
+    "FourierPINN": [
+      {
+        "method": "FourierPINN",
+        "total_params": 66177,
+        "total_time_sec": 14.129460334777832,
+        "ms_per_epoch": 1.413228679213626,
+        "best_l2_error": 0.8199678686433093,
+        "final_l2_error": 0.8199678686433093,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 4.566431045532227,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "FourierPINN",
+        "total_params": 66177,
+        "total_time_sec": 14.229414224624634,
+        "ms_per_epoch": 1.4232260676759987,
+        "best_l2_error": 0.9683697582551066,
+        "final_l2_error": 0.9683697582551066,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 4.4803619384765625,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "FourierPINN",
+        "total_params": 66177,
+        "total_time_sec": 14.212554931640625,
+        "ms_per_epoch": 1.4215398011242875,
+        "best_l2_error": 0.9021411323511672,
+        "final_l2_error": 0.9021411323511672,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 4.770135879516602,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "FourierPINN",
+        "total_params": 66177,
+        "total_time_sec": 14.138510704040527,
+        "ms_per_epoch": 1.4141338971834896,
+        "best_l2_error": 0.8540669335543815,
+        "final_l2_error": 0.8540669335543815,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 4.292511940002441,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "FourierPINN",
+        "total_params": 66177,
+        "total_time_sec": 14.217166662216187,
+        "ms_per_epoch": 1.4220010664349054,
+        "best_l2_error": 0.9796578111740946,
+        "final_l2_error": 0.980015824205922,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 3.8856983184814453,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      }
+    ],
+    "PINN": [
+      {
+        "method": "PINN",
+        "total_params": 50049,
+        "total_time_sec": 17.750975131988525,
+        "ms_per_epoch": 1.7754526037195966,
+        "best_l2_error": 1.0002218991504586,
+        "final_l2_error": 1.0322452748900177,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 2.166461944580078,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "PINN",
+        "total_params": 50049,
+        "total_time_sec": 17.709880828857422,
+        "ms_per_epoch": 1.7713423513560136,
+        "best_l2_error": 1.000162927421261,
+        "final_l2_error": 1.0182378095736546,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 1.866292953491211,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "PINN",
+        "total_params": 50049,
+        "total_time_sec": 17.727378129959106,
+        "ms_per_epoch": 1.7730924314822072,
+        "best_l2_error": 1.000267974805235,
+        "final_l2_error": 1.0022267427466305,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 1.236271858215332,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "PINN",
+        "total_params": 50049,
+        "total_time_sec": 17.713794708251953,
+        "ms_per_epoch": 1.771733817588713,
+        "best_l2_error": 1.0002176622165933,
+        "final_l2_error": 1.0169202635213745,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 1.8829345703125,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      },
+      {
+        "method": "PINN",
+        "total_params": 50049,
+        "total_time_sec": 17.720139026641846,
+        "ms_per_epoch": 1.7723683763394524,
+        "best_l2_error": 1.0004509672016073,
+        "final_l2_error": 1.0661357917185668,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 1.2494325637817383,
+        "n_collocation": 10000,
+        "includes_svd_cost": false
+      }
+    ],
+    "ClassicalSpectral": [
+      {
+        "method": "ClassicalSpectral",
+        "total_params": 4096,
+        "total_time_sec": 0.004712104797363281,
+        "ms_per_epoch": 0.0,
+        "best_l2_error": 1.3111887164815314e-13,
+        "final_l2_error": 1.3111887164815314e-13,
+        "peak_mem_mb": 2697.797632,
+        "inference_time_ms": 4.712104797363281,
+        "n_collocation": 65536,
+        "includes_svd_cost": false
+      }
+    ],
+    "_svd_probe": {
+      "svd_cost_sec": 0.8819653987884521,
+      "effective_rank": 310,
+      "jacobian_shape": [
+        1600,
+        3096
+      ]
+    }
+  }
+}

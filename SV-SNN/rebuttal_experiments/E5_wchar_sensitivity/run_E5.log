@@ -1,0 +1,36 @@
+
+## (a) w_char scan ##
+   ratio=0.50 wc/kappa best L2 mean=7.255e-01
+   ratio=0.75 wc/kappa best L2 mean=9.210e-02
+   ratio=0.90 wc/kappa best L2 mean=8.247e-02
+   ratio=1.00 wc/kappa best L2 mean=3.602e-02
+   ratio=1.10 wc/kappa best L2 mean=3.949e-02
+   ratio=1.25 wc/kappa best L2 mean=2.419e-02
+   ratio=1.50 wc/kappa best L2 mean=1.589e-02
+   ratio=2.00 wc/kappa best L2 mean=3.282e-01
+
+## (b) multi-modal ##
+   w_char=k1: best L2 mean=4.764e-01
+   w_char=k2: best L2 mean=2.426e-02
+   w_char=mean: best L2 mean=9.348e-02
+   w_char=max: best L2 mean=2.426e-02
+   split(k1&k2): best L2 mean=6.333e-02
+
+## (c) spatial chirp ##
+   chirp frozen=3.662e-03 learnable=8.975e-03
+
+## (d) FFT auto-estimate ##
+   true kappa=75.398, FFT-estimated w_char=75.398, rel err=0.00%
+   auto best L2=3.602e-02, manual best L2=3.602e-02
+
+## (e) frozen vs learnable (wrong w_char=0.6 kappa) ##
+   frozen=1.126e-01 learnable=2.828e-01
+
+## (f) noisy prior ##
+   eps=0.00: best L2 mean=3.602e-02
+   eps=0.05: best L2 mean=4.068e-02
+   eps=0.10: best L2 mean=2.925e-02
+   eps=0.20: best L2 mean=1.825e-02
+   eps=0.30: best L2 mean=4.223e-02
+
+Saved E5 to /root/autodl-tmp/rebuttal_experiments/E5_wchar_sensitivity/saved_data

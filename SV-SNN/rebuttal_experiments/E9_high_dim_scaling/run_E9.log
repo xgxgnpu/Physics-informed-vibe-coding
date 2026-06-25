@@ -1,0 +1,18 @@
+
+##### Part A: 3D Poisson #####
+  SVSNN 3D seed=0: best L2=1.015e-02 params=1320 t=10.8s
+  SVSNN 3D seed=1: best L2=6.738e-03 params=1320 t=7.9s
+  SVSNN 3D seed=2: best L2=7.998e-03 params=1320 t=7.9s
+  FourierPINN 3D seed=0: best L2=2.198e-01 params=51785 t=11.9s
+  FourierPINN 3D seed=1: best L2=2.571e-01 params=51785 t=8.1s
+  FourierPINN 3D seed=2: best L2=2.061e-01 params=51785 t=8.1s
+  PINN 3D seed=0: best L2=2.526e+00 params=50177 t=10.2s
+  PINN 3D seed=1: best L2=3.501e+00 params=50177 t=9.7s
+  PINN 3D seed=2: best L2=8.409e+00 params=50177 t=9.7s
+
+##### Part B: SV-SNN dimension scaling #####
+  d=1: params=444 best L2=2.192e-03 t=2.8s
+  d=2: params=882 best L2=1.539e-02 t=6.2s
+  d=3: params=1320 best L2=8.297e-03 t=8.0s
+
+Saved E9 to /root/autodl-tmp/rebuttal_experiments/E9_high_dim_scaling/saved_data

@@ -1,0 +1,22 @@
+{
+  "method": "fourier",
+  "seed": 0,
+  "total_params": 209207,
+  "target_params": 209196,
+  "matched_within_tol": true,
+  "sizes": {
+    "H": 241,
+    "ff": 24
+  },
+  "best_l2": 5.46235285229529e-06,
+  "l2_exact": 5.46235285229529e-06,
+  "l2_interp": 1.0806537723172405e-05,
+  "wall_clock_train_sec": 97.45393800735474,
+  "ms_per_100_epoch": 749.6456769796519,
+  "peak_gpu_mem_mb": 92.25216,
+  "inference_time_ms": 3.0217885971069336,
+  "n_modes": 300,
+  "ode_dt": 0.0005,
+  "nu": 0.003183098861837907,
+  "paradigm": "shared Galerkin-ODE substrate + temporal-representation fit"
+}

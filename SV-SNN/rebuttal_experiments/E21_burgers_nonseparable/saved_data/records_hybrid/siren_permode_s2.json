@@ -1,0 +1,21 @@
+{
+  "method": "siren_permode",
+  "seed": 2,
+  "total_params": 201900,
+  "target_params": 209196,
+  "matched_within_tol": true,
+  "sizes": {
+    "h": 24
+  },
+  "best_l2": 0.0006141575358341451,
+  "l2_exact": 0.0006141575358341451,
+  "l2_interp": 0.0006142054622893061,
+  "wall_clock_train_sec": 730.8787932395935,
+  "ms_per_100_epoch": 5622.144563381489,
+  "peak_gpu_mem_mb": 431.062528,
+  "inference_time_ms": 3.0937910079956055,
+  "n_modes": 300,
+  "ode_dt": 0.0005,
+  "nu": 0.003183098861837907,
+  "paradigm": "shared Galerkin-ODE substrate + temporal-representation fit"
+}

@@ -1,0 +1,46 @@
+
+##### noise eps=0.0 #####
+  eps_0.00 SVSNN seed=0: best L2=3.979e-02 t=11.5s params=1170
+  eps_0.00 SVSNN seed=1: best L2=4.978e-02 t=9.8s params=1170
+  eps_0.00 SVSNN seed=2: best L2=3.679e-02 t=9.9s params=1170
+  eps_0.00 FourierPINN seed=0: best L2=2.789e-01 t=12.7s params=49729
+  eps_0.00 FourierPINN seed=1: best L2=3.946e-01 t=11.0s params=49729
+  eps_0.00 FourierPINN seed=2: best L2=3.139e-01 t=11.0s params=49729
+  eps_0.00 PINN seed=0: best L2=1.000e+00 t=14.5s params=50049
+  eps_0.00 PINN seed=1: best L2=9.975e-01 t=14.1s params=50049
+  eps_0.00 PINN seed=2: best L2=9.943e-01 t=14.1s params=50049
+
+##### noise eps=0.01 #####
+  eps_0.01 SVSNN seed=0: best L2=2.893e-02 t=10.6s params=1170
+  eps_0.01 SVSNN seed=1: best L2=4.755e-02 t=11.0s params=1170
+  eps_0.01 SVSNN seed=2: best L2=4.869e-02 t=9.9s params=1170
+  eps_0.01 FourierPINN seed=0: best L2=2.808e-01 t=11.0s params=49729
+  eps_0.01 FourierPINN seed=1: best L2=3.944e-01 t=10.9s params=49729
+  eps_0.01 FourierPINN seed=2: best L2=3.147e-01 t=11.0s params=49729
+  eps_0.01 PINN seed=0: best L2=1.000e+00 t=14.1s params=50049
+  eps_0.01 PINN seed=1: best L2=9.933e-01 t=14.1s params=50049
+  eps_0.01 PINN seed=2: best L2=1.000e+00 t=14.1s params=50049
+
+##### noise eps=0.05 #####
+  eps_0.05 SVSNN seed=0: best L2=3.161e-02 t=10.7s params=1170
+  eps_0.05 SVSNN seed=1: best L2=3.234e-02 t=9.9s params=1170
+  eps_0.05 SVSNN seed=2: best L2=5.025e-02 t=10.0s params=1170
+  eps_0.05 FourierPINN seed=0: best L2=2.805e-01 t=10.9s params=49729
+  eps_0.05 FourierPINN seed=1: best L2=3.947e-01 t=11.0s params=49729
+  eps_0.05 FourierPINN seed=2: best L2=3.141e-01 t=10.9s params=49729
+  eps_0.05 PINN seed=0: best L2=1.000e+00 t=14.1s params=50049
+  eps_0.05 PINN seed=1: best L2=9.984e-01 t=14.1s params=50049
+  eps_0.05 PINN seed=2: best L2=9.904e-01 t=14.1s params=50049
+
+##### noise eps=0.1 #####
+  eps_0.10 SVSNN seed=0: best L2=4.560e-02 t=10.9s params=1170
+  eps_0.10 SVSNN seed=1: best L2=2.449e-02 t=10.3s params=1170
+  eps_0.10 SVSNN seed=2: best L2=2.755e-02 t=10.9s params=1170
+  eps_0.10 FourierPINN seed=0: best L2=2.790e-01 t=11.0s params=49729
+  eps_0.10 FourierPINN seed=1: best L2=3.937e-01 t=10.9s params=49729
+  eps_0.10 FourierPINN seed=2: best L2=3.128e-01 t=10.9s params=49729
+  eps_0.10 PINN seed=0: best L2=1.000e+00 t=14.1s params=50049
+  eps_0.10 PINN seed=1: best L2=9.949e-01 t=14.1s params=50049
+  eps_0.10 PINN seed=2: best L2=9.980e-01 t=14.1s params=50049
+
+Saved E12 to /root/autodl-tmp/rebuttal_experiments/E12_noisy_bc_ic/saved_data

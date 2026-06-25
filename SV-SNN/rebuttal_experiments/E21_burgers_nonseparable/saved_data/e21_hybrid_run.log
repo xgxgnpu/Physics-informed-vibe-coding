@@ -1,0 +1,37 @@
+>>> Phase 0: computing/caching shared Galerkin beta_k(t)...
+    cached: t(2001,), beta(2001, 300)
+>>> svsnn seed=0
+[svsnn seed=0] best_l2=5.5386e-06 params=209196 matched=True t=75.6s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/svsnn_s0.json
+>>> svsnn seed=1
+[svsnn seed=1] best_l2=5.5686e-06 params=209196 matched=True t=74.3s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/svsnn_s1.json
+>>> svsnn seed=2
+[svsnn seed=2] best_l2=5.5826e-06 params=209196 matched=True t=71.7s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/svsnn_s2.json
+>>> pinn seed=0
+[pinn seed=0] best_l2=2.0542e-04 params=209196 matched=True t=76.2s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/pinn_s0.json
+>>> pinn seed=1
+[pinn seed=1] best_l2=2.5912e-04 params=209196 matched=True t=70.5s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/pinn_s1.json
+>>> pinn seed=2
+[pinn seed=2] best_l2=1.8747e-04 params=209196 matched=True t=75.1s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/pinn_s2.json
+>>> fourier seed=0
+[fourier seed=0] best_l2=5.4624e-06 params=209207 matched=True t=97.5s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/fourier_s0.json
+>>> fourier seed=1
+[fourier seed=1] best_l2=5.4647e-06 params=209207 matched=True t=95.3s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/fourier_s1.json
+>>> fourier seed=2
+[fourier seed=2] best_l2=5.4748e-06 params=209207 matched=True t=91.7s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/fourier_s2.json
+>>> siren_permode seed=0
+[siren_permode seed=0] best_l2=6.0323e-04 params=201900 matched=True t=734.0s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/siren_permode_s0.json
+>>> siren_permode seed=1
+[siren_permode seed=1] best_l2=5.8147e-04 params=201900 matched=True t=736.2s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/siren_permode_s1.json
+>>> siren_permode seed=2
+[siren_permode seed=2] best_l2=6.1416e-04 params=201900 matched=True t=730.9s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/siren_permode_s2.json
+>>> chebyshev (classical reference)
+[chebyshev seed=0] best_l2=5.3878e-06 params=76800 matched=False t=11.2s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records_hybrid/chebyshev_s0.json
+Sweep wall time: 3009.4s
+
+================ E21 SAME-PARADIGM SUMMARY ================
+  svsnn          [neural (3 seeds)        ] params= 209196 L2=5.563e-06 +/- 1.8e-08  matched=True
+  pinn           [neural (3 seeds)        ] params= 209196 L2=2.173e-04 +/- 3.0e-05  matched=True
+  fourier        [neural (3 seeds)        ] params= 209207 L2=5.467e-06 +/- 5.4e-09  matched=True
+  siren_permode  [neural (3 seeds)        ] params= 201900 L2=5.996e-04 +/- 1.4e-05  matched=True
+  chebyshev      [classical reference (no NN, 1 run)] params=  76800 L2=5.388e-06  matched=False
+==========================================================

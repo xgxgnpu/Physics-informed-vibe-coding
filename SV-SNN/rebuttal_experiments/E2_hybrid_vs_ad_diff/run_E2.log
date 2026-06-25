@@ -1,0 +1,32 @@
+
+===== kappa=20pi (62.83) =====
+  seed=0 hybrid best=3.239e-02 t=11.9s | AD best=7.952e-02 t=26.3s
+  seed=1 hybrid best=1.424e-02 t=10.8s | AD best=1.709e-02 t=26.6s
+  seed=2 hybrid best=4.866e-02 t=10.4s | AD best=2.993e-02 t=26.6s
+  -> hybrid 3.176e-02+-1.4e-02 (min 1.424e-02) | AD 4.218e-02+-2.7e-02 | speedup=2.40x | deriv ad32=2.60e-16
+
+===== kappa=40pi (125.66) =====
+  seed=0 hybrid best=1.623e-02 t=10.5s | AD best=1.665e-02 t=26.4s
+  seed=1 hybrid best=1.458e-02 t=9.9s | AD best=1.525e-02 t=26.6s
+  seed=2 hybrid best=1.729e-02 t=10.4s | AD best=1.339e-02 t=26.2s
+  -> hybrid 1.603e-02+-1.1e-03 (min 1.458e-02) | AD 1.510e-02+-1.3e-03 | speedup=2.58x | deriv ad32=2.84e-16
+
+===== kappa=60pi (188.50) =====
+  seed=0 hybrid best=1.047e-02 t=10.6s | AD best=2.322e-02 t=26.3s
+  seed=1 hybrid best=6.603e-03 t=10.1s | AD best=1.318e-02 t=26.5s
+  seed=2 hybrid best=8.949e-03 t=10.6s | AD best=1.375e-02 t=26.6s
+  -> hybrid 8.674e-03+-1.6e-03 (min 6.603e-03) | AD 1.672e-02+-4.6e-03 | speedup=2.54x | deriv ad32=3.03e-16
+
+===== kappa=80pi (251.33) =====
+  seed=0 hybrid best=6.476e-02 t=10.8s | AD best=2.181e-02 t=26.7s
+  seed=1 hybrid best=7.834e-02 t=10.4s | AD best=2.538e-02 t=26.7s
+  seed=2 hybrid best=6.889e-02 t=10.4s | AD best=1.703e-02 t=26.7s
+  -> hybrid 7.066e-02+-5.7e-03 (min 6.476e-02) | AD 2.141e-02+-3.4e-03 | speedup=2.53x | deriv ad32=2.80e-16
+
+===== kappa=100pi (314.16) =====
+  seed=0 hybrid best=8.442e-01 t=10.7s | AD best=3.906e-02 t=26.8s
+  seed=1 hybrid best=6.237e-01 t=10.0s | AD best=1.265e-02 t=26.7s
+  seed=2 hybrid best=9.019e-01 t=10.8s | AD best=1.437e-02 t=26.7s
+  -> hybrid 7.900e-01+-1.2e-01 (min 6.237e-01) | AD 2.203e-02+-1.2e-02 | speedup=2.55x | deriv ad32=3.00e-16
+
+Saved E2 to /root/autodl-tmp/rebuttal_experiments/E2_hybrid_vs_ad_diff/saved_data

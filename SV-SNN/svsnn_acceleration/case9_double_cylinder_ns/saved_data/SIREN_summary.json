@@ -1,0 +1,8 @@
+{
+  "method": "SIREN",
+  "total_params": 82947,
+  "total_time_sec": 122.05,
+  "best_l2_error": 0.007572132162749767,
+  "final_l2_error": 0.009044767823070288,
+  "ms_per_epoch": 8.14
+}

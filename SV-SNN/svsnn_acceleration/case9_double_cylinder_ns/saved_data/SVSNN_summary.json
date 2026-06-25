@@ -1,0 +1,8 @@
+{
+  "method": "SVSNN",
+  "total_params": 407,
+  "total_time_sec": 34.35,
+  "best_l2_error": 0.0002246186850243248,
+  "final_l2_error": 0.0007034138543531299,
+  "ms_per_epoch": 2.29
+}

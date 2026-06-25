@@ -1,0 +1,13 @@
+
+######### E4b multi-scale coverage (normalized residual) #########
+  C1_low_only seed=0: best=9.172e-01 t=10.4s
+  C1_low_only seed=1: best=9.184e-01 t=7.6s
+  C1_low_only seed=2: best=9.180e-01 t=7.7s
+  C2_high_only seed=0: best=7.072e-01 t=8.8s
+  C2_high_only seed=1: best=7.071e-01 t=9.1s
+  C2_high_only seed=2: best=7.071e-01 t=8.4s
+  C3_multilevel seed=0: best=1.073e-02 t=7.7s
+  C3_multilevel seed=1: best=1.275e-02 t=7.8s
+  C3_multilevel seed=2: best=1.893e-02 t=8.0s
+
+Saved E4b to /root/autodl-tmp/rebuttal_experiments/E4_freq_sampling_ablation/saved_data

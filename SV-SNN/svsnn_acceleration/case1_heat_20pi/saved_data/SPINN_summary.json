@@ -1,0 +1,8 @@
+{
+  "method": "SPINN",
+  "total_params": 82816,
+  "total_time_sec": 40.44,
+  "best_l2_error": 0.8909066336822787,
+  "final_l2_error": 0.8909066336822787,
+  "ms_per_epoch": 4.04
+}

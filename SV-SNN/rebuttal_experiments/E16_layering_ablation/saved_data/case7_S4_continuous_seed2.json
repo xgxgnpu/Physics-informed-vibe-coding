@@ -1,0 +1,10 @@
+{
+  "case": "case7",
+  "seed": 2,
+  "strategy": "S4_continuous",
+  "scale": 1.0,
+  "best_l2": 0.05919741637586974,
+  "final_l2": 0.05919741637586974,
+  "params": 1944,
+  "time_s": 14.304395198822021
+}

@@ -1,0 +1,11 @@
+{
+  "case": "case4",
+  "seed": 1,
+  "strategy": "default",
+  "scale": 0.6,
+  "best_l2": 1.460705657093341,
+  "final_l2": 2.4205483783087107,
+  "params": 1612,
+  "time_s": 19.144397974014282,
+  "source": "E15_structure_ablation/saved_data/case4_wchar0p6_seed1.json"
+}

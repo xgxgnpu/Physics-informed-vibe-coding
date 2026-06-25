@@ -1,0 +1,18 @@
+{
+  "method": "PINN",
+  "budget": "matched",
+  "seed": 0,
+  "total_params": 393,
+  "target_params": 407,
+  "matched_within_tol": true,
+  "best_l2": 0.03773285821080208,
+  "final_l2": 0.039606060832738876,
+  "wall_clock_train_sec": 22.115654468536377,
+  "ms_per_100_epoch": 147.43769645690918,
+  "ms_per_epoch": 1.4743769645690918,
+  "peak_gpu_mem_mb": 84.260096,
+  "inference_time_ms": NaN,
+  "n_collocation": 5000,
+  "case": "case9",
+  "status": "ok"
+}

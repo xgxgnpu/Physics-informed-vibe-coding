@@ -1,0 +1,35 @@
+
+##### boundary layer eps=0.05 (w_char=24.0) #####
+  eps_0.050 SVSNN seed=0: best L2=2.661e-01 t=11.1s params=2322
+  eps_0.050 SVSNN seed=1: best L2=3.199e-01 t=10.9s params=2322
+  eps_0.050 SVSNN seed=2: best L2=9.774e-01 t=10.7s params=2322
+  eps_0.050 FourierPINN seed=0: best L2=2.454e-01 t=16.6s params=66177
+  eps_0.050 FourierPINN seed=1: best L2=2.584e-01 t=12.9s params=66177
+  eps_0.050 FourierPINN seed=2: best L2=2.234e-01 t=12.9s params=66177
+  eps_0.050 PINN seed=0: best L2=1.424e-01 t=15.4s params=50049
+  eps_0.050 PINN seed=1: best L2=1.647e-01 t=15.1s params=50049
+  eps_0.050 PINN seed=2: best L2=1.436e-01 t=15.1s params=50049
+
+##### boundary layer eps=0.02 (w_char=60.0) #####
+  eps_0.020 SVSNN seed=0: best L2=2.113e-01 t=10.4s params=2322
+  eps_0.020 SVSNN seed=1: best L2=2.732e-02 t=9.9s params=2322
+  eps_0.020 SVSNN seed=2: best L2=1.836e+00 t=10.1s params=2322
+  eps_0.020 FourierPINN seed=0: best L2=1.277e+00 t=12.9s params=66177
+  eps_0.020 FourierPINN seed=1: best L2=1.165e+00 t=12.9s params=66177
+  eps_0.020 FourierPINN seed=2: best L2=1.397e+00 t=12.9s params=66177
+  eps_0.020 PINN seed=0: best L2=8.726e-01 t=15.0s params=50049
+  eps_0.020 PINN seed=1: best L2=1.546e+00 t=15.0s params=50049
+  eps_0.020 PINN seed=2: best L2=1.235e+00 t=15.0s params=50049
+
+##### boundary layer eps=0.01 (w_char=120.0) #####
+  eps_0.010 SVSNN seed=0: best L2=2.417e+00 t=9.6s params=2322
+  eps_0.010 SVSNN seed=1: best L2=1.207e+00 t=10.6s params=2322
+  eps_0.010 SVSNN seed=2: best L2=2.597e+00 t=8.8s params=2322
+  eps_0.010 FourierPINN seed=0: best L2=1.015e+00 t=12.8s params=66177
+  eps_0.010 FourierPINN seed=1: best L2=9.079e-01 t=12.9s params=66177
+  eps_0.010 FourierPINN seed=2: best L2=7.762e-01 t=12.9s params=66177
+  eps_0.010 PINN seed=0: best L2=1.020e+00 t=15.0s params=50049
+  eps_0.010 PINN seed=1: best L2=8.386e+00 t=15.0s params=50049
+  eps_0.010 PINN seed=2: best L2=8.298e+00 t=15.0s params=50049
+
+Saved E13 to /root/autodl-tmp/rebuttal_experiments/E13_boundary_layer/saved_data

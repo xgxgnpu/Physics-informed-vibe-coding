@@ -1,0 +1,36 @@
+
+######### problem=pure_high #########
+  pure_high S1_single seed=0: best=5.170e-04 t=12.0s
+  pure_high S1_single seed=1: best=7.775e-04 t=10.9s
+  pure_high S1_single seed=2: best=7.080e-04 t=10.7s
+  pure_high S2_two seed=0: best=4.543e-02 t=8.2s
+  pure_high S2_two seed=1: best=5.302e-02 t=7.6s
+  pure_high S2_two seed=2: best=8.219e-02 t=7.6s
+  pure_high S3_three25 seed=0: best=5.782e-02 t=7.7s
+  pure_high S3_three25 seed=1: best=4.293e-02 t=7.7s
+  pure_high S3_three25 seed=2: best=4.444e-02 t=7.9s
+  pure_high S4_continuous seed=0: best=2.435e-02 t=7.8s
+  pure_high S4_continuous seed=1: best=1.381e-02 t=7.8s
+  pure_high S4_continuous seed=2: best=2.038e-02 t=7.8s
+  pure_high S5_three40 seed=0: best=4.492e-02 t=8.9s
+  pure_high S5_three40 seed=1: best=4.603e-02 t=7.7s
+  pure_high S5_three40 seed=2: best=4.670e-02 t=9.0s
+
+######### problem=multi_scale #########
+  multi_scale S1_single seed=0: best=7.071e-01 t=11.6s
+  multi_scale S1_single seed=1: best=7.071e-01 t=10.0s
+  multi_scale S1_single seed=2: best=7.071e-01 t=11.7s
+  multi_scale S2_two seed=0: best=7.073e-01 t=8.4s
+  multi_scale S2_two seed=1: best=7.008e-01 t=7.8s
+  multi_scale S2_two seed=2: best=7.092e-01 t=7.9s
+  multi_scale S3_three25 seed=0: best=7.073e-01 t=7.9s
+  multi_scale S3_three25 seed=1: best=7.072e-01 t=8.5s
+  multi_scale S3_three25 seed=2: best=7.070e-01 t=8.2s
+  multi_scale S4_continuous seed=0: best=7.068e-01 t=8.2s
+  multi_scale S4_continuous seed=1: best=7.060e-01 t=8.1s
+  multi_scale S4_continuous seed=2: best=7.077e-01 t=8.0s
+  multi_scale S5_three40 seed=0: best=7.061e-01 t=8.0s
+  multi_scale S5_three40 seed=1: best=7.068e-01 t=8.0s
+  multi_scale S5_three40 seed=2: best=7.077e-01 t=8.1s
+
+Saved E4 to /root/autodl-tmp/rebuttal_experiments/E4_freq_sampling_ablation/saved_data

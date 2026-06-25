@@ -1,0 +1,36 @@
+
+######### problem=separable #########
+  separable V0_Full seed=0: best=1.129e-02 t=10.9s params=1170
+  separable V0_Full seed=1: best=3.511e-02 t=7.7s params=1170
+  separable V0_Full seed=2: best=4.549e-02 t=9.0s params=1170
+  separable V1_NoSeparation seed=0: best=7.502e-01 t=2.9s params=1161
+  separable V1_NoSeparation seed=1: best=7.794e-01 t=1.8s params=1161
+  separable V1_NoSeparation seed=2: best=5.661e-01 t=1.5s params=1161
+  separable V2_NoSpectral seed=0: best=8.341e-01 t=22.9s params=8082
+  separable V2_NoSpectral seed=1: best=8.105e-01 t=23.1s params=8082
+  separable V2_NoSpectral seed=2: best=9.152e-01 t=21.9s params=8082
+  separable V3_NoMultilevel seed=0: best=4.388e-02 t=10.1s params=1170
+  separable V3_NoMultilevel seed=1: best=1.812e-02 t=9.1s params=1170
+  separable V3_NoMultilevel seed=2: best=2.739e-02 t=8.9s params=1170
+  separable V4_NoAnalytic seed=0: best=3.414e-02 t=13.3s params=1170
+  separable V4_NoAnalytic seed=1: best=3.084e-02 t=13.3s params=1170
+  separable V4_NoAnalytic seed=2: best=2.772e-02 t=13.3s params=1170
+
+######### problem=nonseparable #########
+  nonseparable V0_Full seed=0: best=4.137e-02 t=9.1s params=1170
+  nonseparable V0_Full seed=1: best=3.469e-02 t=10.0s params=1170
+  nonseparable V0_Full seed=2: best=6.690e-02 t=8.9s params=1170
+  nonseparable V1_NoSeparation seed=0: best=6.122e-01 t=1.3s params=1161
+  nonseparable V1_NoSeparation seed=1: best=3.506e-01 t=1.3s params=1161
+  nonseparable V1_NoSeparation seed=2: best=4.291e-01 t=1.7s params=1161
+  nonseparable V2_NoSpectral seed=0: best=7.980e-01 t=23.1s params=8082
+  nonseparable V2_NoSpectral seed=1: best=7.906e-01 t=23.2s params=8082
+  nonseparable V2_NoSpectral seed=2: best=8.624e-01 t=22.7s params=8082
+  nonseparable V3_NoMultilevel seed=0: best=6.931e-02 t=9.4s params=1170
+  nonseparable V3_NoMultilevel seed=1: best=5.656e-02 t=9.5s params=1170
+  nonseparable V3_NoMultilevel seed=2: best=8.056e-02 t=9.1s params=1170
+  nonseparable V4_NoAnalytic seed=0: best=3.125e-02 t=15.2s params=1170
+  nonseparable V4_NoAnalytic seed=1: best=2.122e-02 t=13.6s params=1170
+  nonseparable V4_NoAnalytic seed=2: best=4.040e-02 t=13.4s params=1170
+
+Saved E3 to /root/autodl-tmp/rebuttal_experiments/E3_component_ablation/saved_data

@@ -1,0 +1,27 @@
+[E20] FNO ntrain=64 seed0: rel_l2=7.6072e-02 params=4202976 train=5.2s infer=0.417ms
+[E20] FNO ntrain=64 seed1: rel_l2=7.1869e-02 params=4202976 train=5.9s infer=0.333ms
+[E20] FNO ntrain=64 seed2: rel_l2=7.0983e-02 params=4202976 train=6.0s infer=0.352ms
+[E20] FNO ntrain=256 seed0: rel_l2=2.3044e-02 params=4202976 train=10.4s infer=0.261ms
+[E20] FNO ntrain=256 seed1: rel_l2=1.7844e-02 params=4202976 train=11.3s infer=0.407ms
+[E20] FNO ntrain=256 seed2: rel_l2=2.5094e-02 params=4202976 train=11.9s infer=0.379ms
+[E20] FNO ntrain=1024 seed0: rel_l2=1.2710e-02 params=4202976 train=32.1s infer=0.347ms
+[E20] FNO ntrain=1024 seed1: rel_l2=1.2414e-02 params=4202976 train=30.6s infer=0.229ms
+[E20] FNO ntrain=1024 seed2: rel_l2=1.2243e-02 params=4202976 train=34.2s infer=0.421ms
+[E20] SVSNN inst  0: best_l2=5.6846e-02 params=1170 t=6.7s
+[E20] SVSNN inst  1: best_l2=1.6464e-02 params=1170 t=7.0s
+[E20] SVSNN inst  2: best_l2=3.0091e-02 params=1170 t=5.9s
+[E20] SVSNN inst  3: best_l2=5.7674e-02 params=1170 t=5.1s
+[E20] SVSNN inst  4: best_l2=6.1719e-03 params=1170 t=6.2s
+[E20] SVSNN inst  5: best_l2=3.1931e-02 params=1170 t=5.2s
+[E20] SVSNN inst  6: best_l2=7.0980e-02 params=1170 t=5.5s
+[E20] SVSNN inst  7: best_l2=6.6921e-02 params=1170 t=5.1s
+[E20] SVSNN inst  8: best_l2=3.9362e-02 params=1170 t=5.0s
+[E20] SVSNN inst  9: best_l2=6.1768e-02 params=1170 t=5.1s
+[E20] SVSNN inst 10: best_l2=3.2229e-02 params=1170 t=5.4s
+[E20] SVSNN inst 11: best_l2=1.5881e-02 params=1170 t=5.1s
+[E20] SVSNN inst 12: best_l2=1.8204e-02 params=1170 t=5.7s
+[E20] SVSNN inst 13: best_l2=1.2662e-01 params=1170 t=5.1s
+[E20] SVSNN inst 14: best_l2=1.6094e-02 params=1170 t=5.0s
+[E20] SVSNN inst 15: best_l2=8.3044e-03 params=1170 t=6.3s
+[E20] SVSNN subset: rel_l2=4.0972e-02+-3.0412e-02 solve=5.6s/inst
+[E20] wrote summary.json

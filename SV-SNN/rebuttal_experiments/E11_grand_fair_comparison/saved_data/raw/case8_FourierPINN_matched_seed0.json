@@ -1,0 +1,18 @@
+{
+  "method": "FourierPINN",
+  "budget": "matched",
+  "seed": 0,
+  "total_params": 2607,
+  "target_params": 2688,
+  "matched_within_tol": true,
+  "best_l2": 0.33705569520938655,
+  "final_l2": 0.6718282598348838,
+  "wall_clock_train_sec": 18.21536946296692,
+  "ms_per_100_epoch": 182.1536946296692,
+  "ms_per_epoch": 1.821536946296692,
+  "peak_gpu_mem_mb": 269.89952,
+  "inference_time_ms": NaN,
+  "n_collocation": 5000,
+  "case": "case8",
+  "status": "ok"
+}

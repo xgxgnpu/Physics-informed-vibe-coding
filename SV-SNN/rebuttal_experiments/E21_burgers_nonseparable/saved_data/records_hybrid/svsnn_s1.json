@@ -1,0 +1,19 @@
+{
+  "method": "svsnn",
+  "seed": 1,
+  "total_params": 209196,
+  "target_params": 209196,
+  "matched_within_tol": true,
+  "sizes": {},
+  "best_l2": 5.568603480173418e-06,
+  "l2_exact": 5.568603480173418e-06,
+  "l2_interp": 1.0855689946147467e-05,
+  "wall_clock_train_sec": 74.34983730316162,
+  "ms_per_100_epoch": 571.9218254089355,
+  "peak_gpu_mem_mb": 90.785024,
+  "inference_time_ms": 1.9266128540039062,
+  "n_modes": 300,
+  "ode_dt": 0.0005,
+  "nu": 0.003183098861837907,
+  "paradigm": "shared Galerkin-ODE substrate + temporal-representation fit"
+}

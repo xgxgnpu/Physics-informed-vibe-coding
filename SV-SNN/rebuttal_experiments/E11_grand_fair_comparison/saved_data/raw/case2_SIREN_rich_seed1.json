@@ -1,0 +1,18 @@
+{
+  "method": "SIREN",
+  "budget": "rich",
+  "seed": 1,
+  "total_params": 82689,
+  "target_params": null,
+  "matched_within_tol": null,
+  "best_l2": 0.8840581020226606,
+  "final_l2": 0.8840581020226606,
+  "wall_clock_train_sec": 25.97341513633728,
+  "ms_per_100_epoch": 259.78610858508983,
+  "ms_per_epoch": 2.5978610858508984,
+  "peak_gpu_mem_mb": 341.748224,
+  "inference_time_ms": 3.300809860229492,
+  "n_collocation": 10000,
+  "case": "case2",
+  "status": "ok"
+}

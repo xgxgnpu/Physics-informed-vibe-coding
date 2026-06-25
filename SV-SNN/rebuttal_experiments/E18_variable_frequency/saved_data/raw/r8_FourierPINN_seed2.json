@@ -1,0 +1,9 @@
+{
+  "ratio": 8,
+  "method": "FourierPINN",
+  "seed": 2,
+  "best_l2": 0.9981200661221189,
+  "params": 1249,
+  "time_s": 3.6062328815460205,
+  "target": 1170
+}

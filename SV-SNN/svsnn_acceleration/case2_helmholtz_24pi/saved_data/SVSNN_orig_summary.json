@@ -1,0 +1,8 @@
+{
+  "method": "SVSNN_orig",
+  "total_params": 1170,
+  "total_time_sec": 15.479408025741577,
+  "best_l2_error": 0.009356807489133891,
+  "final_l2_error": 0.015920897011748644,
+  "ms_per_epoch": 1.5482504526646905
+}

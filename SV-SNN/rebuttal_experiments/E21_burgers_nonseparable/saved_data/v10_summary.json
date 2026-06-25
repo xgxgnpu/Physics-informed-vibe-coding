@@ -1,0 +1,17 @@
+{
+  "method": "SV-SNN v10 Shared SIREN backbone + per-mode linear heads",
+  "pde": "u_t + u*u_x = nu*u_xx",
+  "nu": 0.003183098861837907,
+  "K_modes": 300,
+  "backbone_hidden": 256,
+  "backbone_D": 256,
+  "n_hidden": 2,
+  "omega_0": 30.0,
+  "total_params": 209196,
+  "adam_epochs": 30000,
+  "lbfgs_iters": 100000,
+  "total_time_sec": 86.88,
+  "best_l2_interp": 1.0992502518058226e-05,
+  "best_l2_exact": 5.824821779517734e-06,
+  "target_met": true
+}

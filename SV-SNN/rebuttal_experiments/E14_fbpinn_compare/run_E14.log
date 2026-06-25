@@ -1,0 +1,15 @@
+  SVSNN seed=0: masked best L2=4.206e-02 params=2328 t=15.9s
+  SVSNN seed=1: masked best L2=4.109e-02 params=2328 t=17.0s
+  SVSNN seed=2: masked best L2=5.047e-02 params=2328 t=15.6s
+  FBPINN seed=0: masked best L2=1.165e+00 params=3280 t=66.2s
+  FBPINN seed=1: masked best L2=1.039e+00 params=3280 t=47.4s
+  FBPINN seed=2: masked best L2=9.564e-01 params=3280 t=45.9s
+  FBPINN-rich seed=0: masked best L2=4.607e-01 params=12132 t=124.0s
+  FBPINN-rich seed=1: masked best L2=6.851e-01 params=12132 t=124.3s
+  FBPINN-rich seed=2: masked best L2=6.963e-01 params=12132 t=129.8s
+  FourierPINN seed=0: masked best L2=2.017e-01 params=57953 t=12.1s
+  FourierPINN seed=1: masked best L2=2.214e-01 params=57953 t=9.7s
+  FourierPINN seed=2: masked best L2=2.220e-01 params=57953 t=9.8s
+
+Saved E14 to /root/autodl-tmp/rebuttal_experiments/E14_fbpinn_compare/saved_data
+a

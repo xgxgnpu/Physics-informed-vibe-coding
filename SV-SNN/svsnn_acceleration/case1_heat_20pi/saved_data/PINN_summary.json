@@ -1,0 +1,8 @@
+{
+  "method": "PINN",
+  "total_params": 50049,
+  "total_time_sec": 17.54,
+  "best_l2_error": 0.46891615474030834,
+  "final_l2_error": 0.46891615474030834,
+  "ms_per_epoch": 1.75
+}

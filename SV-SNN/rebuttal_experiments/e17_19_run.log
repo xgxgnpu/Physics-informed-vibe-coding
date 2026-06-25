@@ -1,0 +1,236 @@
+=== E17 start Wed Jun 24 16:24:08 CST 2026 ===
+
+==== spectrum 2comp  (k_max=24pi, target params=1170) ====
+  2comp  SVSNN        seed0: L2=1.1049e-01 params=1170
+  2comp  SVSNN        seed1: L2=6.5191e-02 params=1170
+  2comp  SVSNN        seed2: L2=5.6089e-02 params=1170
+  2comp  FourierPINN  seed0: L2=4.4087e-01 params=1249
+  2comp  FourierPINN  seed1: L2=7.3070e-01 params=1249
+  2comp  FourierPINN  seed2: L2=3.5055e-01 params=1249
+  2comp  SIREN        seed0: L2=6.9756e-01 params=1143
+  2comp  SIREN        seed1: L2=6.7355e-01 params=1143
+  2comp  SIREN        seed2: L2=7.0897e-01 params=1143
+  2comp  SPINN        seed0: L2=7.0886e-01 params=1164
+  2comp  SPINN        seed1: L2=7.0776e-01 params=1164
+  2comp  SPINN        seed2: L2=7.0769e-01 params=1164
+  2comp  PINN         seed0: L2=9.1672e+00 params=1217
+  2comp  PINN         seed1: L2=6.9676e+00 params=1217
+  2comp  PINN         seed2: L2=2.9974e+00 params=1217
+
+==== spectrum 3comp  (k_max=30pi, target params=1170) ====
+  3comp  SVSNN        seed0: L2=2.0136e-02 params=1170
+  3comp  SVSNN        seed1: L2=1.6409e-02 params=1170
+  3comp  SVSNN        seed2: L2=5.1658e-02 params=1170
+  3comp  FourierPINN  seed0: L2=5.4008e-01 params=1249
+  3comp  FourierPINN  seed1: L2=8.6998e-01 params=1249
+  3comp  FourierPINN  seed2: L2=6.2338e-01 params=1249
+  3comp  SIREN        seed0: L2=5.8472e-01 params=1143
+  3comp  SIREN        seed1: L2=6.0534e-01 params=1143
+  3comp  SIREN        seed2: L2=6.3676e-01 params=1143
+  3comp  SPINN        seed0: L2=5.8799e-01 params=1164
+  3comp  SPINN        seed1: L2=5.8207e-01 params=1164
+  3comp  SPINN        seed2: L2=5.8806e-01 params=1164
+  3comp  PINN         seed0: L2=7.2008e+00 params=1217
+  3comp  PINN         seed1: L2=5.7973e+00 params=1217
+  3comp  PINN         seed2: L2=6.9310e+00 params=1217
+
+==== spectrum 4comp  (k_max=36pi, target params=1170) ====
+  4comp  SVSNN        seed0: L2=6.7730e-01 params=1170
+  4comp  SVSNN        seed1: L2=6.7009e-01 params=1170
+  4comp  SVSNN        seed2: L2=6.9844e-01 params=1170
+  4comp  FourierPINN  seed0: L2=7.2423e-01 params=1249
+  4comp  FourierPINN  seed1: L2=1.0059e+00 params=1249
+  4comp  FourierPINN  seed2: L2=7.3403e-01 params=1249
+  4comp  SIREN        seed0: L2=7.3525e-01 params=1143
+  4comp  SIREN        seed1: L2=7.3646e-01 params=1143
+  4comp  SIREN        seed2: L2=9.9966e-01 params=1143
+  4comp  SPINN        seed0: L2=8.6866e-01 params=1164
+  4comp  SPINN        seed1: L2=7.0868e-01 params=1164
+  4comp  SPINN        seed2: L2=7.2547e-01 params=1164
+  4comp  PINN         seed0: L2=5.5768e+00 params=1217
+  4comp  PINN         seed1: L2=7.7574e+00 params=1217
+  4comp  PINN         seed2: L2=4.7903e+00 params=1217
+
+[E17] wrote summary.json
+/root/autodl-tmp/rebuttal_experiments/E17_multi_frequency/plot_E17.py:18: SyntaxWarning: invalid escape sequence '\p'
+  SLABEL = {"2comp": "2 components\n[8,24]$\pi$", "3comp": "3 components\n[8,16,30]$\pi$",
+/root/autodl-tmp/rebuttal_experiments/E17_multi_frequency/plot_E17.py:18: SyntaxWarning: invalid escape sequence '\p'
+  SLABEL = {"2comp": "2 components\n[8,24]$\pi$", "3comp": "3 components\n[8,16,30]$\pi$",
+/root/autodl-tmp/rebuttal_experiments/E17_multi_frequency/plot_E17.py:19: SyntaxWarning: invalid escape sequence '\p'
+  "4comp": "4 components\n[6,14,24,36]$\pi$"}
+/root/autodl-tmp/rebuttal_experiments/E17_multi_frequency/plot_E17.py:38: SyntaxWarning: invalid escape sequence '\p'
+  ax.set_title("E17  Multi-Frequency Poisson (matched params, mean$\pm$std over 3 seeds)")
+/root/autodl-tmp/rebuttal_experiments/E17_multi_frequency/plot_E17.py:56: SyntaxWarning: invalid escape sequence '\p'
+  xlabels = [f"{float(b.split('_')[1])/np.pi:.0f}$\pi$" for b in bands]
+wrote /root/autodl-tmp/rebuttal_experiments/E17_multi_frequency/figures/E17_bars.png
+wrote /root/autodl-tmp/rebuttal_experiments/E17_multi_frequency/figures/E17_per_component.png
+=== E18 start Wed Jun 24 16:32:36 CST 2026 ===
+
+==== chirp ratio r=1  (k_min=6pi, k_max=6pi, target=1170) ====
+  r1 SVSNN        seed0: L2=3.0001e-02 params=1170
+  r1 SVSNN        seed1: L2=1.9312e-02 params=1170
+  r1 SVSNN        seed2: L2=5.3823e-02 params=1170
+  r1 FourierPINN  seed0: L2=2.8346e-01 params=1249
+  r1 FourierPINN  seed1: L2=9.9037e-01 params=1249
+  r1 FourierPINN  seed2: L2=2.2238e-01 params=1249
+  r1 SIREN        seed0: L2=1.7128e-01 params=1143
+  r1 SIREN        seed1: L2=2.4532e-01 params=1143
+  r1 SIREN        seed2: L2=2.8748e-01 params=1143
+  r1 SPINN        seed0: L2=1.5311e-01 params=1164
+  r1 SPINN        seed1: L2=1.6813e-01 params=1164
+  r1 SPINN        seed2: L2=1.1416e-01 params=1164
+  r1 PINN         seed0: L2=1.7992e+00 params=1217
+  r1 PINN         seed1: L2=2.8788e+00 params=1217
+  r1 PINN         seed2: L2=2.1010e+00 params=1217
+
+==== chirp ratio r=2  (k_min=6pi, k_max=12pi, target=1170) ====
+  r2 SVSNN        seed0: L2=5.1491e-02 params=1170
+  r2 SVSNN        seed1: L2=5.5137e-03 params=1170
+  r2 SVSNN        seed2: L2=5.3826e-03 params=1170
+  r2 FourierPINN  seed0: L2=8.1844e-02 params=1249
+  r2 FourierPINN  seed1: L2=4.6375e-01 params=1249
+  r2 FourierPINN  seed2: L2=1.5024e-01 params=1249
+  r2 SIREN        seed0: L2=1.8088e-01 params=1143
+  r2 SIREN        seed1: L2=1.0273e-01 params=1143
+  r2 SIREN        seed2: L2=2.2717e-01 params=1143
+  r2 SPINN        seed0: L2=2.8193e-03 params=1164
+  r2 SPINN        seed1: L2=2.6167e-02 params=1164
+  r2 SPINN        seed2: L2=1.0891e-02 params=1164
+  r2 PINN         seed0: L2=2.3108e+00 params=1217
+  r2 PINN         seed1: L2=2.1066e+00 params=1217
+  r2 PINN         seed2: L2=3.5383e+00 params=1217
+
+==== chirp ratio r=4  (k_min=6pi, k_max=24pi, target=1170) ====
+  r4 SVSNN        seed0: L2=3.2628e-02 params=1170
+  r4 SVSNN        seed1: L2=2.2405e-02 params=1170
+  r4 SVSNN        seed2: L2=4.5114e-02 params=1170
+  r4 FourierPINN  seed0: L2=1.6766e-01 params=1249
+  r4 FourierPINN  seed1: L2=1.3393e-01 params=1249
+  r4 FourierPINN  seed2: L2=2.3043e-01 params=1249
+  r4 SIREN        seed0: L2=2.5317e-01 params=1143
+  r4 SIREN        seed1: L2=2.2981e-01 params=1143
+  r4 SIREN        seed2: L2=9.8877e-01 params=1143
+  r4 SPINN        seed0: L2=7.6950e-03 params=1164
+  r4 SPINN        seed1: L2=5.5451e-02 params=1164
+  r4 SPINN        seed2: L2=1.1020e-02 params=1164
+  r4 PINN         seed0: L2=2.0124e+00 params=1217
+  r4 PINN         seed1: L2=2.7520e+00 params=1217
+  r4 PINN         seed2: L2=1.3254e+00 params=1217
+
+==== chirp ratio r=8  (k_min=6pi, k_max=48pi, target=1170) ====
+  r8 SVSNN        seed0: L2=4.2452e-01 params=1170
+  r8 SVSNN        seed1: L2=5.3518e-01 params=1170
+  r8 SVSNN        seed2: L2=5.0041e-01 params=1170
+  r8 FourierPINN  seed0: L2=1.0004e+00 params=1249
+  r8 FourierPINN  seed1: L2=9.9800e-01 params=1249
+  r8 FourierPINN  seed2: L2=9.9812e-01 params=1249
+  r8 SIREN        seed0: L2=9.9849e-01 params=1143
+  r8 SIREN        seed1: L2=6.7467e-01 params=1143
+  r8 SIREN        seed2: L2=1.0009e+00 params=1143
+  r8 SPINN        seed0: L2=7.1710e-02 params=1164
+  r8 SPINN        seed1: L2=1.4934e-01 params=1164
+  r8 SPINN        seed2: L2=3.7130e-02 params=1164
+  r8 PINN         seed0: L2=9.7670e+00 params=1217
+  r8 PINN         seed1: L2=1.0396e+01 params=1217
+  r8 PINN         seed2: L2=9.9709e+00 params=1217
+[E18] wrote fields_r8.npz
+[E18] wrote summary.json
+/root/autodl-tmp/rebuttal_experiments/E18_variable_frequency/plot_E18.py:37: SyntaxWarning: invalid escape sequence '\p'
+  ax.set_title("E18  Variable-Frequency Poisson (matched params, mean$\pm$std, 3 seeds)")
+wrote /root/autodl-tmp/rebuttal_experiments/E18_variable_frequency/figures/E18_curves.png
+wrote /root/autodl-tmp/rebuttal_experiments/E18_variable_frequency/figures/E18_fields.png
+=== E19 start Wed Jun 24 16:43:34 CST 2026 ===
+true kappa=75.398  (24.0pi), FFT estimate=75.398 (24.00pi), target params=1170
+  rho=0.5  SVSNN        seed0: L2=1.0070e+00 params=1170
+  rho=0.5  SVSNN        seed1: L2=9.8896e-01 params=1170
+  rho=0.5  SVSNN        seed2: L2=9.8682e-01 params=1170
+  rho=0.5  FourierPINN  seed0: L2=2.3147e-01 params=1249
+  rho=0.5  FourierPINN  seed1: L2=1.4192e+00 params=1249
+  rho=0.5  FourierPINN  seed2: L2=1.5829e+00 params=1249
+  rho=0.5  SPINN        seed0: L2=5.3564e-02 params=1164
+  rho=0.5  SPINN        seed1: L2=4.2797e-02 params=1164
+  rho=0.5  SPINN        seed2: L2=2.9057e-02 params=1164
+  rho=0.5  SIREN        seed0: L2=1.1306e+00 params=1143
+  rho=0.5  SIREN        seed1: L2=5.8985e-01 params=1143
+  rho=0.5  SIREN        seed2: L2=2.4195e-01 params=1143
+  rho=0.7  SVSNN        seed0: L2=9.9205e-02 params=1170
+  rho=0.7  SVSNN        seed1: L2=4.1950e-02 params=1170
+  rho=0.7  SVSNN        seed2: L2=1.4091e-01 params=1170
+  rho=0.7  FourierPINN  seed0: L2=3.6761e-01 params=1249
+  rho=0.7  FourierPINN  seed1: L2=3.7132e-01 params=1249
+  rho=0.7  FourierPINN  seed2: L2=1.1222e+00 params=1249
+  rho=0.7  SPINN        seed0: L2=8.0896e-02 params=1164
+  rho=0.7  SPINN        seed1: L2=3.3832e-02 params=1164
+  rho=0.7  SPINN        seed2: L2=1.2782e-01 params=1164
+  rho=0.7  SIREN        seed0: L2=2.1505e-01 params=1143
+  rho=0.7  SIREN        seed1: L2=8.8010e-01 params=1143
+  rho=0.7  SIREN        seed2: L2=5.3375e-01 params=1143
+  rho=0.85 SVSNN        seed0: L2=4.8852e-02 params=1170
+  rho=0.85 SVSNN        seed1: L2=7.8142e-02 params=1170
+  rho=0.85 SVSNN        seed2: L2=2.7792e-02 params=1170
+  rho=0.85 FourierPINN  seed0: L2=2.4224e-01 params=1249
+  rho=0.85 FourierPINN  seed1: L2=2.2401e-01 params=1249
+  rho=0.85 FourierPINN  seed2: L2=8.7420e-01 params=1249
+  rho=0.85 SPINN        seed0: L2=3.2581e-02 params=1164
+  rho=0.85 SPINN        seed1: L2=7.6362e-02 params=1164
+  rho=0.85 SPINN        seed2: L2=1.8227e-01 params=1164
+  rho=0.85 SIREN        seed0: L2=2.7195e-01 params=1143
+  rho=0.85 SIREN        seed1: L2=1.0257e-01 params=1143
+  rho=0.85 SIREN        seed2: L2=2.4827e-01 params=1143
+  rho=1.0  SVSNN        seed0: L2=6.2022e-03 params=1170
+  rho=1.0  SVSNN        seed1: L2=2.5741e-02 params=1170
+  rho=1.0  SVSNN        seed2: L2=4.7159e-02 params=1170
+  rho=1.0  FourierPINN  seed0: L2=2.4787e-02 params=1249
+  rho=1.0  FourierPINN  seed1: L2=1.3183e-01 params=1249
+  rho=1.0  FourierPINN  seed2: L2=3.4956e-01 params=1249
+  rho=1.0  SPINN        seed0: L2=7.7590e-02 params=1164
+  rho=1.0  SPINN        seed1: L2=2.8705e-02 params=1164
+  rho=1.0  SPINN        seed2: L2=2.5260e-02 params=1164
+  rho=1.0  SIREN        seed0: L2=8.8566e-02 params=1143
+  rho=1.0  SIREN        seed1: L2=3.6631e-01 params=1143
+  rho=1.0  SIREN        seed2: L2=5.9831e-02 params=1143
+  rho=1.2  SVSNN        seed0: L2=1.8481e-02 params=1170
+  rho=1.2  SVSNN        seed1: L2=8.4628e-03 params=1170
+  rho=1.2  SVSNN        seed2: L2=6.8570e-03 params=1170
+  rho=1.2  FourierPINN  seed0: L2=3.5739e-02 params=1249
+  rho=1.2  FourierPINN  seed1: L2=4.5547e-02 params=1249
+  rho=1.2  FourierPINN  seed2: L2=2.0548e-02 params=1249
+  rho=1.2  SPINN        seed0: L2=9.5548e-02 params=1164
+  rho=1.2  SPINN        seed1: L2=1.6449e-01 params=1164
+  rho=1.2  SPINN        seed2: L2=1.1950e-01 params=1164
+  rho=1.2  SIREN        seed0: L2=5.1821e-02 params=1143
+  rho=1.2  SIREN        seed1: L2=5.9939e-02 params=1143
+  rho=1.2  SIREN        seed2: L2=7.5879e-02 params=1143
+  rho=1.5  SVSNN        seed0: L2=4.0449e-03 params=1170
+  rho=1.5  SVSNN        seed1: L2=6.6954e-03 params=1170
+  rho=1.5  SVSNN        seed2: L2=3.7865e-03 params=1170
+  rho=1.5  FourierPINN  seed0: L2=2.7526e-02 params=1249
+  rho=1.5  FourierPINN  seed1: L2=1.0023e+00 params=1249
+  rho=1.5  FourierPINN  seed2: L2=9.9114e-01 params=1249
+  rho=1.5  SPINN        seed0: L2=9.9675e-01 params=1164
+  rho=1.5  SPINN        seed1: L2=1.0467e-01 params=1164
+  rho=1.5  SPINN        seed2: L2=2.2797e-01 params=1164
+  rho=1.5  SIREN        seed0: L2=2.7068e-01 params=1143
+  rho=1.5  SIREN        seed1: L2=9.6978e-02 params=1143
+  rho=1.5  SIREN        seed2: L2=1.0004e+00 params=1143
+  rho=2.0  SVSNN        seed0: L2=1.0243e-01 params=1170
+  rho=2.0  SVSNN        seed1: L2=2.6728e-02 params=1170
+  rho=2.0  SVSNN        seed2: L2=3.9645e-02 params=1170
+  rho=2.0  FourierPINN  seed0: L2=1.0008e+00 params=1249
+  rho=2.0  FourierPINN  seed1: L2=1.0002e+00 params=1249
+  rho=2.0  FourierPINN  seed2: L2=9.9808e-01 params=1249
+  rho=2.0  SPINN        seed0: L2=5.7965e-02 params=1164
+  rho=2.0  SPINN        seed1: L2=1.0450e-01 params=1164
+  rho=2.0  SPINN        seed2: L2=5.7496e-02 params=1164
+  rho=2.0  SIREN        seed0: L2=9.9844e-01 params=1143
+  rho=2.0  SIREN        seed1: L2=1.0015e+00 params=1143
+  rho=2.0  SIREN        seed2: L2=1.0008e+00 params=1143
+  indep PINN           seed0: L2=1.2868e+01
+  indep PINN           seed1: L2=9.8986e+00
+  indep PINN           seed2: L2=1.9852e+00
+  indep SVSNN_FFTauto  seed0: L2=6.2022e-03
+  indep SVSNN_FFTauto  seed1: L2=2.5741e-02
+  indep SVSNN_FFTauto  seed2: L2=4.7159e-02
+[E19] wrote summary.json
+wrote /root/autodl-tmp/rebuttal_experiments/E19_wchar_misestimation/figures/E19_ucurves.png
+=== ALL DONE Wed Jun 24 16:59:55 CST 2026 ===

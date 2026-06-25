@@ -1,0 +1,8 @@
+{
+  "method": "FourierPINN",
+  "total_params": 66177,
+  "total_time_sec": 12.76900577545166,
+  "best_l2_error": 0.3303798907901845,
+  "final_l2_error": 0.33067025793811944,
+  "ms_per_epoch": 1.2771560087469154
+}

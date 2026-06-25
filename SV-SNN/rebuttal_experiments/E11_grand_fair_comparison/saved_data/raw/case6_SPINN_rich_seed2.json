@@ -1,0 +1,18 @@
+{
+  "method": "SPINN",
+  "budget": "rich",
+  "seed": 2,
+  "total_params": 91136,
+  "target_params": null,
+  "matched_within_tol": null,
+  "best_l2": 1.388828961082144,
+  "final_l2": 1.388828961082144,
+  "wall_clock_train_sec": 16.396189212799072,
+  "ms_per_100_epoch": 163.99469106620396,
+  "ms_per_epoch": 1.6399469106620397,
+  "peak_gpu_mem_mb": 140.503296,
+  "inference_time_ms": 3.2066822052001953,
+  "n_collocation": 10000,
+  "case": "case6",
+  "status": "ok"
+}

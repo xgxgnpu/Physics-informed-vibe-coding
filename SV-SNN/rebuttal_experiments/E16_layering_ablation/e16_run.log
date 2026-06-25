@@ -1,0 +1,2212 @@
+[E16] case1 default seed0: reused E11 best_l2=3.6580e-04
+[E16] case1 default seed1: reused E11 best_l2=7.9616e-04
+[E16] case1 default seed2: reused E11 best_l2=4.9631e-04
+[E16] RUN --case case1 --seed 0 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case1_S1_single_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Vectorized modes, analytic X_n'', manual T_n', separable grid
+  stop_gradient on freqs, zero AD in PDE residual
+============================================================
+  JIT compiling...
+  Epoch  1000 | Loss: 3.446614e-05 | L2 Err: 1.163984e-03
+  Epoch  2000 | Loss: 3.506987e-06 | L2 Err: 3.339672e-04
+  Epoch  3000 | Loss: 3.220504e-06 | L2 Err: 2.071196e-03
+  Epoch  4000 | Loss: 9.477793e-06 | L2 Err: 3.162329e-03
+  Epoch  5000 | Loss: 6.174409e-07 | L2 Err: 2.614104e-04
+  Epoch  6000 | Loss: 3.962129e-07 | L2 Err: 5.405964e-04
+  Epoch  7000 | Loss: 7.264808e-07 | L2 Err: 3.438265e-04
+  Epoch  8000 | Loss: 5.981300e-05 | L2 Err: 1.302744e-02
+  Epoch  9000 | Loss: 2.403844e-07 | L2 Err: 4.068993e-04
+  Epoch 10000 | Loss: 2.127968e-07 | L2 Err: 5.661497e-04
+[abl] case1 strat=S1_single scale=1.0 seed=0: best_l2=2.0233e-04 params=3730 t=40.2s
+[E16] RUN --case case1 --seed 1 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case1_S1_single_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Vectorized modes, analytic X_n'', manual T_n', separable grid
+  stop_gradient on freqs, zero AD in PDE residual
+============================================================
+  JIT compiling...
+  Epoch  1000 | Loss: 8.409707e-06 | L2 Err: 1.408152e-03
+  Epoch  2000 | Loss: 2.330805e-06 | L2 Err: 6.338871e-04
+  Epoch  3000 | Loss: 1.620096e-06 | L2 Err: 6.007368e-04
+  Epoch  4000 | Loss: 1.007189e-06 | L2 Err: 8.322031e-04
+  Epoch  5000 | Loss: 3.267505e-06 | L2 Err: 1.740026e-03
+  Epoch  6000 | Loss: 6.984570e-07 | L2 Err: 8.937110e-04
+  Epoch  7000 | Loss: 1.960207e-06 | L2 Err: 1.521674e-03
+  Epoch  8000 | Loss: 6.699259e-07 | L2 Err: 6.386760e-04
+  Epoch  9000 | Loss: 1.753060e-06 | L2 Err: 1.474505e-03
+  Epoch 10000 | Loss: 2.924160e-07 | L2 Err: 5.749925e-04
+[abl] case1 strat=S1_single scale=1.0 seed=1: best_l2=1.6579e-04 params=3730 t=40.9s
+[E16] RUN --case case1 --seed 2 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case1_S1_single_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Vectorized modes, analytic X_n'', manual T_n', separable grid
+  stop_gradient on freqs, zero AD in PDE residual
+============================================================
+  JIT compiling...
+  Epoch  1000 | Loss: 5.863380e-06 | L2 Err: 3.724104e-04
+  Epoch  2000 | Loss: 2.118818e-06 | L2 Err: 4.300237e-04
+  Epoch  3000 | Loss: 8.904173e-07 | L2 Err: 5.194652e-04
+  Epoch  4000 | Loss: 1.264080e-05 | L2 Err: 4.602998e-03
+  Epoch  5000 | Loss: 1.316262e-04 | L2 Err: 9.261701e-03
+  Epoch  6000 | Loss: 8.279241e-07 | L2 Err: 6.140238e-04
+  Epoch  7000 | Loss: 2.334551e-07 | L2 Err: 3.095122e-04
+  Epoch  8000 | Loss: 1.412130e-06 | L2 Err: 1.486513e-03
+  Epoch  9000 | Loss: 1.725753e-07 | L2 Err: 2.627424e-04
+  Epoch 10000 | Loss: 3.095385e-07 | L2 Err: 2.926824e-04
+[abl] case1 strat=S1_single scale=1.0 seed=2: best_l2=1.4987e-04 params=3730 t=39.9s
+[E16] RUN --case case1 --seed 0 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case1_S2_two_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Vectorized modes, analytic X_n'', manual T_n', separable grid
+  stop_gradient on freqs, zero AD in PDE residual
+============================================================
+  JIT compiling...
+  Epoch  1000 | Loss: 4.649637e-05 | L2 Err: 4.969919e-03
+  Epoch  2000 | Loss: 6.727447e-06 | L2 Err: 1.441924e-03
+  Epoch  3000 | Loss: 1.969690e-06 | L2 Err: 5.554728e-04
+  Epoch  4000 | Loss: 9.814893e-07 | L2 Err: 5.334627e-04
+  Epoch  5000 | Loss: 4.851468e-06 | L2 Err: 1.684388e-03
+  Epoch  6000 | Loss: 1.324180e-06 | L2 Err: 7.128866e-04
+  Epoch  7000 | Loss: 8.872404e-07 | L2 Err: 5.877146e-04
+  Epoch  8000 | Loss: 6.154884e-06 | L2 Err: 4.106916e-03
+  Epoch  9000 | Loss: 4.533193e-06 | L2 Err: 2.381403e-03
+  Epoch 10000 | Loss: 5.512543e-07 | L2 Err: 5.357404e-04
+[abl] case1 strat=S2_two scale=1.0 seed=0: best_l2=3.3086e-04 params=3730 t=32.3s
+[E16] RUN --case case1 --seed 1 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case1_S2_two_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Vectorized modes, analytic X_n'', manual T_n', separable grid
+  stop_gradient on freqs, zero AD in PDE residual
+============================================================
+  JIT compiling...
+  Epoch  1000 | Loss: 5.342629e-05 | L2 Err: 3.359139e-03
+  Epoch  2000 | Loss: 1.124889e-05 | L2 Err: 2.177543e-03
+  Epoch  3000 | Loss: 4.986169e-06 | L2 Err: 1.728316e-03
+  Epoch  4000 | Loss: 1.154263e-05 | L2 Err: 1.862622e-03
+  Epoch  5000 | Loss: 5.597662e-06 | L2 Err: 1.908640e-03
+  Epoch  6000 | Loss: 2.228083e-06 | L2 Err: 1.213185e-03
+  Epoch  7000 | Loss: 5.376518e-07 | L2 Err: 4.535207e-04
+  Epoch  8000 | Loss: 1.310346e-06 | L2 Err: 1.011371e-03
+  Epoch  9000 | Loss: 1.001281e-06 | L2 Err: 7.132140e-04
+  Epoch 10000 | Loss: 3.629597e-07 | L2 Err: 3.617159e-04
+[abl] case1 strat=S2_two scale=1.0 seed=1: best_l2=3.6172e-04 params=3730 t=32.6s
+[E16] RUN --case case1 --seed 2 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case1_S2_two_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Vectorized modes, analytic X_n'', manual T_n', separable grid
+  stop_gradient on freqs, zero AD in PDE residual
+============================================================
+  JIT compiling...
+  Epoch  1000 | Loss: 2.845125e-05 | L2 Err: 2.683822e-03
+  Epoch  2000 | Loss: 6.713947e-06 | L2 Err: 1.084818e-03
+  Epoch  3000 | Loss: 3.330721e-06 | L2 Err: 8.462219e-04
+  Epoch  4000 | Loss: 1.993919e-06 | L2 Err: 8.448529e-04
+  Epoch  5000 | Loss: 1.108101e-06 | L2 Err: 6.639428e-04
+  Epoch  6000 | Loss: 8.328451e-06 | L2 Err: 1.876666e-03
+  Epoch  7000 | Loss: 2.528208e-06 | L2 Err: 1.063763e-03
+  Epoch  8000 | Loss: 3.048774e-06 | L2 Err: 1.117752e-03
+  Epoch  9000 | Loss: 1.737326e-06 | L2 Err: 7.417345e-04
+  Epoch 10000 | Loss: 6.010423e-06 | L2 Err: 1.845726e-03
+[abl] case1 strat=S2_two scale=1.0 seed=2: best_l2=5.0506e-04 params=3730 t=30.2s
+[E16] RUN --case case1 --seed 0 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case1_S4_continuous_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Vectorized modes, analytic X_n'', manual T_n', separable grid
+  stop_gradient on freqs, zero AD in PDE residual
+============================================================
+  JIT compiling...
+  Epoch  1000 | Loss: 2.210731e-04 | L2 Err: 1.528525e-02
+  Epoch  2000 | Loss: 4.092366e-05 | L2 Err: 5.721935e-03
+  Epoch  3000 | Loss: 2.184799e-05 | L2 Err: 5.003971e-03
+  Epoch  4000 | Loss: 1.879365e-05 | L2 Err: 4.253974e-03
+  Epoch  5000 | Loss: 1.271569e-05 | L2 Err: 3.770910e-03
+  Epoch  6000 | Loss: 8.815713e-06 | L2 Err: 3.389666e-03
+  Epoch  7000 | Loss: 5.880620e-06 | L2 Err: 3.039256e-03
+  Epoch  8000 | Loss: 7.347870e-06 | L2 Err: 2.788853e-03
+  Epoch  9000 | Loss: 4.670620e-06 | L2 Err: 2.349982e-03
+  Epoch 10000 | Loss: 3.372091e-06 | L2 Err: 2.168662e-03
+[abl] case1 strat=S4_continuous scale=1.0 seed=0: best_l2=2.1454e-03 params=3730 t=32.9s
+[E16] RUN --case case1 --seed 1 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case1_S4_continuous_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Vectorized modes, analytic X_n'', manual T_n', separable grid
+  stop_gradient on freqs, zero AD in PDE residual
+============================================================
+  JIT compiling...
+  Epoch  1000 | Loss: 1.206879e-03 | L2 Err: 4.308483e-02
+  Epoch  2000 | Loss: 1.625619e-04 | L2 Err: 1.551467e-02
+  Epoch  3000 | Loss: 1.956238e-04 | L2 Err: 1.326325e-02
+  Epoch  4000 | Loss: 8.830729e-05 | L2 Err: 1.165009e-02
+  Epoch  5000 | Loss: 7.775393e-05 | L2 Err: 1.090073e-02
+  Epoch  6000 | Loss: 6.753473e-05 | L2 Err: 9.904385e-03
+  Epoch  7000 | Loss: 5.179890e-05 | L2 Err: 9.118999e-03
+  Epoch  8000 | Loss: 5.032288e-05 | L2 Err: 8.520042e-03
+  Epoch  9000 | Loss: 3.525287e-05 | L2 Err: 7.509672e-03
+  Epoch 10000 | Loss: 3.378277e-05 | L2 Err: 6.641644e-03
+[abl] case1 strat=S4_continuous scale=1.0 seed=1: best_l2=6.6416e-03 params=3730 t=32.2s
+[E16] RUN --case case1 --seed 2 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case1_S4_continuous_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Vectorized modes, analytic X_n'', manual T_n', separable grid
+  stop_gradient on freqs, zero AD in PDE residual
+============================================================
+  JIT compiling...
+  Epoch  1000 | Loss: 2.213555e-04 | L2 Err: 1.399063e-02
+  Epoch  2000 | Loss: 1.217853e-04 | L2 Err: 8.342373e-03
+  Epoch  3000 | Loss: 3.267059e-05 | L2 Err: 5.905098e-03
+  Epoch  4000 | Loss: 3.091165e-05 | L2 Err: 5.414529e-03
+  Epoch  5000 | Loss: 3.516206e-05 | L2 Err: 5.013397e-03
+  Epoch  6000 | Loss: 1.374218e-05 | L2 Err: 4.274622e-03
+  Epoch  7000 | Loss: 1.333888e-05 | L2 Err: 3.454207e-03
+  Epoch  8000 | Loss: 1.268587e-05 | L2 Err: 3.418343e-03
+  Epoch  9000 | Loss: 3.976704e-06 | L2 Err: 2.608785e-03
+  Epoch 10000 | Loss: 3.113211e-06 | L2 Err: 2.324902e-03
+[abl] case1 strat=S4_continuous scale=1.0 seed=2: best_l2=2.3249e-03 params=3730 t=31.8s
+[E16] RUN --case case1 --seed 0 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case1_S5_40_40_20_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Vectorized modes, analytic X_n'', manual T_n', separable grid
+  stop_gradient on freqs, zero AD in PDE residual
+============================================================
+  JIT compiling...
+  Epoch  1000 | Loss: 2.529998e-05 | L2 Err: 3.674062e-03
+  Epoch  2000 | Loss: 1.261190e-05 | L2 Err: 3.084250e-03
+  Epoch  3000 | Loss: 7.781275e-06 | L2 Err: 2.646080e-03
+  Epoch  4000 | Loss: 6.815216e-06 | L2 Err: 2.390478e-03
+  Epoch  5000 | Loss: 2.876042e-06 | L2 Err: 1.638315e-03
+  Epoch  6000 | Loss: 5.695709e-06 | L2 Err: 1.550678e-03
+  Epoch  7000 | Loss: 3.694434e-06 | L2 Err: 2.328889e-03
+  Epoch  8000 | Loss: 1.530693e-06 | L2 Err: 7.337154e-04
+  Epoch  9000 | Loss: 9.343582e-06 | L2 Err: 1.683872e-03
+  Epoch 10000 | Loss: 7.253344e-07 | L2 Err: 7.468581e-04
+[abl] case1 strat=S5_40_40_20 scale=1.0 seed=0: best_l2=5.3503e-04 params=3730 t=34.3s
+[E16] RUN --case case1 --seed 1 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case1_S5_40_40_20_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Vectorized modes, analytic X_n'', manual T_n', separable grid
+  stop_gradient on freqs, zero AD in PDE residual
+============================================================
+  JIT compiling...
+  Epoch  1000 | Loss: 3.797422e-05 | L2 Err: 3.360986e-03
+  Epoch  2000 | Loss: 6.283394e-06 | L2 Err: 1.858427e-03
+  Epoch  3000 | Loss: 4.052728e-06 | L2 Err: 1.607585e-03
+  Epoch  4000 | Loss: 1.036119e-05 | L2 Err: 3.239268e-03
+  Epoch  5000 | Loss: 1.638179e-06 | L2 Err: 1.221708e-03
+  Epoch  6000 | Loss: 8.308181e-06 | L2 Err: 2.448255e-03
+  Epoch  7000 | Loss: 1.212047e-06 | L2 Err: 1.238642e-03
+  Epoch  8000 | Loss: 1.142312e-06 | L2 Err: 9.947498e-04
+  Epoch  9000 | Loss: 9.468748e-07 | L2 Err: 9.376803e-04
+  Epoch 10000 | Loss: 3.918832e-06 | L2 Err: 1.070652e-03
+[abl] case1 strat=S5_40_40_20 scale=1.0 seed=1: best_l2=7.2040e-04 params=3730 t=33.2s
+[E16] RUN --case case1 --seed 2 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case1_S5_40_40_20_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Vectorized modes, analytic X_n'', manual T_n', separable grid
+  stop_gradient on freqs, zero AD in PDE residual
+============================================================
+  JIT compiling...
+  Epoch  1000 | Loss: 2.334621e-05 | L2 Err: 2.938955e-03
+  Epoch  2000 | Loss: 9.664623e-06 | L2 Err: 2.474227e-03
+  Epoch  3000 | Loss: 7.490934e-06 | L2 Err: 2.469333e-03
+  Epoch  4000 | Loss: 5.313071e-06 | L2 Err: 2.094202e-03
+  Epoch  5000 | Loss: 5.238882e-06 | L2 Err: 2.077034e-03
+  Epoch  6000 | Loss: 5.676167e-06 | L2 Err: 1.785168e-03
+  Epoch  7000 | Loss: 2.018059e-06 | L2 Err: 1.527789e-03
+  Epoch  8000 | Loss: 2.326354e-06 | L2 Err: 1.741793e-03
+  Epoch  9000 | Loss: 5.197091e-06 | L2 Err: 1.890868e-03
+  Epoch 10000 | Loss: 1.543769e-06 | L2 Err: 1.210184e-03
+[abl] case1 strat=S5_40_40_20 scale=1.0 seed=2: best_l2=1.0602e-03 params=3730 t=33.1s
+[E16] case2 default seed0: reused E11 best_l2=1.0367e-02
+[E16] case2 default seed1: reused E11 best_l2=9.2107e-03
+[E16] case2 default seed2: reused E11 best_l2=7.9148e-03
+[E16] RUN --case case2 --seed 0 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case2_S1_single_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+============================================================
+  Parameters: 1,170
+  Epoch  1000 | Loss: 1.4807e-01 | PDE: 1.4804e-01 | BC: 2.9292e-05 | L2: 7.6125e-03
+  Epoch  2000 | Loss: 1.4851e-01 | PDE: 1.4848e-01 | BC: 2.9399e-05 | L2: 7.5380e-03
+  Epoch  3000 | Loss: 1.7094e+00 | PDE: 1.7094e+00 | BC: 1.6092e-05 | L2: 5.8540e-03
+  Epoch  4000 | Loss: 5.2632e+01 | PDE: 5.2631e+01 | BC: 2.5460e-05 | L2: 4.1610e-03
+  Epoch  5000 | Loss: 1.8173e+00 | PDE: 1.8173e+00 | BC: 8.1234e-07 | L2: 1.0616e-03
+  Epoch  6000 | Loss: 1.0765e+00 | PDE: 1.0765e+00 | BC: 2.5314e-06 | L2: 2.2376e-03
+  Epoch  7000 | Loss: 2.3796e+00 | PDE: 2.3796e+00 | BC: 4.1369e-06 | L2: 3.1097e-03
+  Epoch  8000 | Loss: 4.3014e+00 | PDE: 4.3014e+00 | BC: 4.1546e-06 | L2: 2.1499e-03
+  Epoch  9000 | Loss: 1.5342e+00 | PDE: 1.5342e+00 | BC: 1.2637e-05 | L2: 4.7332e-03
+  Training time: 15.2s (1.52 ms/epoch)
+  Best L2 error: 5.1033e-04
+  Final L2 error: 2.1961e-03
+[abl] case2 strat=S1_single scale=1.0 seed=0: best_l2=5.1033e-04 params=1170 t=15.2s
+[E16] RUN --case case2 --seed 1 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case2_S1_single_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+============================================================
+  Parameters: 1,170
+  Epoch  1000 | Loss: 1.8758e-01 | PDE: 1.8753e-01 | BC: 4.7076e-05 | L2: 9.7648e-03
+  Epoch  2000 | Loss: 2.1948e+00 | PDE: 2.1948e+00 | BC: 2.2041e-05 | L2: 7.1957e-03
+  Epoch  3000 | Loss: 4.8715e+00 | PDE: 4.8715e+00 | BC: 6.9494e-06 | L2: 4.8602e-03
+  Epoch  4000 | Loss: 1.4498e+00 | PDE: 1.4498e+00 | BC: 2.3181e-06 | L2: 2.5835e-03
+  Epoch  5000 | Loss: 1.1799e+00 | PDE: 1.1799e+00 | BC: 7.6092e-07 | L2: 1.1995e-03
+  Epoch  6000 | Loss: 2.2959e+00 | PDE: 2.2959e+00 | BC: 1.1843e-06 | L2: 1.0388e-03
+  Epoch  7000 | Loss: 6.5877e+00 | PDE: 6.5877e+00 | BC: 2.5794e-07 | L2: 1.4407e-03
+  Epoch  8000 | Loss: 1.0082e+01 | PDE: 1.0082e+01 | BC: 5.0873e-06 | L2: 3.0022e-03
+  Epoch  9000 | Loss: 2.8087e+00 | PDE: 2.8087e+00 | BC: 1.3141e-07 | L2: 9.7784e-04
+  Training time: 14.6s (1.46 ms/epoch)
+  Best L2 error: 5.5891e-04
+  Final L2 error: 6.2644e-03
+[abl] case2 strat=S1_single scale=1.0 seed=1: best_l2=5.5891e-04 params=1170 t=14.6s
+[E16] RUN --case case2 --seed 2 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case2_S1_single_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+============================================================
+  Parameters: 1,170
+  Epoch  1000 | Loss: 1.9911e-01 | PDE: 1.9909e-01 | BC: 2.4972e-05 | L2: 5.7126e-03
+  Epoch  2000 | Loss: 2.8963e-01 | PDE: 2.8961e-01 | BC: 1.9689e-05 | L2: 5.0346e-03
+  Epoch  3000 | Loss: 2.7297e-01 | PDE: 2.7296e-01 | BC: 1.0427e-05 | L2: 3.4769e-03
+  Epoch  4000 | Loss: 1.7297e+02 | PDE: 1.7297e+02 | BC: 1.5709e-05 | L2: 5.1305e-03
+  Epoch  5000 | Loss: 9.2847e+00 | PDE: 9.2847e+00 | BC: 1.8429e-06 | L2: 1.2212e-03
+  Epoch  6000 | Loss: 1.5640e+01 | PDE: 1.5640e+01 | BC: 6.5288e-07 | L2: 2.7930e-03
+  Epoch  7000 | Loss: 2.7796e+00 | PDE: 2.7796e+00 | BC: 1.1194e-06 | L2: 1.2975e-03
+  Epoch  8000 | Loss: 1.5309e+01 | PDE: 1.5309e+01 | BC: 4.0478e-06 | L2: 3.4324e-03
+  Epoch  9000 | Loss: 6.9542e+00 | PDE: 6.9542e+00 | BC: 3.7549e-06 | L2: 2.9565e-03
+  Training time: 15.3s (1.53 ms/epoch)
+  Best L2 error: 7.6673e-04
+  Final L2 error: 6.6752e-03
+[abl] case2 strat=S1_single scale=1.0 seed=2: best_l2=7.6673e-04 params=1170 t=15.3s
+[E16] RUN --case case2 --seed 0 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case2_S2_two_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+============================================================
+  Parameters: 1,170
+  Epoch  1000 | Loss: 1.7623e+03 | PDE: 1.7621e+03 | BC: 1.7021e-01 | L2: 1.7853e-01
+  Epoch  2000 | Loss: 6.2400e+02 | PDE: 6.2381e+02 | BC: 1.8966e-01 | L2: 2.2425e-01
+  Epoch  3000 | Loss: 2.0950e+02 | PDE: 2.0933e+02 | BC: 1.7271e-01 | L2: 2.5353e-01
+  Epoch  4000 | Loss: 5.7797e+01 | PDE: 5.7626e+01 | BC: 1.7100e-01 | L2: 2.9888e-01
+  Epoch  5000 | Loss: 1.9016e+01 | PDE: 1.8836e+01 | BC: 1.8062e-01 | L2: 3.3337e-01
+  Epoch  6000 | Loss: 1.1116e+01 | PDE: 1.0935e+01 | BC: 1.8114e-01 | L2: 3.4860e-01
+  Epoch  7000 | Loss: 8.5633e+00 | PDE: 8.3930e+00 | BC: 1.7032e-01 | L2: 3.4157e-01
+  Epoch  8000 | Loss: 8.4348e+00 | PDE: 8.2874e+00 | BC: 1.4739e-01 | L2: 3.1877e-01
+  Epoch  9000 | Loss: 1.1306e+01 | PDE: 1.1187e+01 | BC: 1.1935e-01 | L2: 2.8724e-01
+  Training time: 12.7s (1.27 ms/epoch)
+  Best L2 error: 6.3571e-02
+  Final L2 error: 2.5262e-01
+[abl] case2 strat=S2_two scale=1.0 seed=0: best_l2=6.3571e-02 params=1170 t=12.7s
+[E16] RUN --case case2 --seed 1 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case2_S2_two_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+============================================================
+  Parameters: 1,170
+  Epoch  1000 | Loss: 3.6856e+03 | PDE: 3.6855e+03 | BC: 9.0638e-02 | L2: 1.1372e-01
+  Epoch  2000 | Loss: 2.9182e+02 | PDE: 2.9129e+02 | BC: 5.3249e-01 | L2: 4.0972e-01
+  Epoch  3000 | Loss: 8.9173e+01 | PDE: 8.8538e+01 | BC: 6.3436e-01 | L2: 5.0131e-01
+  Epoch  4000 | Loss: 5.0956e+01 | PDE: 5.0397e+01 | BC: 5.5982e-01 | L2: 4.7683e-01
+  Epoch  5000 | Loss: 3.1923e+01 | PDE: 3.1407e+01 | BC: 5.1533e-01 | L2: 4.4770e-01
+  Epoch  6000 | Loss: 1.8979e+01 | PDE: 1.8447e+01 | BC: 5.3193e-01 | L2: 4.4046e-01
+  Epoch  7000 | Loss: 1.1381e+01 | PDE: 1.0795e+01 | BC: 5.8686e-01 | L2: 4.5467e-01
+  Epoch  8000 | Loss: 8.5246e+00 | PDE: 7.9072e+00 | BC: 6.1743e-01 | L2: 4.6674e-01
+  Epoch  9000 | Loss: 7.8224e+00 | PDE: 7.2224e+00 | BC: 5.9996e-01 | L2: 4.6481e-01
+  Training time: 11.9s (1.19 ms/epoch)
+  Best L2 error: 4.4600e-02
+  Final L2 error: 4.5322e-01
+[abl] case2 strat=S2_two scale=1.0 seed=1: best_l2=4.4600e-02 params=1170 t=11.9s
+[E16] RUN --case case2 --seed 2 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case2_S2_two_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+============================================================
+  Parameters: 1,170
+  Epoch  1000 | Loss: 3.0839e+03 | PDE: 3.0838e+03 | BC: 1.4212e-01 | L2: 1.4301e-01
+  Epoch  2000 | Loss: 2.8403e+02 | PDE: 2.8368e+02 | BC: 3.5977e-01 | L2: 3.0048e-01
+  Epoch  3000 | Loss: 1.0518e+02 | PDE: 1.0486e+02 | BC: 3.1678e-01 | L2: 3.2682e-01
+  Epoch  4000 | Loss: 5.0888e+01 | PDE: 5.0590e+01 | BC: 2.9763e-01 | L2: 3.3877e-01
+  Epoch  5000 | Loss: 2.6439e+01 | PDE: 2.6163e+01 | BC: 2.7665e-01 | L2: 3.4161e-01
+  Epoch  6000 | Loss: 1.4312e+01 | PDE: 1.4065e+01 | BC: 2.4662e-01 | L2: 3.4423e-01
+  Epoch  7000 | Loss: 9.6033e+00 | PDE: 9.3957e+00 | BC: 2.0761e-01 | L2: 3.4964e-01
+  Epoch  8000 | Loss: 8.6830e+00 | PDE: 8.5173e+00 | BC: 1.6566e-01 | L2: 3.3387e-01
+  Epoch  9000 | Loss: 7.9283e+00 | PDE: 7.8061e+00 | BC: 1.2212e-01 | L2: 2.9092e-01
+  Training time: 11.9s (1.19 ms/epoch)
+  Best L2 error: 4.9349e-02
+  Final L2 error: 2.3667e-01
+[abl] case2 strat=S2_two scale=1.0 seed=2: best_l2=4.9349e-02 params=1170 t=11.9s
+[E16] RUN --case case2 --seed 0 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case2_S4_continuous_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+============================================================
+  Parameters: 1,170
+  Epoch  1000 | Loss: 3.1028e+05 | PDE: 3.1028e+05 | BC: 3.8498e-01 | L2: 4.6173e-01
+  Epoch  2000 | Loss: 8.7552e+04 | PDE: 8.7548e+04 | BC: 4.1686e+00 | L2: 8.3001e-01
+  Epoch  3000 | Loss: 3.6154e+04 | PDE: 3.6147e+04 | BC: 6.6075e+00 | L2: 1.2335e+00
+  Epoch  4000 | Loss: 2.6474e+04 | PDE: 2.6470e+04 | BC: 4.0761e+00 | L2: 1.0182e+00
+  Epoch  5000 | Loss: 1.9113e+04 | PDE: 1.9111e+04 | BC: 1.6648e+00 | L2: 7.0697e-01
+  Epoch  6000 | Loss: 1.3281e+04 | PDE: 1.3280e+04 | BC: 2.9035e-01 | L2: 3.6064e-01
+  Epoch  7000 | Loss: 8.8939e+03 | PDE: 8.8937e+03 | BC: 2.5667e-01 | L2: 1.9918e-01
+  Epoch  8000 | Loss: 5.7568e+03 | PDE: 5.7560e+03 | BC: 7.7383e-01 | L2: 3.6852e-01
+  Epoch  9000 | Loss: 3.5078e+03 | PDE: 3.5069e+03 | BC: 8.3393e-01 | L2: 3.9499e-01
+  Training time: 12.2s (1.22 ms/epoch)
+  Best L2 error: 1.7576e-01
+  Final L2 error: 3.6548e-01
+[abl] case2 strat=S4_continuous scale=1.0 seed=0: best_l2=1.7576e-01 params=1170 t=12.2s
+[E16] RUN --case case2 --seed 1 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case2_S4_continuous_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+============================================================
+  Parameters: 1,170
+  Epoch  1000 | Loss: 1.7115e+05 | PDE: 1.7115e+05 | BC: 6.0300e-01 | L2: 3.8080e-01
+  Epoch  2000 | Loss: 3.4079e+04 | PDE: 3.4078e+04 | BC: 9.5962e-01 | L2: 3.9927e-01
+  Epoch  3000 | Loss: 1.1478e+04 | PDE: 1.1478e+04 | BC: 7.7581e-02 | L2: 1.1436e-01
+  Epoch  4000 | Loss: 6.3580e+03 | PDE: 6.3580e+03 | BC: 2.8120e-02 | L2: 8.8711e-02
+  Epoch  5000 | Loss: 3.3592e+03 | PDE: 3.3591e+03 | BC: 1.0098e-01 | L2: 1.6186e-01
+  Epoch  6000 | Loss: 1.8786e+03 | PDE: 1.8786e+03 | BC: 6.3534e-02 | L2: 1.2635e-01
+  Epoch  7000 | Loss: 1.2046e+03 | PDE: 1.2045e+03 | BC: 5.9749e-02 | L2: 1.2260e-01
+  Epoch  8000 | Loss: 7.7023e+02 | PDE: 7.7015e+02 | BC: 7.3298e-02 | L2: 1.6639e-01
+  Epoch  9000 | Loss: 4.6433e+02 | PDE: 4.6423e+02 | BC: 1.0021e-01 | L2: 2.1945e-01
+  Training time: 12.3s (1.23 ms/epoch)
+  Best L2 error: 8.8711e-02
+  Final L2 error: 2.2479e-01
+[abl] case2 strat=S4_continuous scale=1.0 seed=1: best_l2=8.8711e-02 params=1170 t=12.3s
+[E16] RUN --case case2 --seed 2 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case2_S4_continuous_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+============================================================
+  Parameters: 1,170
+  Epoch  1000 | Loss: 1.2261e+05 | PDE: 1.2261e+05 | BC: 4.5539e-01 | L2: 3.4087e-01
+  Epoch  2000 | Loss: 1.4622e+04 | PDE: 1.4618e+04 | BC: 3.5070e+00 | L2: 9.6528e-01
+  Epoch  3000 | Loss: 8.6436e+03 | PDE: 8.6418e+03 | BC: 1.7353e+00 | L2: 7.7747e-01
+  Epoch  4000 | Loss: 5.1565e+03 | PDE: 5.1561e+03 | BC: 3.5847e-01 | L2: 4.4247e-01
+  Epoch  5000 | Loss: 2.9464e+03 | PDE: 2.9464e+03 | BC: 2.4200e-02 | L2: 1.4207e-01
+  Epoch  6000 | Loss: 1.6823e+03 | PDE: 1.6820e+03 | BC: 2.4717e-01 | L2: 3.3436e-01
+  Epoch  7000 | Loss: 9.6582e+02 | PDE: 9.6533e+02 | BC: 4.9796e-01 | L2: 4.9705e-01
+  Epoch  8000 | Loss: 5.5615e+02 | PDE: 5.5552e+02 | BC: 6.3094e-01 | L2: 5.9475e-01
+  Epoch  9000 | Loss: 3.4405e+02 | PDE: 3.4335e+02 | BC: 7.0226e-01 | L2: 6.5518e-01
+  Training time: 12.2s (1.22 ms/epoch)
+  Best L2 error: 1.4207e-01
+  Final L2 error: 6.9328e-01
+[abl] case2 strat=S4_continuous scale=1.0 seed=2: best_l2=1.4207e-01 params=1170 t=12.2s
+[E16] RUN --case case2 --seed 0 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case2_S5_40_40_20_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+============================================================
+  Parameters: 1,170
+  Epoch  1000 | Loss: 1.5331e+03 | PDE: 1.5330e+03 | BC: 3.8672e-02 | L2: 7.5533e-02
+  Epoch  2000 | Loss: 2.3351e+02 | PDE: 2.3345e+02 | BC: 5.7695e-02 | L2: 1.1463e-01
+  Epoch  3000 | Loss: 7.1151e+01 | PDE: 7.1093e+01 | BC: 5.7934e-02 | L2: 1.2805e-01
+  Epoch  4000 | Loss: 3.7887e+01 | PDE: 3.7828e+01 | BC: 5.8804e-02 | L2: 1.4579e-01
+  Epoch  5000 | Loss: 2.0319e+01 | PDE: 2.0263e+01 | BC: 5.5925e-02 | L2: 1.5957e-01
+  Epoch  6000 | Loss: 1.2703e+01 | PDE: 1.2654e+01 | BC: 4.9424e-02 | L2: 1.6716e-01
+  Epoch  7000 | Loss: 8.3954e+00 | PDE: 8.3529e+00 | BC: 4.2543e-02 | L2: 1.6686e-01
+  Epoch  8000 | Loss: 6.9722e+00 | PDE: 6.9360e+00 | BC: 3.6227e-02 | L2: 1.5810e-01
+  Epoch  9000 | Loss: 5.6061e+00 | PDE: 5.5748e+00 | BC: 3.1373e-02 | L2: 1.4652e-01
+  Training time: 12.5s (1.25 ms/epoch)
+  Best L2 error: 5.1623e-02
+  Final L2 error: 1.3626e-01
+[abl] case2 strat=S5_40_40_20 scale=1.0 seed=0: best_l2=5.1623e-02 params=1170 t=12.5s
+[E16] RUN --case case2 --seed 1 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case2_S5_40_40_20_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+============================================================
+  Parameters: 1,170
+  Epoch  1000 | Loss: 2.7594e+03 | PDE: 2.7594e+03 | BC: 1.1596e-02 | L2: 5.3374e-02
+  Epoch  2000 | Loss: 5.2972e+02 | PDE: 5.2969e+02 | BC: 3.3087e-02 | L2: 7.8214e-02
+  Epoch  3000 | Loss: 9.4208e+01 | PDE: 9.4170e+01 | BC: 3.7605e-02 | L2: 1.1166e-01
+  Epoch  4000 | Loss: 3.2800e+01 | PDE: 3.2760e+01 | BC: 4.0482e-02 | L2: 1.4593e-01
+  Epoch  5000 | Loss: 2.2174e+01 | PDE: 2.2136e+01 | BC: 3.7429e-02 | L2: 1.4500e-01
+  Epoch  6000 | Loss: 1.5000e+01 | PDE: 1.4970e+01 | BC: 2.9450e-02 | L2: 1.3239e-01
+  Epoch  7000 | Loss: 9.5887e+00 | PDE: 9.5648e+00 | BC: 2.3903e-02 | L2: 1.2285e-01
+  Epoch  8000 | Loss: 5.7272e+00 | PDE: 5.7064e+00 | BC: 2.0807e-02 | L2: 1.1680e-01
+  Epoch  9000 | Loss: 5.3583e+00 | PDE: 5.3394e+00 | BC: 1.8909e-02 | L2: 1.1240e-01
+  Training time: 11.3s (1.13 ms/epoch)
+  Best L2 error: 5.3374e-02
+  Final L2 error: 1.0774e-01
+[abl] case2 strat=S5_40_40_20 scale=1.0 seed=1: best_l2=5.3374e-02 params=1170 t=11.3s
+[E16] RUN --case case2 --seed 2 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case2_S5_40_40_20_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+============================================================
+  Parameters: 1,170
+  Epoch  1000 | Loss: 3.3310e+03 | PDE: 3.3310e+03 | BC: 2.4831e-02 | L2: 6.6900e-02
+  Epoch  2000 | Loss: 3.4579e+02 | PDE: 3.4577e+02 | BC: 1.8916e-02 | L2: 6.0239e-02
+  Epoch  3000 | Loss: 7.6652e+01 | PDE: 7.6634e+01 | BC: 1.8323e-02 | L2: 8.1961e-02
+  Epoch  4000 | Loss: 3.6579e+01 | PDE: 3.6559e+01 | BC: 1.9365e-02 | L2: 9.7385e-02
+  Epoch  5000 | Loss: 2.0363e+01 | PDE: 2.0346e+01 | BC: 1.7074e-02 | L2: 9.7080e-02
+  Epoch  6000 | Loss: 1.1774e+01 | PDE: 1.1761e+01 | BC: 1.3720e-02 | L2: 9.1297e-02
+  Epoch  7000 | Loss: 8.0422e+00 | PDE: 8.0306e+00 | BC: 1.1593e-02 | L2: 8.6847e-02
+  Epoch  8000 | Loss: 5.8798e+00 | PDE: 5.8692e+00 | BC: 1.0623e-02 | L2: 8.5414e-02
+  Epoch  9000 | Loss: 9.5991e+00 | PDE: 9.5889e+00 | BC: 1.0249e-02 | L2: 8.4130e-02
+  Training time: 11.8s (1.18 ms/epoch)
+  Best L2 error: 5.5129e-02
+  Final L2 error: 8.2281e-02
+[abl] case2 strat=S5_40_40_20 scale=1.0 seed=2: best_l2=5.5129e-02 params=1170 t=11.8s
+[E16] case3 default seed0: reused E11 best_l2=1.9144e-03
+[E16] case3 default seed1: reused E11 best_l2=1.9419e-03
+[E16] case3 default seed2: reused E11 best_l2=2.1016e-03
+[E16] RUN --case case3 --seed 0 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case3_S1_single_seed0.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+======================================================================
+  Parameters: 1171
+  Epoch   100 | Loss 1.6336e+03 | PDE 1.6332e+03 | BC 3.1561e-01 | L2 3.9394e-01
+  Epoch  1000 | Loss 1.6198e+03 | PDE 1.6196e+03 | BC 2.7462e-01 | L2 3.9922e-01
+  Epoch  2000 | Loss 1.6198e+03 | PDE 1.6196e+03 | BC 2.7442e-01 | L2 4.0045e-01
+  Epoch  3000 | Loss 1.6200e+03 | PDE 1.6197e+03 | BC 2.7442e-01 | L2 4.0065e-01
+  Epoch  4000 | Loss 1.6199e+03 | PDE 1.6196e+03 | BC 2.7441e-01 | L2 4.0065e-01
+  Epoch  5000 | Loss 1.6200e+03 | PDE 1.6198e+03 | BC 2.7412e-01 | L2 4.0076e-01
+  Epoch  6000 | Loss 1.6199e+03 | PDE 1.6196e+03 | BC 2.7379e-01 | L2 4.0082e-01
+  Epoch  7000 | Loss 1.6199e+03 | PDE 1.6197e+03 | BC 2.7435e-01 | L2 4.0079e-01
+  Epoch  8000 | Loss 1.6199e+03 | PDE 1.6196e+03 | BC 2.7433e-01 | L2 4.0068e-01
+  Epoch  9000 | Loss 1.6201e+03 | PDE 1.6198e+03 | BC 2.7439e-01 | L2 4.0036e-01
+  Epoch 10000 | Loss 1.6198e+03 | PDE 1.6195e+03 | BC 2.7513e-01 | L2 4.0046e-01
+  Done: 20.2s | Params: 1171 | Best L2: 3.9394e-01 | Final L2: 4.0046e-01
+[abl] case3 strat=S1_single scale=1.0 seed=0: best_l2=3.9394e-01 params=1171 t=20.2s
+[E16] RUN --case case3 --seed 1 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case3_S1_single_seed1.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+======================================================================
+  Parameters: 1171
+  Epoch   100 | Loss 1.6270e+03 | PDE 1.6267e+03 | BC 3.0222e-01 | L2 3.9729e-01
+  Epoch  1000 | Loss 1.6198e+03 | PDE 1.6195e+03 | BC 2.7446e-01 | L2 4.0058e-01
+  Epoch  2000 | Loss 1.6199e+03 | PDE 1.6197e+03 | BC 2.7439e-01 | L2 4.0063e-01
+  Epoch  3000 | Loss 1.6198e+03 | PDE 1.6196e+03 | BC 2.7459e-01 | L2 4.0058e-01
+  Epoch  4000 | Loss 1.6199e+03 | PDE 1.6196e+03 | BC 2.7442e-01 | L2 4.0070e-01
+  Epoch  5000 | Loss 1.6199e+03 | PDE 1.6196e+03 | BC 2.7435e-01 | L2 4.0076e-01
+  Epoch  6000 | Loss 1.6199e+03 | PDE 1.6196e+03 | BC 2.7412e-01 | L2 4.0042e-01
+  Epoch  7000 | Loss 1.6199e+03 | PDE 1.6196e+03 | BC 2.7463e-01 | L2 4.0067e-01
+  Epoch  8000 | Loss 1.6200e+03 | PDE 1.6198e+03 | BC 2.7442e-01 | L2 4.0068e-01
+  Epoch  9000 | Loss 1.6199e+03 | PDE 1.6197e+03 | BC 2.7453e-01 | L2 4.0062e-01
+  Epoch 10000 | Loss 1.6199e+03 | PDE 1.6196e+03 | BC 2.7433e-01 | L2 4.0067e-01
+  Done: 21.9s | Params: 1171 | Best L2: 3.9729e-01 | Final L2: 4.0067e-01
+[abl] case3 strat=S1_single scale=1.0 seed=1: best_l2=3.9729e-01 params=1171 t=21.9s
+[E16] RUN --case case3 --seed 2 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case3_S1_single_seed2.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+======================================================================
+  Parameters: 1171
+  Epoch   100 | Loss 1.6309e+03 | PDE 1.6306e+03 | BC 3.1098e-01 | L2 3.9588e-01
+  Epoch  1000 | Loss 1.6201e+03 | PDE 1.6198e+03 | BC 2.7447e-01 | L2 3.9991e-01
+  Epoch  2000 | Loss 1.6198e+03 | PDE 1.6195e+03 | BC 2.7441e-01 | L2 4.0055e-01
+  Epoch  3000 | Loss 1.6200e+03 | PDE 1.6197e+03 | BC 2.7509e-01 | L2 4.0035e-01
+  Epoch  4000 | Loss 1.6199e+03 | PDE 1.6196e+03 | BC 2.7420e-01 | L2 4.0076e-01
+  Epoch  5000 | Loss 1.6200e+03 | PDE 1.6198e+03 | BC 2.7320e-01 | L2 4.0113e-01
+  Epoch  6000 | Loss 1.6199e+03 | PDE 1.6197e+03 | BC 2.7452e-01 | L2 4.0087e-01
+  Epoch  7000 | Loss 1.6198e+03 | PDE 1.6195e+03 | BC 2.7435e-01 | L2 4.0069e-01
+  Epoch  8000 | Loss 1.6199e+03 | PDE 1.6196e+03 | BC 2.7367e-01 | L2 4.0076e-01
+  Epoch  9000 | Loss 1.6201e+03 | PDE 1.6198e+03 | BC 2.7448e-01 | L2 4.0024e-01
+  Epoch 10000 | Loss 1.6200e+03 | PDE 1.6198e+03 | BC 2.7468e-01 | L2 4.0071e-01
+  Done: 21.7s | Params: 1171 | Best L2: 3.9588e-01 | Final L2: 4.0071e-01
+[abl] case3 strat=S1_single scale=1.0 seed=2: best_l2=3.9588e-01 params=1171 t=21.7s
+[E16] RUN --case case3 --seed 0 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case3_S2_two_seed0.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+======================================================================
+  Parameters: 1171
+  Epoch   100 | Loss 1.7787e+02 | PDE 1.7765e+02 | BC 2.2147e-01 | L2 2.1888e-01
+  Epoch  1000 | Loss 2.4720e+00 | PDE 2.4427e+00 | BC 2.9334e-02 | L2 7.0967e-02
+  Epoch  2000 | Loss 6.5746e-01 | PDE 6.3457e-01 | BC 2.2899e-02 | L2 6.4695e-02
+  Epoch  3000 | Loss 3.6722e-01 | PDE 3.4924e-01 | BC 1.7978e-02 | L2 5.7077e-02
+  Epoch  4000 | Loss 2.1040e-01 | PDE 1.9656e-01 | BC 1.3837e-02 | L2 4.8089e-02
+  Epoch  5000 | Loss 1.1483e-01 | PDE 1.0427e-01 | BC 1.0561e-02 | L2 4.0963e-02
+  Epoch  6000 | Loss 6.2254e-02 | PDE 5.3941e-02 | BC 8.3128e-03 | L2 3.7525e-02
+  Epoch  7000 | Loss 3.8834e-02 | PDE 3.2026e-02 | BC 6.8089e-03 | L2 3.5861e-02
+  Epoch  8000 | Loss 3.5482e-02 | PDE 2.9694e-02 | BC 5.7874e-03 | L2 3.4487e-02
+  Epoch  9000 | Loss 4.1893e-02 | PDE 3.6895e-02 | BC 4.9987e-03 | L2 3.3180e-02
+  Epoch 10000 | Loss 1.1217e+00 | PDE 1.1169e+00 | BC 4.8156e-03 | L2 3.0630e-02
+  Done: 16.1s | Params: 1171 | Best L2: 3.0630e-02 | Final L2: 3.0630e-02
+[abl] case3 strat=S2_two scale=1.0 seed=0: best_l2=3.0630e-02 params=1171 t=16.1s
+[E16] RUN --case case3 --seed 1 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case3_S2_two_seed1.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+======================================================================
+  Parameters: 1171
+  Epoch   100 | Loss 1.7241e+02 | PDE 1.7215e+02 | BC 2.6163e-01 | L2 2.2345e-01
+  Epoch  1000 | Loss 2.6575e+00 | PDE 2.6118e+00 | BC 4.5632e-02 | L2 8.4752e-02
+  Epoch  2000 | Loss 1.1847e+00 | PDE 1.1353e+00 | BC 4.9413e-02 | L2 8.0187e-02
+  Epoch  3000 | Loss 6.4384e-01 | PDE 6.0667e-01 | BC 3.7163e-02 | L2 7.0738e-02
+  Epoch  4000 | Loss 2.7545e-01 | PDE 2.4933e-01 | BC 2.6119e-02 | L2 6.2249e-02
+  Epoch  5000 | Loss 1.2256e-01 | PDE 1.0177e-01 | BC 2.0792e-02 | L2 5.8546e-02
+  Epoch  6000 | Loss 8.2599e-02 | PDE 6.5990e-02 | BC 1.6609e-02 | L2 5.2939e-02
+  Epoch  7000 | Loss 5.4294e-02 | PDE 4.1958e-02 | BC 1.2336e-02 | L2 4.5614e-02
+  Epoch  8000 | Loss 5.9397e-02 | PDE 4.9928e-02 | BC 9.4695e-03 | L2 4.0608e-02
+  Epoch  9000 | Loss 3.0799e-02 | PDE 2.3093e-02 | BC 7.7064e-03 | L2 3.6875e-02
+  Epoch 10000 | Loss 4.0598e-02 | PDE 3.4098e-02 | BC 6.5003e-03 | L2 3.5251e-02
+  Done: 14.9s | Params: 1171 | Best L2: 3.4936e-02 | Final L2: 3.5251e-02
+[abl] case3 strat=S2_two scale=1.0 seed=1: best_l2=3.4936e-02 params=1171 t=14.9s
+[E16] RUN --case case3 --seed 2 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case3_S2_two_seed2.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+======================================================================
+  Parameters: 1171
+  Epoch   100 | Loss 1.2998e+02 | PDE 1.2980e+02 | BC 1.8197e-01 | L2 1.9782e-01
+  Epoch  1000 | Loss 2.1313e+00 | PDE 2.0711e+00 | BC 6.0179e-02 | L2 9.7469e-02
+  Epoch  2000 | Loss 8.4918e-01 | PDE 8.1330e-01 | BC 3.5880e-02 | L2 7.8011e-02
+  Epoch  3000 | Loss 2.0978e-01 | PDE 1.8970e-01 | BC 2.0087e-02 | L2 6.3117e-02
+  Epoch  4000 | Loss 1.1917e-01 | PDE 1.0467e-01 | BC 1.4496e-02 | L2 5.4536e-02
+  Epoch  5000 | Loss 7.0982e-02 | PDE 6.0685e-02 | BC 1.0297e-02 | L2 4.6311e-02
+  Epoch  6000 | Loss 4.6123e-02 | PDE 3.8438e-02 | BC 7.6848e-03 | L2 3.9635e-02
+  Epoch  7000 | Loss 9.3366e-02 | PDE 8.7316e-02 | BC 6.0494e-03 | L2 3.4979e-02
+  Epoch  8000 | Loss 2.7808e-02 | PDE 2.2909e-02 | BC 4.8988e-03 | L2 3.1090e-02
+  Epoch  9000 | Loss 2.6553e-02 | PDE 2.2294e-02 | BC 4.2588e-03 | L2 2.8060e-02
+  Epoch 10000 | Loss 2.0113e-02 | PDE 1.6346e-02 | BC 3.7674e-03 | L2 2.5565e-02
+  Done: 16.7s | Params: 1171 | Best L2: 2.5511e-02 | Final L2: 2.5565e-02
+[abl] case3 strat=S2_two scale=1.0 seed=2: best_l2=2.5511e-02 params=1171 t=16.7s
+[E16] RUN --case case3 --seed 0 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case3_S4_continuous_seed0.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+======================================================================
+  Parameters: 1171
+  Epoch   100 | Loss 2.5931e+03 | PDE 2.5899e+03 | BC 3.2414e+00 | L2 7.8891e-01
+  Epoch  1000 | Loss 4.1271e+01 | PDE 4.0838e+01 | BC 4.3244e-01 | L2 3.1739e-01
+  Epoch  2000 | Loss 1.0780e+01 | PDE 1.0328e+01 | BC 4.5118e-01 | L2 2.8660e-01
+  Epoch  3000 | Loss 3.9650e+00 | PDE 3.6542e+00 | BC 3.1081e-01 | L2 2.2454e-01
+  Epoch  4000 | Loss 2.2468e+00 | PDE 2.0510e+00 | BC 1.9575e-01 | L2 1.8480e-01
+  Epoch  5000 | Loss 1.4552e+00 | PDE 1.2894e+00 | BC 1.6584e-01 | L2 1.6983e-01
+  Epoch  6000 | Loss 1.1214e+00 | PDE 9.6287e-01 | BC 1.5857e-01 | L2 1.6454e-01
+  Epoch  7000 | Loss 9.5499e-01 | PDE 7.9855e-01 | BC 1.5643e-01 | L2 1.6301e-01
+  Epoch  8000 | Loss 8.8295e-01 | PDE 7.3059e-01 | BC 1.5235e-01 | L2 1.6090e-01
+  Epoch  9000 | Loss 7.8264e-01 | PDE 6.3747e-01 | BC 1.4518e-01 | L2 1.5646e-01
+  Epoch 10000 | Loss 7.7384e-01 | PDE 6.3635e-01 | BC 1.3748e-01 | L2 1.5145e-01
+  Done: 17.6s | Params: 1171 | Best L2: 1.5145e-01 | Final L2: 1.5145e-01
+[abl] case3 strat=S4_continuous scale=1.0 seed=0: best_l2=1.5145e-01 params=1171 t=17.6s
+[E16] RUN --case case3 --seed 1 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case3_S4_continuous_seed1.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+======================================================================
+  Parameters: 1171
+  Epoch   100 | Loss 2.7793e+03 | PDE 2.7767e+03 | BC 2.5288e+00 | L2 7.0168e-01
+  Epoch  1000 | Loss 5.5557e+01 | PDE 5.4398e+01 | BC 1.1592e+00 | L2 5.0921e-01
+  Epoch  2000 | Loss 5.1820e+00 | PDE 4.8813e+00 | BC 3.0064e-01 | L2 3.0489e-01
+  Epoch  3000 | Loss 2.9288e+00 | PDE 2.6966e+00 | BC 2.3225e-01 | L2 2.0872e-01
+  Epoch  4000 | Loss 1.9931e+00 | PDE 1.7832e+00 | BC 2.0994e-01 | L2 1.8727e-01
+  Epoch  5000 | Loss 1.5552e+00 | PDE 1.3677e+00 | BC 1.8758e-01 | L2 1.7493e-01
+  Epoch  6000 | Loss 1.3416e+00 | PDE 1.1760e+00 | BC 1.6556e-01 | L2 1.6585e-01
+  Epoch  7000 | Loss 1.1110e+00 | PDE 9.6370e-01 | BC 1.4727e-01 | L2 1.5982e-01
+  Epoch  8000 | Loss 9.2118e-01 | PDE 7.8855e-01 | BC 1.3263e-01 | L2 1.5397e-01
+  Epoch  9000 | Loss 8.0811e-01 | PDE 6.8574e-01 | BC 1.2236e-01 | L2 1.4949e-01
+  Epoch 10000 | Loss 7.3802e-01 | PDE 6.2118e-01 | BC 1.1683e-01 | L2 1.4701e-01
+  Done: 16.6s | Params: 1171 | Best L2: 1.4701e-01 | Final L2: 1.4701e-01
+[abl] case3 strat=S4_continuous scale=1.0 seed=1: best_l2=1.4701e-01 params=1171 t=16.6s
+[E16] RUN --case case3 --seed 2 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case3_S4_continuous_seed2.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+======================================================================
+  Parameters: 1171
+  Epoch   100 | Loss 2.0683e+03 | PDE 2.0660e+03 | BC 2.2957e+00 | L2 7.2512e-01
+  Epoch  1000 | Loss 4.9462e+01 | PDE 4.8945e+01 | BC 5.1727e-01 | L2 3.7945e-01
+  Epoch  2000 | Loss 1.3281e+01 | PDE 1.2987e+01 | BC 2.9370e-01 | L2 2.6148e-01
+  Epoch  3000 | Loss 4.6558e+00 | PDE 4.2220e+00 | BC 4.3374e-01 | L2 2.7520e-01
+  Epoch  4000 | Loss 2.9281e+00 | PDE 2.5852e+00 | BC 3.4285e-01 | L2 2.2740e-01
+  Epoch  5000 | Loss 2.1621e+00 | PDE 1.9082e+00 | BC 2.5394e-01 | L2 1.9102e-01
+  Epoch  6000 | Loss 1.5840e+00 | PDE 1.3863e+00 | BC 1.9771e-01 | L2 1.7067e-01
+  Epoch  7000 | Loss 1.1001e+00 | PDE 9.3538e-01 | BC 1.6473e-01 | L2 1.6014e-01
+  Epoch  8000 | Loss 8.3331e-01 | PDE 6.8698e-01 | BC 1.4632e-01 | L2 1.5675e-01
+  Epoch  9000 | Loss 8.5189e-01 | PDE 7.2357e-01 | BC 1.2832e-01 | L2 1.5407e-01
+  Epoch 10000 | Loss 7.7895e-01 | PDE 6.6771e-01 | BC 1.1124e-01 | L2 1.4954e-01
+  Done: 16.0s | Params: 1171 | Best L2: 1.4932e-01 | Final L2: 1.4954e-01
+[abl] case3 strat=S4_continuous scale=1.0 seed=2: best_l2=1.4932e-01 params=1171 t=16.0s
+[E16] RUN --case case3 --seed 0 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case3_S5_40_40_20_seed0.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+======================================================================
+  Parameters: 1171
+  Epoch   100 | Loss 2.3537e+02 | PDE 2.3504e+02 | BC 3.2635e-01 | L2 2.6606e-01
+  Epoch  1000 | Loss 2.4872e+00 | PDE 2.4542e+00 | BC 3.3037e-02 | L2 7.7866e-02
+  Epoch  2000 | Loss 3.3104e-01 | PDE 3.1425e-01 | BC 1.6786e-02 | L2 5.1321e-02
+  Epoch  3000 | Loss 1.8391e-01 | PDE 1.6962e-01 | BC 1.4297e-02 | L2 4.8091e-02
+  Epoch  4000 | Loss 1.0883e-01 | PDE 9.6034e-02 | BC 1.2796e-02 | L2 4.7139e-02
+  Epoch  5000 | Loss 7.7052e-02 | PDE 6.5353e-02 | BC 1.1699e-02 | L2 4.6100e-02
+  Epoch  6000 | Loss 1.8051e-01 | PDE 1.7032e-01 | BC 1.0188e-02 | L2 4.2760e-02
+  Epoch  7000 | Loss 5.8253e-02 | PDE 4.9619e-02 | BC 8.6341e-03 | L2 3.9179e-02
+  Epoch  8000 | Loss 5.4918e-02 | PDE 4.7793e-02 | BC 7.1246e-03 | L2 3.6219e-02
+  Epoch  9000 | Loss 3.0033e-02 | PDE 2.4116e-02 | BC 5.9175e-03 | L2 3.2426e-02
+  Epoch 10000 | Loss 2.6855e-02 | PDE 2.1874e-02 | BC 4.9811e-03 | L2 2.9853e-02
+  Done: 17.0s | Params: 1171 | Best L2: 2.9401e-02 | Final L2: 2.9853e-02
+[abl] case3 strat=S5_40_40_20 scale=1.0 seed=0: best_l2=2.9401e-02 params=1171 t=17.0s
+[E16] RUN --case case3 --seed 1 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case3_S5_40_40_20_seed1.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+======================================================================
+  Parameters: 1171
+  Epoch   100 | Loss 1.5223e+02 | PDE 1.5199e+02 | BC 2.4738e-01 | L2 2.2050e-01
+  Epoch  1000 | Loss 3.2402e+00 | PDE 3.1740e+00 | BC 6.6136e-02 | L2 1.0197e-01
+  Epoch  2000 | Loss 1.6092e+00 | PDE 1.5508e+00 | BC 5.8438e-02 | L2 8.7722e-02
+  Epoch  3000 | Loss 8.3691e-01 | PDE 7.9620e-01 | BC 4.0706e-02 | L2 7.2535e-02
+  Epoch  4000 | Loss 3.2985e-01 | PDE 3.0453e-01 | BC 2.5323e-02 | L2 5.8903e-02
+  Epoch  5000 | Loss 1.3011e-01 | PDE 1.1173e-01 | BC 1.8384e-02 | L2 5.3462e-02
+  Epoch  6000 | Loss 8.9721e-02 | PDE 7.4936e-02 | BC 1.4785e-02 | L2 4.9005e-02
+  Epoch  7000 | Loss 2.0817e-01 | PDE 1.9735e-01 | BC 1.0818e-02 | L2 4.4493e-02
+  Epoch  8000 | Loss 4.4719e-02 | PDE 3.6130e-02 | BC 8.5889e-03 | L2 3.8236e-02
+  Epoch  9000 | Loss 3.0261e-02 | PDE 2.3100e-02 | BC 7.1606e-03 | L2 3.5285e-02
+  Epoch 10000 | Loss 2.2808e-02 | PDE 1.6597e-02 | BC 6.2106e-03 | L2 3.3435e-02
+  Done: 17.1s | Params: 1171 | Best L2: 3.3435e-02 | Final L2: 3.3435e-02
+[abl] case3 strat=S5_40_40_20 scale=1.0 seed=1: best_l2=3.3435e-02 params=1171 t=17.1s
+[E16] RUN --case case3 --seed 2 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case3_S5_40_40_20_seed2.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized modes, separable grid, zero AD
+======================================================================
+  Parameters: 1171
+  Epoch   100 | Loss 1.3470e+02 | PDE 1.3449e+02 | BC 2.1238e-01 | L2 2.1275e-01
+  Epoch  1000 | Loss 2.8685e+00 | PDE 2.8088e+00 | BC 5.9708e-02 | L2 9.8800e-02
+  Epoch  2000 | Loss 1.3084e+00 | PDE 1.2743e+00 | BC 3.4124e-02 | L2 7.4778e-02
+  Epoch  3000 | Loss 5.5785e-01 | PDE 5.3910e-01 | BC 1.8755e-02 | L2 5.5022e-02
+  Epoch  4000 | Loss 2.0433e-01 | PDE 1.9334e-01 | BC 1.0986e-02 | L2 4.2666e-02
+  Epoch  5000 | Loss 9.5760e-02 | PDE 8.7763e-02 | BC 7.9976e-03 | L2 3.6625e-02
+  Epoch  6000 | Loss 6.7100e-02 | PDE 6.0962e-02 | BC 6.1380e-03 | L2 3.1829e-02
+  Epoch  7000 | Loss 5.2281e-02 | PDE 4.7627e-02 | BC 4.6538e-03 | L2 2.7808e-02
+  Epoch  8000 | Loss 3.8049e-02 | PDE 3.4410e-02 | BC 3.6397e-03 | L2 2.5923e-02
+  Epoch  9000 | Loss 2.7710e-02 | PDE 2.4454e-02 | BC 3.2561e-03 | L2 2.4321e-02
+  Epoch 10000 | Loss 2.3788e-02 | PDE 2.0751e-02 | BC 3.0367e-03 | L2 2.4439e-02
+  Done: 16.2s | Params: 1171 | Best L2: 2.3449e-02 | Final L2: 2.4439e-02
+[abl] case3 strat=S5_40_40_20 scale=1.0 seed=2: best_l2=2.3449e-02 params=1171 t=16.2s
+[E16] case4 default seed0: reused E11 best_l2=1.8465e-03
+[E16] case4 default seed1: reused E11 best_l2=2.9612e-03
+[E16] case4 default seed2: reused E11 best_l2=4.7276e-03
+[E16] RUN --case case4 --seed 0 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case4_S1_single_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n'', manual T_n', vectorized modes, separable grid
+============================================================
+  Parameters: 1612
+  Epoch  1000 | Loss: 6.987129e-06 | L2 Err: 5.339890e-04
+  Epoch  2000 | Loss: 3.498204e-06 | L2 Err: 4.284251e-04
+  Epoch  3000 | Loss: 4.169096e-06 | L2 Err: 1.708514e-03
+  Epoch  4000 | Loss: 5.969229e-07 | L2 Err: 4.009021e-04
+  Epoch  5000 | Loss: 4.734711e-07 | L2 Err: 8.356292e-04
+  Epoch  6000 | Loss: 7.132879e-06 | L2 Err: 4.467739e-03
+  Epoch  7000 | Loss: 1.519648e-06 | L2 Err: 1.080183e-03
+  Epoch  8000 | Loss: 9.303621e-08 | L2 Err: 2.607726e-04
+  Epoch  9000 | Loss: 2.723247e-07 | L2 Err: 5.274183e-04
+  Epoch 10000 | Loss: 2.682093e-06 | L2 Err: 1.387087e-03
+  Time: 23.9s (2.39 ms/epoch)
+  Best L2: 2.399752e-04
+[abl] case4 strat=S1_single scale=1.0 seed=0: best_l2=2.3998e-04 params=1612 t=23.9s
+[E16] RUN --case case4 --seed 1 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case4_S1_single_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n'', manual T_n', vectorized modes, separable grid
+============================================================
+  Parameters: 1612
+  Epoch  1000 | Loss: 1.254582e-05 | L2 Err: 7.908286e-04
+  Epoch  2000 | Loss: 1.873111e-06 | L2 Err: 8.375141e-04
+  Epoch  3000 | Loss: 1.576178e-06 | L2 Err: 1.033449e-03
+  Epoch  4000 | Loss: 5.258424e-06 | L2 Err: 1.875849e-03
+  Epoch  5000 | Loss: 1.031462e-06 | L2 Err: 1.148004e-03
+  Epoch  6000 | Loss: 3.118211e-06 | L2 Err: 2.210055e-03
+  Epoch  7000 | Loss: 3.797661e-07 | L2 Err: 7.231590e-04
+  Epoch  8000 | Loss: 3.239855e-07 | L2 Err: 4.385224e-04
+  Epoch  9000 | Loss: 4.033942e-07 | L2 Err: 1.114179e-03
+  Epoch 10000 | Loss: 5.195728e-07 | L2 Err: 5.331993e-04
+  Time: 23.0s (2.30 ms/epoch)
+  Best L2: 2.657021e-04
+[abl] case4 strat=S1_single scale=1.0 seed=1: best_l2=2.6570e-04 params=1612 t=23.0s
+[E16] RUN --case case4 --seed 2 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case4_S1_single_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n'', manual T_n', vectorized modes, separable grid
+============================================================
+  Parameters: 1612
+  Epoch  1000 | Loss: 4.017983e-06 | L2 Err: 5.389623e-04
+  Epoch  2000 | Loss: 1.094472e-06 | L2 Err: 4.200033e-04
+  Epoch  3000 | Loss: 5.950530e-06 | L2 Err: 1.498439e-03
+  Epoch  4000 | Loss: 5.372135e-07 | L2 Err: 3.911282e-04
+  Epoch  5000 | Loss: 1.274605e-06 | L2 Err: 1.044122e-03
+  Epoch  6000 | Loss: 7.898125e-07 | L2 Err: 1.113809e-03
+  Epoch  7000 | Loss: 4.763399e-07 | L2 Err: 3.749176e-04
+  Epoch  8000 | Loss: 4.059565e-07 | L2 Err: 4.008285e-04
+  Epoch  9000 | Loss: 3.576748e-07 | L2 Err: 3.730495e-04
+  Epoch 10000 | Loss: 6.300525e-07 | L2 Err: 4.347001e-04
+  Time: 24.0s (2.40 ms/epoch)
+  Best L2: 2.480341e-04
+[abl] case4 strat=S1_single scale=1.0 seed=2: best_l2=2.4803e-04 params=1612 t=24.0s
+[E16] RUN --case case4 --seed 0 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case4_S2_two_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n'', manual T_n', vectorized modes, separable grid
+============================================================
+  Parameters: 1612
+  Epoch  1000 | Loss: 9.547581e-05 | L2 Err: 3.518269e-02
+  Epoch  2000 | Loss: 3.512925e-05 | L2 Err: 2.517625e-02
+  Epoch  3000 | Loss: 2.268936e-05 | L2 Err: 2.056848e-02
+  Epoch  4000 | Loss: 2.045778e-05 | L2 Err: 1.696958e-02
+  Epoch  5000 | Loss: 9.765141e-06 | L2 Err: 1.412840e-02
+  Epoch  6000 | Loss: 7.342121e-06 | L2 Err: 1.249954e-02
+  Epoch  7000 | Loss: 6.236911e-06 | L2 Err: 1.127434e-02
+  Epoch  8000 | Loss: 9.513874e-06 | L2 Err: 1.034202e-02
+  Epoch  9000 | Loss: 7.731592e-06 | L2 Err: 9.657488e-03
+  Epoch 10000 | Loss: 3.680927e-06 | L2 Err: 8.829582e-03
+  Time: 19.2s (1.92 ms/epoch)
+  Best L2: 8.829582e-03
+[abl] case4 strat=S2_two scale=1.0 seed=0: best_l2=8.8296e-03 params=1612 t=19.2s
+[E16] RUN --case case4 --seed 1 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case4_S2_two_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n'', manual T_n', vectorized modes, separable grid
+============================================================
+  Parameters: 1612
+  Epoch  1000 | Loss: 3.884683e-05 | L2 Err: 2.169189e-02
+  Epoch  2000 | Loss: 9.123052e-06 | L2 Err: 3.801278e-03
+  Epoch  3000 | Loss: 2.847126e-06 | L2 Err: 2.316851e-03
+  Epoch  4000 | Loss: 8.448072e-06 | L2 Err: 2.260125e-03
+  Epoch  5000 | Loss: 1.457431e-06 | L2 Err: 1.888324e-03
+  Epoch  6000 | Loss: 1.101342e-05 | L2 Err: 2.382347e-03
+  Epoch  7000 | Loss: 6.615114e-07 | L2 Err: 1.797187e-03
+  Epoch  8000 | Loss: 1.089944e-06 | L2 Err: 1.722909e-03
+  Epoch  9000 | Loss: 1.676059e-05 | L2 Err: 2.941847e-03
+  Epoch 10000 | Loss: 3.911745e-06 | L2 Err: 1.710844e-03
+  Time: 17.8s (1.78 ms/epoch)
+  Best L2: 1.599057e-03
+[abl] case4 strat=S2_two scale=1.0 seed=1: best_l2=1.5991e-03 params=1612 t=17.8s
+[E16] RUN --case case4 --seed 2 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case4_S2_two_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n'', manual T_n', vectorized modes, separable grid
+============================================================
+  Parameters: 1612
+  Epoch  1000 | Loss: 3.898240e-05 | L2 Err: 2.180608e-02
+  Epoch  2000 | Loss: 9.582702e-06 | L2 Err: 8.662041e-03
+  Epoch  3000 | Loss: 5.117746e-06 | L2 Err: 5.535712e-03
+  Epoch  4000 | Loss: 6.351531e-06 | L2 Err: 3.933039e-03
+  Epoch  5000 | Loss: 2.444672e-06 | L2 Err: 2.327285e-03
+  Epoch  6000 | Loss: 2.801681e-06 | L2 Err: 1.907092e-03
+  Epoch  7000 | Loss: 3.026812e-06 | L2 Err: 1.467463e-03
+  Epoch  8000 | Loss: 4.486105e-07 | L2 Err: 1.090803e-03
+  Epoch  9000 | Loss: 1.783369e-06 | L2 Err: 1.144635e-03
+  Epoch 10000 | Loss: 1.388670e-06 | L2 Err: 1.129121e-03
+  Time: 18.4s (1.84 ms/epoch)
+  Best L2: 9.490696e-04
+[abl] case4 strat=S2_two scale=1.0 seed=2: best_l2=9.4907e-04 params=1612 t=18.4s
+[E16] RUN --case case4 --seed 0 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case4_S4_continuous_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n'', manual T_n', vectorized modes, separable grid
+============================================================
+  Parameters: 1612
+  Epoch  1000 | Loss: 1.586617e-03 | L2 Err: 1.943581e+00
+  Epoch  2000 | Loss: 5.317755e-04 | L2 Err: 2.130918e+00
+  Epoch  3000 | Loss: 3.403873e-04 | L2 Err: 2.191132e+00
+  Epoch  4000 | Loss: 2.422026e-04 | L2 Err: 2.226680e+00
+  Epoch  5000 | Loss: 2.292020e-04 | L2 Err: 2.246388e+00
+  Epoch  6000 | Loss: 1.673278e-04 | L2 Err: 2.262633e+00
+  Epoch  7000 | Loss: 2.189458e-04 | L2 Err: 2.269426e+00
+  Epoch  8000 | Loss: 1.605599e-04 | L2 Err: 2.278829e+00
+  Epoch  9000 | Loss: 1.271549e-04 | L2 Err: 2.283911e+00
+  Epoch 10000 | Loss: 1.167917e-04 | L2 Err: 2.285716e+00
+  Time: 17.8s (1.78 ms/epoch)
+  Best L2: 1.286692e+00
+[abl] case4 strat=S4_continuous scale=1.0 seed=0: best_l2=1.2867e+00 params=1612 t=17.8s
+[E16] RUN --case case4 --seed 1 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case4_S4_continuous_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n'', manual T_n', vectorized modes, separable grid
+============================================================
+  Parameters: 1612
+  Epoch  1000 | Loss: 2.870655e-03 | L2 Err: 3.097375e+00
+  Epoch  2000 | Loss: 1.256837e-03 | L2 Err: 3.428836e+00
+  Epoch  3000 | Loss: 8.672654e-04 | L2 Err: 3.591545e+00
+  Epoch  4000 | Loss: 7.122707e-04 | L2 Err: 3.688206e+00
+  Epoch  5000 | Loss: 6.410934e-04 | L2 Err: 3.749115e+00
+  Epoch  6000 | Loss: 5.554343e-04 | L2 Err: 3.796177e+00
+  Epoch  7000 | Loss: 5.117972e-04 | L2 Err: 3.830740e+00
+  Epoch  8000 | Loss: 4.804159e-04 | L2 Err: 3.859236e+00
+  Epoch  9000 | Loss: 4.782313e-04 | L2 Err: 3.882150e+00
+  Epoch 10000 | Loss: 4.392370e-04 | L2 Err: 3.904636e+00
+  Time: 19.6s (1.96 ms/epoch)
+  Best L2: 1.376778e+00
+[abl] case4 strat=S4_continuous scale=1.0 seed=1: best_l2=1.3768e+00 params=1612 t=19.6s
+[E16] RUN --case case4 --seed 2 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case4_S4_continuous_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n'', manual T_n', vectorized modes, separable grid
+============================================================
+  Parameters: 1612
+  Epoch  1000 | Loss: 2.262374e-03 | L2 Err: 2.737629e+00
+  Epoch  2000 | Loss: 9.300696e-04 | L2 Err: 2.918469e+00
+  Epoch  3000 | Loss: 6.408514e-04 | L2 Err: 3.010093e+00
+  Epoch  4000 | Loss: 5.246665e-04 | L2 Err: 3.069615e+00
+  Epoch  5000 | Loss: 4.629341e-04 | L2 Err: 3.111466e+00
+  Epoch  6000 | Loss: 4.616054e-04 | L2 Err: 3.143703e+00
+  Epoch  7000 | Loss: 4.217478e-04 | L2 Err: 3.170242e+00
+  Epoch  8000 | Loss: 3.779668e-04 | L2 Err: 3.193856e+00
+  Epoch  9000 | Loss: 5.227463e-04 | L2 Err: 3.211953e+00
+  Epoch 10000 | Loss: 4.087092e-04 | L2 Err: 3.231956e+00
+  Time: 19.2s (1.92 ms/epoch)
+  Best L2: 1.437829e+00
+[abl] case4 strat=S4_continuous scale=1.0 seed=2: best_l2=1.4378e+00 params=1612 t=19.2s
+[E16] RUN --case case4 --seed 0 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case4_S5_40_40_20_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n'', manual T_n', vectorized modes, separable grid
+============================================================
+  Parameters: 1612
+  Epoch  1000 | Loss: 1.090385e-04 | L2 Err: 5.219064e-02
+  Epoch  2000 | Loss: 4.328523e-05 | L2 Err: 3.470423e-02
+  Epoch  3000 | Loss: 2.390119e-05 | L2 Err: 2.804085e-02
+  Epoch  4000 | Loss: 1.410054e-05 | L2 Err: 2.315288e-02
+  Epoch  5000 | Loss: 9.810768e-06 | L2 Err: 1.941339e-02
+  Epoch  6000 | Loss: 8.833533e-06 | L2 Err: 1.704067e-02
+  Epoch  7000 | Loss: 5.949297e-06 | L2 Err: 1.529847e-02
+  Epoch  8000 | Loss: 4.049382e-06 | L2 Err: 1.455477e-02
+  Epoch  9000 | Loss: 4.130522e-06 | L2 Err: 1.399701e-02
+  Epoch 10000 | Loss: 1.254618e-05 | L2 Err: 1.386600e-02
+  Time: 19.4s (1.94 ms/epoch)
+  Best L2: 1.365996e-02
+[abl] case4 strat=S5_40_40_20 scale=1.0 seed=0: best_l2=1.3660e-02 params=1612 t=19.4s
+[E16] RUN --case case4 --seed 1 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case4_S5_40_40_20_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n'', manual T_n', vectorized modes, separable grid
+============================================================
+  Parameters: 1612
+  Epoch  1000 | Loss: 1.536738e-04 | L2 Err: 1.166192e-01
+  Epoch  2000 | Loss: 6.286653e-05 | L2 Err: 7.270085e-02
+  Epoch  3000 | Loss: 4.491489e-05 | L2 Err: 6.092627e-02
+  Epoch  4000 | Loss: 3.492999e-05 | L2 Err: 5.265201e-02
+  Epoch  5000 | Loss: 2.333866e-05 | L2 Err: 4.478945e-02
+  Epoch  6000 | Loss: 2.045116e-05 | L2 Err: 3.718686e-02
+  Epoch  7000 | Loss: 9.516662e-06 | L2 Err: 2.989341e-02
+  Epoch  8000 | Loss: 5.689497e-06 | L2 Err: 2.331314e-02
+  Epoch  9000 | Loss: 5.393611e-06 | L2 Err: 1.799200e-02
+  Epoch 10000 | Loss: 2.758164e-06 | L2 Err: 1.375929e-02
+  Time: 18.7s (1.87 ms/epoch)
+  Best L2: 1.375929e-02
+[abl] case4 strat=S5_40_40_20 scale=1.0 seed=1: best_l2=1.3759e-02 params=1612 t=18.7s
+[E16] RUN --case case4 --seed 2 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case4_S5_40_40_20_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n'', manual T_n', vectorized modes, separable grid
+============================================================
+  Parameters: 1612
+  Epoch  1000 | Loss: 6.805859e-05 | L2 Err: 3.696383e-02
+  Epoch  2000 | Loss: 1.565764e-05 | L2 Err: 1.540953e-02
+  Epoch  3000 | Loss: 9.480503e-06 | L2 Err: 1.020815e-02
+  Epoch  4000 | Loss: 7.753913e-06 | L2 Err: 7.373030e-03
+  Epoch  5000 | Loss: 1.451843e-06 | L2 Err: 5.436471e-03
+  Epoch  6000 | Loss: 6.540125e-06 | L2 Err: 4.274141e-03
+  Epoch  7000 | Loss: 6.790407e-07 | L2 Err: 3.218758e-03
+  Epoch  8000 | Loss: 4.945711e-07 | L2 Err: 2.508675e-03
+  Epoch  9000 | Loss: 4.775299e-06 | L2 Err: 2.499628e-03
+  Epoch 10000 | Loss: 2.160375e-07 | L2 Err: 1.561632e-03
+  Time: 18.6s (1.86 ms/epoch)
+  Best L2: 1.561632e-03
+[abl] case4 strat=S5_40_40_20 scale=1.0 seed=2: best_l2=1.5616e-03 params=1612 t=18.6s
+[E16] case5 default seed0: reused E11 best_l2=1.7161e-02
+[E16] case5 default seed1: reused E11 best_l2=1.0567e-02
+[E16] case5 default seed2: reused E11 best_l2=6.6645e-03
+[E16] RUN --case case5 --seed 0 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case5_S1_single_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + cylinder mask
+============================================================
+  Parameters: 2,322
+  Epoch  1000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  2000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  3000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  4000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  5000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  6000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  7000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  8000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  9000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Training time: 13.8s (1.38 ms/epoch)
+  Best L2 error: 9.9998e-01
+[abl] case5 strat=S1_single scale=1.0 seed=0: best_l2=9.9998e-01 params=2322 t=13.8s
+[E16] RUN --case case5 --seed 1 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case5_S1_single_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + cylinder mask
+============================================================
+  Parameters: 2,322
+  Epoch  1000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  2000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  3000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  4000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  5000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  6000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2224e-01 | L2: 9.9999e-01
+  Epoch  7000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  8000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  9000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Training time: 14.2s (1.42 ms/epoch)
+  Best L2 error: 9.9998e-01
+[abl] case5 strat=S1_single scale=1.0 seed=1: best_l2=9.9998e-01 params=2322 t=14.2s
+[E16] RUN --case case5 --seed 2 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case5_S1_single_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + cylinder mask
+============================================================
+  Parameters: 2,322
+  Epoch  1000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  2000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  3000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  4000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  5000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  6000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  7000 | Loss: 7.8951e+06 | PDE: 7.8951e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  8000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Epoch  9000 | Loss: 7.8948e+06 | PDE: 7.8948e+06 | BC: 1.2225e-01 | L2: 9.9999e-01
+  Training time: 14.6s (1.46 ms/epoch)
+  Best L2 error: 9.9999e-01
+[abl] case5 strat=S1_single scale=1.0 seed=2: best_l2=9.9999e-01 params=2322 t=14.6s
+[E16] RUN --case case5 --seed 0 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case5_S2_two_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + cylinder mask
+============================================================
+  Parameters: 2,322
+  Epoch  1000 | Loss: 5.9020e+02 | PDE: 5.9019e+02 | BC: 1.4093e-02 | L2: 1.3367e-01
+  Epoch  2000 | Loss: 1.8601e+02 | PDE: 1.8601e+02 | BC: 2.4617e-03 | L2: 7.9114e-02
+  Epoch  3000 | Loss: 1.2850e+02 | PDE: 1.2850e+02 | BC: 4.2726e-04 | L2: 5.2575e-02
+  Epoch  4000 | Loss: 6.9739e+01 | PDE: 6.9739e+01 | BC: 7.1516e-05 | L2: 1.5825e-02
+  Epoch  5000 | Loss: 7.2010e+01 | PDE: 7.2010e+01 | BC: 4.9248e-04 | L2: 3.6802e-02
+  Epoch  6000 | Loss: 8.4342e+01 | PDE: 8.4341e+01 | BC: 1.5094e-03 | L2: 7.3465e-02
+  Epoch  7000 | Loss: 3.9903e+01 | PDE: 3.9900e+01 | BC: 2.5901e-03 | L2: 9.9946e-02
+  Epoch  8000 | Loss: 5.0545e+01 | PDE: 5.0542e+01 | BC: 3.3090e-03 | L2: 1.1442e-01
+  Epoch  9000 | Loss: 4.7277e+01 | PDE: 4.7274e+01 | BC: 3.4509e-03 | L2: 1.1793e-01
+  Training time: 12.4s (1.24 ms/epoch)
+  Best L2 error: 1.3659e-02
+[abl] case5 strat=S2_two scale=1.0 seed=0: best_l2=1.3659e-02 params=2322 t=12.4s
+[E16] RUN --case case5 --seed 1 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case5_S2_two_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + cylinder mask
+============================================================
+  Parameters: 2,322
+  Epoch  1000 | Loss: 1.0736e+03 | PDE: 1.0735e+03 | BC: 4.7763e-02 | L2: 2.3897e-01
+  Epoch  2000 | Loss: 3.9634e+02 | PDE: 3.9632e+02 | BC: 1.7153e-02 | L2: 1.8837e-01
+  Epoch  3000 | Loss: 2.2163e+02 | PDE: 2.2162e+02 | BC: 8.4221e-03 | L2: 1.6955e-01
+  Epoch  4000 | Loss: 1.1454e+02 | PDE: 1.1454e+02 | BC: 4.7966e-03 | L2: 1.4639e-01
+  Epoch  5000 | Loss: 7.8367e+01 | PDE: 7.8364e+01 | BC: 3.0012e-03 | L2: 1.1753e-01
+  Epoch  6000 | Loss: 7.3104e+01 | PDE: 7.3102e+01 | BC: 1.7510e-03 | L2: 8.9100e-02
+  Epoch  7000 | Loss: 8.5843e+01 | PDE: 8.5843e+01 | BC: 8.0305e-04 | L2: 5.9008e-02
+  Epoch  8000 | Loss: 5.5236e+01 | PDE: 5.5236e+01 | BC: 2.0148e-04 | L2: 2.9138e-02
+  Epoch  9000 | Loss: 5.6532e+01 | PDE: 5.6532e+01 | BC: 9.2435e-05 | L2: 1.3904e-02
+  Training time: 12.7s (1.27 ms/epoch)
+  Best L2 error: 9.9998e-03
+[abl] case5 strat=S2_two scale=1.0 seed=1: best_l2=9.9998e-03 params=2322 t=12.7s
+[E16] RUN --case case5 --seed 2 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case5_S2_two_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + cylinder mask
+============================================================
+  Parameters: 2,322
+  Epoch  1000 | Loss: 7.5995e+02 | PDE: 7.5992e+02 | BC: 2.9486e-02 | L2: 1.9247e-01
+  Epoch  2000 | Loss: 2.0899e+02 | PDE: 2.0898e+02 | BC: 1.6037e-02 | L2: 1.6578e-01
+  Epoch  3000 | Loss: 1.0775e+02 | PDE: 1.0774e+02 | BC: 9.7369e-03 | L2: 1.5290e-01
+  Epoch  4000 | Loss: 6.6454e+01 | PDE: 6.6447e+01 | BC: 6.7174e-03 | L2: 1.5216e-01
+  Epoch  5000 | Loss: 3.5883e+01 | PDE: 3.5878e+01 | BC: 5.1991e-03 | L2: 1.4597e-01
+  Epoch  6000 | Loss: 3.5944e+01 | PDE: 3.5940e+01 | BC: 3.7460e-03 | L2: 1.2863e-01
+  Epoch  7000 | Loss: 2.6756e+01 | PDE: 2.6753e+01 | BC: 2.6234e-03 | L2: 1.0797e-01
+  Epoch  8000 | Loss: 2.6913e+01 | PDE: 2.6911e+01 | BC: 1.7710e-03 | L2: 8.8452e-02
+  Epoch  9000 | Loss: 2.3794e+01 | PDE: 2.3793e+01 | BC: 1.0907e-03 | L2: 6.9851e-02
+  Training time: 13.0s (1.30 ms/epoch)
+  Best L2 error: 5.1448e-02
+[abl] case5 strat=S2_two scale=1.0 seed=2: best_l2=5.1448e-02 params=2322 t=13.0s
+[E16] RUN --case case5 --seed 0 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case5_S4_continuous_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + cylinder mask
+============================================================
+  Parameters: 2,322
+  Epoch  1000 | Loss: 1.0874e+03 | PDE: 1.0873e+03 | BC: 1.7665e-02 | L2: 1.4323e-01
+  Epoch  2000 | Loss: 2.0218e+02 | PDE: 2.0215e+02 | BC: 3.0992e-02 | L2: 2.4957e-01
+  Epoch  3000 | Loss: 1.4241e+02 | PDE: 1.4238e+02 | BC: 2.5558e-02 | L2: 2.8122e-01
+  Epoch  4000 | Loss: 9.9325e+01 | PDE: 9.9298e+01 | BC: 2.6959e-02 | L2: 3.1210e-01
+  Epoch  5000 | Loss: 5.9172e+01 | PDE: 5.9141e+01 | BC: 3.0908e-02 | L2: 3.4397e-01
+  Epoch  6000 | Loss: 2.9091e+01 | PDE: 2.9055e+01 | BC: 3.5425e-02 | L2: 3.7439e-01
+  Epoch  7000 | Loss: 1.6025e+01 | PDE: 1.5986e+01 | BC: 3.9504e-02 | L2: 3.9984e-01
+  Epoch  8000 | Loss: 7.8703e+00 | PDE: 7.8279e+00 | BC: 4.2433e-02 | L2: 4.1762e-01
+  Epoch  9000 | Loss: 5.6416e+00 | PDE: 5.5978e+00 | BC: 4.3757e-02 | L2: 4.2611e-01
+  Training time: 12.3s (1.23 ms/epoch)
+  Best L2 error: 8.2919e-02
+[abl] case5 strat=S4_continuous scale=1.0 seed=0: best_l2=8.2919e-02 params=2322 t=12.3s
+[E16] RUN --case case5 --seed 1 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case5_S4_continuous_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + cylinder mask
+============================================================
+  Parameters: 2,322
+  Epoch  1000 | Loss: 1.5330e+03 | PDE: 1.5330e+03 | BC: 1.3786e-02 | L2: 1.1953e-01
+  Epoch  2000 | Loss: 3.8440e+02 | PDE: 3.8437e+02 | BC: 2.1844e-02 | L2: 1.9910e-01
+  Epoch  3000 | Loss: 2.1587e+02 | PDE: 2.1586e+02 | BC: 1.4346e-02 | L2: 1.8720e-01
+  Epoch  4000 | Loss: 1.2316e+02 | PDE: 1.2315e+02 | BC: 1.1633e-02 | L2: 1.8925e-01
+  Epoch  5000 | Loss: 5.9984e+01 | PDE: 5.9972e+01 | BC: 1.1939e-02 | L2: 2.0564e-01
+  Epoch  6000 | Loss: 2.8077e+01 | PDE: 2.8063e+01 | BC: 1.4462e-02 | L2: 2.3633e-01
+  Epoch  7000 | Loss: 1.6384e+01 | PDE: 1.6366e+01 | BC: 1.7963e-02 | L2: 2.6790e-01
+  Epoch  8000 | Loss: 8.0164e+00 | PDE: 7.9959e+00 | BC: 2.0539e-02 | L2: 2.8990e-01
+  Epoch  9000 | Loss: 1.0769e+01 | PDE: 1.0747e+01 | BC: 2.1814e-02 | L2: 3.0022e-01
+  Training time: 12.1s (1.21 ms/epoch)
+  Best L2 error: 8.5390e-02
+[abl] case5 strat=S4_continuous scale=1.0 seed=1: best_l2=8.5390e-02 params=2322 t=12.1s
+[E16] RUN --case case5 --seed 2 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case5_S4_continuous_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + cylinder mask
+============================================================
+  Parameters: 2,322
+  Epoch  1000 | Loss: 2.8022e+03 | PDE: 2.8021e+03 | BC: 3.1003e-02 | L2: 2.0169e-01
+  Epoch  2000 | Loss: 1.0730e+03 | PDE: 1.0730e+03 | BC: 7.7363e-03 | L2: 8.6617e-02
+  Epoch  3000 | Loss: 6.1721e+02 | PDE: 6.1720e+02 | BC: 4.7306e-03 | L2: 6.6020e-02
+  Epoch  4000 | Loss: 3.4194e+02 | PDE: 3.4194e+02 | BC: 4.4946e-03 | L2: 7.7791e-02
+  Epoch  5000 | Loss: 1.5899e+02 | PDE: 1.5899e+02 | BC: 3.8602e-03 | L2: 8.9444e-02
+  Epoch  6000 | Loss: 6.2205e+01 | PDE: 6.2203e+01 | BC: 2.7524e-03 | L2: 9.0819e-02
+  Epoch  7000 | Loss: 2.3842e+01 | PDE: 2.3840e+01 | BC: 2.8010e-03 | L2: 1.0554e-01
+  Epoch  8000 | Loss: 1.4679e+01 | PDE: 1.4675e+01 | BC: 3.0677e-03 | L2: 1.1286e-01
+  Epoch  9000 | Loss: 2.6266e+01 | PDE: 2.6263e+01 | BC: 3.1004e-03 | L2: 1.1370e-01
+  Training time: 11.8s (1.18 ms/epoch)
+  Best L2 error: 5.5190e-02
+[abl] case5 strat=S4_continuous scale=1.0 seed=2: best_l2=5.5190e-02 params=2322 t=11.8s
+[E16] RUN --case case5 --seed 0 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case5_S5_40_40_20_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + cylinder mask
+============================================================
+  Parameters: 2,322
+  Epoch  1000 | Loss: 4.2567e+02 | PDE: 4.2564e+02 | BC: 2.8262e-02 | L2: 2.0085e-01
+  Epoch  2000 | Loss: 1.6026e+02 | PDE: 1.6024e+02 | BC: 2.0559e-02 | L2: 2.1987e-01
+  Epoch  3000 | Loss: 1.0184e+02 | PDE: 1.0182e+02 | BC: 1.8463e-02 | L2: 2.5000e-01
+  Epoch  4000 | Loss: 6.5084e+01 | PDE: 6.5068e+01 | BC: 1.5794e-02 | L2: 2.5373e-01
+  Epoch  5000 | Loss: 5.9245e+01 | PDE: 5.9233e+01 | BC: 1.2441e-02 | L2: 2.2992e-01
+  Epoch  6000 | Loss: 4.4279e+01 | PDE: 4.4270e+01 | BC: 8.6643e-03 | L2: 1.9195e-01
+  Epoch  7000 | Loss: 2.9758e+01 | PDE: 2.9753e+01 | BC: 4.9589e-03 | L2: 1.4563e-01
+  Epoch  8000 | Loss: 3.1002e+01 | PDE: 3.1000e+01 | BC: 1.9824e-03 | L2: 9.2141e-02
+  Epoch  9000 | Loss: 4.3806e+01 | PDE: 4.3806e+01 | BC: 2.7982e-04 | L2: 3.5039e-02
+  Training time: 12.4s (1.24 ms/epoch)
+  Best L2 error: 5.8671e-03
+[abl] case5 strat=S5_40_40_20 scale=1.0 seed=0: best_l2=5.8671e-03 params=2322 t=12.4s
+[E16] RUN --case case5 --seed 1 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case5_S5_40_40_20_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + cylinder mask
+============================================================
+  Parameters: 2,322
+  Epoch  1000 | Loss: 7.6364e+02 | PDE: 7.6355e+02 | BC: 8.6602e-02 | L2: 3.2861e-01
+  Epoch  2000 | Loss: 1.3556e+02 | PDE: 1.3549e+02 | BC: 6.2169e-02 | L2: 3.6980e-01
+  Epoch  3000 | Loss: 7.1436e+01 | PDE: 7.1388e+01 | BC: 4.7201e-02 | L2: 3.8855e-01
+  Epoch  4000 | Loss: 6.5218e+01 | PDE: 6.5181e+01 | BC: 3.7199e-02 | L2: 3.8418e-01
+  Epoch  5000 | Loss: 4.7868e+01 | PDE: 4.7837e+01 | BC: 3.0690e-02 | L2: 3.6121e-01
+  Epoch  6000 | Loss: 4.9894e+01 | PDE: 4.9867e+01 | BC: 2.6111e-02 | L2: 3.3435e-01
+  Epoch  7000 | Loss: 3.1317e+01 | PDE: 3.1294e+01 | BC: 2.2520e-02 | L2: 3.1047e-01
+  Epoch  8000 | Loss: 1.8771e+01 | PDE: 1.8751e+01 | BC: 1.9609e-02 | L2: 2.8967e-01
+  Epoch  9000 | Loss: 2.7595e+01 | PDE: 2.7578e+01 | BC: 1.7204e-02 | L2: 2.7100e-01
+  Training time: 12.5s (1.26 ms/epoch)
+  Best L2 error: 2.3850e-01
+[abl] case5 strat=S5_40_40_20 scale=1.0 seed=1: best_l2=2.3850e-01 params=2322 t=12.5s
+[E16] RUN --case case5 --seed 2 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case5_S5_40_40_20_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + cylinder mask
+============================================================
+  Parameters: 2,322
+  Epoch  1000 | Loss: 6.9271e+02 | PDE: 6.9270e+02 | BC: 1.5238e-02 | L2: 1.3914e-01
+  Epoch  2000 | Loss: 1.3718e+02 | PDE: 1.3717e+02 | BC: 9.0345e-03 | L2: 1.3625e-01
+  Epoch  3000 | Loss: 7.3697e+01 | PDE: 7.3690e+01 | BC: 6.6212e-03 | L2: 1.3871e-01
+  Epoch  4000 | Loss: 4.9226e+01 | PDE: 4.9221e+01 | BC: 4.3994e-03 | L2: 1.2943e-01
+  Epoch  5000 | Loss: 3.4274e+01 | PDE: 3.4271e+01 | BC: 2.5532e-03 | L2: 1.0484e-01
+  Epoch  6000 | Loss: 5.2397e+01 | PDE: 5.2396e+01 | BC: 1.3262e-03 | L2: 7.7051e-02
+  Epoch  7000 | Loss: 3.3092e+01 | PDE: 3.3092e+01 | BC: 5.7238e-04 | L2: 5.0497e-02
+  Epoch  8000 | Loss: 2.2294e+01 | PDE: 2.2294e+01 | BC: 1.2805e-04 | L2: 2.4164e-02
+  Epoch  9000 | Loss: 1.7185e+01 | PDE: 1.7185e+01 | BC: 6.8333e-05 | L2: 1.5612e-02
+  Training time: 12.6s (1.26 ms/epoch)
+  Best L2 error: 6.3174e-03
+[abl] case5 strat=S5_40_40_20 scale=1.0 seed=2: best_l2=6.3174e-03 params=2322 t=12.6s
+[E16] case6 default seed0: reused E11 best_l2=2.9228e-03
+[E16] case6 default seed1: reused E11 best_l2=1.1528e-02
+[E16] case6 default seed2: reused E11 best_l2=1.2785e-02
+[E16] RUN --case case6 --seed 0 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case6_S1_single_seed0.json
+
+============================================================
+Training SV-SNN (Accelerated)
+============================================================
+  Parameters: 3,096
+  Epoch  1000 | Loss: 4.3005e+00 | PDE: 4.3005e+00 | BC: 6.1123e-06 | L2: 3.4487e-03
+  Epoch  2000 | Loss: 4.2338e+00 | PDE: 4.2338e+00 | BC: 1.1025e-05 | L2: 4.4996e-03
+  Epoch  3000 | Loss: 4.9657e+00 | PDE: 4.9657e+00 | BC: 3.0734e-05 | L2: 7.5962e-03
+  Epoch  4000 | Loss: 6.1381e+00 | PDE: 6.1381e+00 | BC: 4.5516e-05 | L2: 9.1022e-03
+  Epoch  5000 | Loss: 1.5829e+03 | PDE: 1.5829e+03 | BC: 4.6571e-06 | L2: 5.5226e-03
+  Epoch  6000 | Loss: 1.3317e+01 | PDE: 1.3317e+01 | BC: 5.8252e-05 | L2: 1.0789e-02
+  Epoch  7000 | Loss: 7.0495e+01 | PDE: 7.0495e+01 | BC: 5.0165e-05 | L2: 9.9462e-03
+  Epoch  8000 | Loss: 1.2440e+02 | PDE: 1.2440e+02 | BC: 7.3207e-05 | L2: 1.1388e-02
+  Epoch  9000 | Loss: 1.1707e+02 | PDE: 1.1707e+02 | BC: 6.0885e-05 | L2: 1.1624e-02
+  Training time: 19.0s (1.90 ms/epoch)
+  Best L2 error: 1.1876e-03
+  Final L2 error: 1.6714e-02
+[abl] case6 strat=S1_single scale=1.0 seed=0: best_l2=1.1876e-03 params=3096 t=19.0s
+[E16] RUN --case case6 --seed 1 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case6_S1_single_seed1.json
+
+============================================================
+Training SV-SNN (Accelerated)
+============================================================
+  Parameters: 3,096
+  Epoch  1000 | Loss: 4.1858e+00 | PDE: 4.1858e+00 | BC: 1.8956e-06 | L2: 1.8379e-03
+  Epoch  2000 | Loss: 8.3122e+01 | PDE: 8.3122e+01 | BC: 7.1366e-06 | L2: 2.8811e-03
+  Epoch  3000 | Loss: 2.4204e+00 | PDE: 2.4204e+00 | BC: 1.2571e-06 | L2: 1.4255e-03
+  Epoch  4000 | Loss: 1.2647e+02 | PDE: 1.2647e+02 | BC: 1.0911e-05 | L2: 3.2393e-03
+  Epoch  5000 | Loss: 3.5981e+01 | PDE: 3.5981e+01 | BC: 1.1510e-05 | L2: 4.6764e-03
+  Epoch  6000 | Loss: 2.8052e+03 | PDE: 2.8052e+03 | BC: 5.1316e-05 | L2: 8.5284e-03
+  Epoch  7000 | Loss: 6.3616e+02 | PDE: 6.3616e+02 | BC: 2.7756e-05 | L2: 8.5917e-03
+  Epoch  8000 | Loss: 5.4639e+01 | PDE: 5.4639e+01 | BC: 2.6447e-05 | L2: 7.4332e-03
+  Epoch  9000 | Loss: 5.0803e+02 | PDE: 5.0803e+02 | BC: 1.5223e-05 | L2: 8.5924e-03
+  Training time: 18.9s (1.89 ms/epoch)
+  Best L2 error: 1.1981e-03
+  Final L2 error: 4.3545e-03
+[abl] case6 strat=S1_single scale=1.0 seed=1: best_l2=1.1981e-03 params=3096 t=18.9s
+[E16] RUN --case case6 --seed 2 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case6_S1_single_seed2.json
+
+============================================================
+Training SV-SNN (Accelerated)
+============================================================
+  Parameters: 3,096
+  Epoch  1000 | Loss: 5.6649e+00 | PDE: 5.6649e+00 | BC: 5.1373e-05 | L2: 1.0141e-02
+  Epoch  2000 | Loss: 4.9221e+00 | PDE: 4.9220e+00 | BC: 5.5013e-05 | L2: 1.0467e-02
+  Epoch  3000 | Loss: 3.5730e+02 | PDE: 3.5730e+02 | BC: 8.7515e-05 | L2: 1.3340e-02
+  Epoch  4000 | Loss: 1.0156e+01 | PDE: 1.0156e+01 | BC: 1.5558e-04 | L2: 1.7592e-02
+  Epoch  5000 | Loss: 6.5316e+02 | PDE: 6.5316e+02 | BC: 1.6299e-04 | L2: 1.7411e-02
+  Epoch  6000 | Loss: 2.0189e+02 | PDE: 2.0189e+02 | BC: 1.8944e-04 | L2: 1.8035e-02
+  Epoch  7000 | Loss: 5.4191e+02 | PDE: 5.4191e+02 | BC: 2.2438e-05 | L2: 5.6622e-03
+  Epoch  8000 | Loss: 3.0998e+03 | PDE: 3.0998e+03 | BC: 2.2289e-04 | L2: 2.1091e-02
+  Epoch  9000 | Loss: 1.1479e+02 | PDE: 1.1479e+02 | BC: 1.4430e-04 | L2: 1.5208e-02
+  Training time: 18.5s (1.85 ms/epoch)
+  Best L2 error: 2.2719e-03
+  Final L2 error: 1.2250e-02
+[abl] case6 strat=S1_single scale=1.0 seed=2: best_l2=2.2719e-03 params=3096 t=18.5s
+[E16] RUN --case case6 --seed 0 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case6_S2_two_seed0.json
+
+============================================================
+Training SV-SNN (Accelerated)
+============================================================
+  Parameters: 3,096
+  Epoch  1000 | Loss: 1.5256e+04 | PDE: 1.5256e+04 | BC: 2.0880e-01 | L2: 1.5019e-01
+  Epoch  2000 | Loss: 2.6691e+03 | PDE: 2.6688e+03 | BC: 2.4836e-01 | L2: 2.0726e-01
+  Epoch  3000 | Loss: 7.0253e+02 | PDE: 7.0233e+02 | BC: 2.0538e-01 | L2: 2.1470e-01
+  Epoch  4000 | Loss: 2.4458e+02 | PDE: 2.4439e+02 | BC: 1.8383e-01 | L2: 2.2318e-01
+  Epoch  5000 | Loss: 1.5445e+02 | PDE: 1.5428e+02 | BC: 1.6961e-01 | L2: 2.3001e-01
+  Epoch  6000 | Loss: 1.1145e+02 | PDE: 1.1130e+02 | BC: 1.5345e-01 | L2: 2.3998e-01
+  Epoch  7000 | Loss: 8.3705e+01 | PDE: 8.3570e+01 | BC: 1.3492e-01 | L2: 2.5126e-01
+  Epoch  8000 | Loss: 6.8843e+01 | PDE: 6.8727e+01 | BC: 1.1626e-01 | L2: 2.5650e-01
+  Epoch  9000 | Loss: 9.9300e+01 | PDE: 9.9200e+01 | BC: 1.0044e-01 | L2: 2.5205e-01
+  Training time: 15.8s (1.58 ms/epoch)
+  Best L2 error: 5.5343e-02
+  Final L2 error: 2.4196e-01
+[abl] case6 strat=S2_two scale=1.0 seed=0: best_l2=5.5343e-02 params=3096 t=15.8s
+[E16] RUN --case case6 --seed 1 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case6_S2_two_seed1.json
+
+============================================================
+Training SV-SNN (Accelerated)
+============================================================
+  Parameters: 3,096
+  Epoch  1000 | Loss: 6.5285e+03 | PDE: 6.5282e+03 | BC: 3.6432e-01 | L2: 2.2481e-01
+  Epoch  2000 | Loss: 1.2148e+03 | PDE: 1.2144e+03 | BC: 4.1469e-01 | L2: 3.0757e-01
+  Epoch  3000 | Loss: 5.7530e+02 | PDE: 5.7487e+02 | BC: 4.3112e-01 | L2: 3.4285e-01
+  Epoch  4000 | Loss: 2.9049e+02 | PDE: 2.9009e+02 | BC: 4.0616e-01 | L2: 3.7234e-01
+  Epoch  5000 | Loss: 1.4735e+02 | PDE: 1.4699e+02 | BC: 3.5526e-01 | L2: 4.0329e-01
+  Epoch  6000 | Loss: 7.8178e+01 | PDE: 7.7872e+01 | BC: 3.0613e-01 | L2: 4.1983e-01
+  Epoch  7000 | Loss: 6.2778e+01 | PDE: 6.2510e+01 | BC: 2.6750e-01 | L2: 4.1796e-01
+  Epoch  8000 | Loss: 8.4783e+01 | PDE: 8.4544e+01 | BC: 2.3847e-01 | L2: 4.0257e-01
+  Epoch  9000 | Loss: 8.3250e+01 | PDE: 8.3039e+01 | BC: 2.1067e-01 | L2: 3.8088e-01
+  Training time: 15.6s (1.56 ms/epoch)
+  Best L2 error: 1.1321e-01
+  Final L2 error: 3.5657e-01
+[abl] case6 strat=S2_two scale=1.0 seed=1: best_l2=1.1321e-01 params=3096 t=15.6s
+[E16] RUN --case case6 --seed 2 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case6_S2_two_seed2.json
+
+============================================================
+Training SV-SNN (Accelerated)
+============================================================
+  Parameters: 3,096
+  Epoch  1000 | Loss: 1.1216e+04 | PDE: 1.1215e+04 | BC: 1.6322e-01 | L2: 1.4750e-01
+  Epoch  2000 | Loss: 1.6952e+03 | PDE: 1.6950e+03 | BC: 1.2020e-01 | L2: 1.4048e-01
+  Epoch  3000 | Loss: 6.6740e+02 | PDE: 6.6730e+02 | BC: 1.0801e-01 | L2: 1.5170e-01
+  Epoch  4000 | Loss: 2.8971e+02 | PDE: 2.8961e+02 | BC: 1.0469e-01 | L2: 1.6243e-01
+  Epoch  5000 | Loss: 1.3953e+02 | PDE: 1.3943e+02 | BC: 9.4670e-02 | L2: 1.6077e-01
+  Epoch  6000 | Loss: 9.4718e+01 | PDE: 9.4645e+01 | BC: 7.2553e-02 | L2: 1.4434e-01
+  Epoch  7000 | Loss: 6.7722e+01 | PDE: 6.7675e+01 | BC: 4.6739e-02 | L2: 1.2366e-01
+  Epoch  8000 | Loss: 1.4195e+02 | PDE: 1.4192e+02 | BC: 2.7615e-02 | L2: 1.1098e-01
+  Epoch  9000 | Loss: 8.6563e+01 | PDE: 8.6546e+01 | BC: 1.7020e-02 | L2: 1.0308e-01
+  Training time: 16.0s (1.60 ms/epoch)
+  Best L2 error: 9.3747e-02
+  Final L2 error: 9.3747e-02
+[abl] case6 strat=S2_two scale=1.0 seed=2: best_l2=9.3747e-02 params=3096 t=16.0s
+[E16] RUN --case case6 --seed 0 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case6_S4_continuous_seed0.json
+
+============================================================
+Training SV-SNN (Accelerated)
+============================================================
+  Parameters: 3,096
+  Epoch  1000 | Loss: 9.2185e+05 | PDE: 9.2183e+05 | BC: 1.3975e+01 | L2: 1.1959e+00
+  Epoch  2000 | Loss: 3.3424e+05 | PDE: 3.3423e+05 | BC: 1.0104e+01 | L2: 1.4143e+00
+  Epoch  3000 | Loss: 2.0843e+05 | PDE: 2.0843e+05 | BC: 3.7286e+00 | L2: 1.1108e+00
+  Epoch  4000 | Loss: 1.2226e+05 | PDE: 1.2226e+05 | BC: 6.8325e-01 | L2: 8.0131e-01
+  Epoch  5000 | Loss: 6.2561e+04 | PDE: 6.2561e+04 | BC: 1.3962e-01 | L2: 6.8598e-01
+  Epoch  6000 | Loss: 3.0452e+04 | PDE: 3.0451e+04 | BC: 1.1387e+00 | L2: 8.8233e-01
+  Epoch  7000 | Loss: 1.8076e+04 | PDE: 1.8074e+04 | BC: 2.2585e+00 | L2: 1.0359e+00
+  Epoch  8000 | Loss: 1.4218e+04 | PDE: 1.4216e+04 | BC: 2.6223e+00 | L2: 1.0626e+00
+  Epoch  9000 | Loss: 1.2516e+04 | PDE: 1.2514e+04 | BC: 2.5203e+00 | L2: 1.0253e+00
+  Training time: 15.9s (1.59 ms/epoch)
+  Best L2 error: 3.4860e-01
+  Final L2 error: 9.6364e-01
+[abl] case6 strat=S4_continuous scale=1.0 seed=0: best_l2=3.4860e-01 params=3096 t=15.9s
+[E16] RUN --case case6 --seed 1 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case6_S4_continuous_seed1.json
+
+============================================================
+Training SV-SNN (Accelerated)
+============================================================
+  Parameters: 3,096
+  Epoch  1000 | Loss: 6.5865e+05 | PDE: 6.5864e+05 | BC: 7.8859e+00 | L2: 9.9666e-01
+  Epoch  2000 | Loss: 2.9929e+05 | PDE: 2.9929e+05 | BC: 2.0230e+00 | L2: 6.3674e-01
+  Epoch  3000 | Loss: 1.4443e+05 | PDE: 1.4443e+05 | BC: 2.6580e-01 | L2: 2.4274e-01
+  Epoch  4000 | Loss: 6.5262e+04 | PDE: 6.5262e+04 | BC: 1.3085e-01 | L2: 1.6092e-01
+  Epoch  5000 | Loss: 3.7931e+04 | PDE: 3.7931e+04 | BC: 1.5683e-01 | L2: 1.8337e-01
+  Epoch  6000 | Loss: 2.6923e+04 | PDE: 2.6923e+04 | BC: 1.3499e-01 | L2: 1.8532e-01
+  Epoch  7000 | Loss: 2.0815e+04 | PDE: 2.0815e+04 | BC: 9.6157e-02 | L2: 1.6862e-01
+  Epoch  8000 | Loss: 1.6146e+04 | PDE: 1.6146e+04 | BC: 6.1688e-02 | L2: 1.4518e-01
+  Epoch  9000 | Loss: 1.2267e+04 | PDE: 1.2267e+04 | BC: 3.6822e-02 | L2: 1.2335e-01
+  Training time: 16.3s (1.63 ms/epoch)
+  Best L2 error: 1.0615e-01
+  Final L2 error: 1.0615e-01
+[abl] case6 strat=S4_continuous scale=1.0 seed=1: best_l2=1.0615e-01 params=3096 t=16.3s
+[E16] RUN --case case6 --seed 2 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case6_S4_continuous_seed2.json
+
+============================================================
+Training SV-SNN (Accelerated)
+============================================================
+  Parameters: 3,096
+  Epoch  1000 | Loss: 5.7180e+05 | PDE: 5.7180e+05 | BC: 2.4914e+00 | L2: 4.7623e-01
+  Epoch  2000 | Loss: 1.5861e+05 | PDE: 1.5861e+05 | BC: 1.3810e+00 | L2: 3.4043e-01
+  Epoch  3000 | Loss: 8.6676e+04 | PDE: 8.6676e+04 | BC: 5.9035e-01 | L2: 2.9471e-01
+  Epoch  4000 | Loss: 4.1432e+04 | PDE: 4.1432e+04 | BC: 1.6236e-01 | L2: 3.6594e-01
+  Epoch  5000 | Loss: 1.7760e+04 | PDE: 1.7760e+04 | BC: 1.1205e-02 | L2: 3.7658e-01
+  Epoch  6000 | Loss: 8.4037e+03 | PDE: 8.4037e+03 | BC: 2.6471e-03 | L2: 3.8190e-01
+  Epoch  7000 | Loss: 5.3771e+03 | PDE: 5.3771e+03 | BC: 2.7126e-03 | L2: 3.6556e-01
+  Epoch  8000 | Loss: 4.1825e+03 | PDE: 4.1825e+03 | BC: 7.3354e-03 | L2: 3.3241e-01
+  Epoch  9000 | Loss: 3.5542e+03 | PDE: 3.5542e+03 | BC: 2.7856e-02 | L2: 3.0253e-01
+  Training time: 15.8s (1.58 ms/epoch)
+  Best L2 error: 2.8601e-01
+  Final L2 error: 2.8601e-01
+[abl] case6 strat=S4_continuous scale=1.0 seed=2: best_l2=2.8601e-01 params=3096 t=15.8s
+[E16] RUN --case case6 --seed 0 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case6_S5_40_40_20_seed0.json
+
+============================================================
+Training SV-SNN (Accelerated)
+============================================================
+  Parameters: 3,096
+  Epoch  1000 | Loss: 1.2379e+04 | PDE: 1.2379e+04 | BC: 1.0991e-01 | L2: 1.0003e-01
+  Epoch  2000 | Loss: 2.1524e+03 | PDE: 2.1521e+03 | BC: 2.1413e-01 | L2: 1.8735e-01
+  Epoch  3000 | Loss: 6.6678e+02 | PDE: 6.6651e+02 | BC: 2.7233e-01 | L2: 2.5039e-01
+  Epoch  4000 | Loss: 3.3755e+02 | PDE: 3.3726e+02 | BC: 2.9050e-01 | L2: 2.7822e-01
+  Epoch  5000 | Loss: 2.1364e+02 | PDE: 2.1337e+02 | BC: 2.7192e-01 | L2: 2.8304e-01
+  Epoch  6000 | Loss: 1.4186e+02 | PDE: 1.4163e+02 | BC: 2.3643e-01 | L2: 2.8518e-01
+  Epoch  7000 | Loss: 1.3657e+02 | PDE: 1.3637e+02 | BC: 1.9848e-01 | L2: 2.9261e-01
+  Epoch  8000 | Loss: 1.1167e+02 | PDE: 1.1150e+02 | BC: 1.6748e-01 | L2: 2.9848e-01
+  Epoch  9000 | Loss: 9.6653e+01 | PDE: 9.6509e+01 | BC: 1.4338e-01 | L2: 2.9740e-01
+  Training time: 15.8s (1.58 ms/epoch)
+  Best L2 error: 6.0561e-02
+  Final L2 error: 2.8889e-01
+[abl] case6 strat=S5_40_40_20 scale=1.0 seed=0: best_l2=6.0561e-02 params=3096 t=15.8s
+[E16] RUN --case case6 --seed 1 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case6_S5_40_40_20_seed1.json
+
+============================================================
+Training SV-SNN (Accelerated)
+============================================================
+  Parameters: 3,096
+  Epoch  1000 | Loss: 9.9417e+03 | PDE: 9.9416e+03 | BC: 1.7459e-01 | L2: 1.4087e-01
+  Epoch  2000 | Loss: 1.5731e+03 | PDE: 1.5729e+03 | BC: 2.2142e-01 | L2: 1.9342e-01
+  Epoch  3000 | Loss: 5.2159e+02 | PDE: 5.2139e+02 | BC: 1.9856e-01 | L2: 2.1349e-01
+  Epoch  4000 | Loss: 2.6196e+02 | PDE: 2.6179e+02 | BC: 1.7108e-01 | L2: 2.3047e-01
+  Epoch  5000 | Loss: 1.5614e+02 | PDE: 1.5600e+02 | BC: 1.4174e-01 | L2: 2.4403e-01
+  Epoch  6000 | Loss: 9.9713e+01 | PDE: 9.9594e+01 | BC: 1.1861e-01 | L2: 2.5138e-01
+  Epoch  7000 | Loss: 8.0599e+01 | PDE: 8.0496e+01 | BC: 1.0356e-01 | L2: 2.5177e-01
+  Epoch  8000 | Loss: 7.4872e+01 | PDE: 7.4778e+01 | BC: 9.4193e-02 | L2: 2.4836e-01
+  Epoch  9000 | Loss: 1.0270e+02 | PDE: 1.0261e+02 | BC: 8.8019e-02 | L2: 2.4318e-01
+  Training time: 16.6s (1.66 ms/epoch)
+  Best L2 error: 7.3678e-02
+  Final L2 error: 2.3713e-01
+[abl] case6 strat=S5_40_40_20 scale=1.0 seed=1: best_l2=7.3678e-02 params=3096 t=16.6s
+[E16] RUN --case case6 --seed 2 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case6_S5_40_40_20_seed2.json
+
+============================================================
+Training SV-SNN (Accelerated)
+============================================================
+  Parameters: 3,096
+  Epoch  1000 | Loss: 7.1015e+03 | PDE: 7.1012e+03 | BC: 3.0652e-01 | L2: 1.8449e-01
+  Epoch  2000 | Loss: 1.8033e+03 | PDE: 1.8029e+03 | BC: 3.3745e-01 | L2: 2.3504e-01
+  Epoch  3000 | Loss: 8.1672e+02 | PDE: 8.1642e+02 | BC: 3.0630e-01 | L2: 2.5091e-01
+  Epoch  4000 | Loss: 4.2126e+02 | PDE: 4.2098e+02 | BC: 2.7438e-01 | L2: 2.5722e-01
+  Epoch  5000 | Loss: 2.4316e+02 | PDE: 2.4291e+02 | BC: 2.4230e-01 | L2: 2.5249e-01
+  Epoch  6000 | Loss: 1.7999e+02 | PDE: 1.7978e+02 | BC: 2.1180e-01 | L2: 2.4584e-01
+  Epoch  7000 | Loss: 1.2396e+02 | PDE: 1.2378e+02 | BC: 1.8366e-01 | L2: 2.4280e-01
+  Epoch  8000 | Loss: 1.1358e+02 | PDE: 1.1343e+02 | BC: 1.5901e-01 | L2: 2.4681e-01
+  Epoch  9000 | Loss: 2.0361e+02 | PDE: 2.0348e+02 | BC: 1.3644e-01 | L2: 2.5541e-01
+  Training time: 15.9s (1.59 ms/epoch)
+  Best L2 error: 9.5336e-02
+  Final L2 error: 2.6201e-01
+[abl] case6 strat=S5_40_40_20 scale=1.0 seed=2: best_l2=9.5336e-02 params=3096 t=15.9s
+[E16] case7 default seed0: reused E11 best_l2=3.1618e-02
+[E16] case7 default seed1: reused E11 best_l2=3.3466e-02
+[E16] case7 default seed2: reused E11 best_l2=2.5382e-02
+[E16] RUN --case case7 --seed 0 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case7_S1_single_seed0.json
+  PDE collocation points after hole rejection: 20000
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + multi-hole mask
+============================================================
+  Parameters: 1,944
+  Epoch  1000 | Loss: 3.1047e-03 | PDE: 3.1047e-03 | BC: 1.4774e-10 | L2: 1.7221e-04
+  Epoch  2000 | Loss: 2.8864e-03 | PDE: 2.8864e-03 | BC: 1.3970e-10 | L2: 1.7112e-04
+  Epoch  3000 | Loss: 3.0068e-03 | PDE: 3.0068e-03 | BC: 1.4264e-10 | L2: 1.6992e-04
+  Epoch  4000 | Loss: 1.3747e-02 | PDE: 1.3747e-02 | BC: 9.7514e-09 | L2: 2.9123e-04
+  Epoch  5000 | Loss: 8.1089e+00 | PDE: 8.1089e+00 | BC: 7.7855e-06 | L2: 5.1795e-03
+  Epoch  6000 | Loss: 8.0622e-02 | PDE: 8.0622e-02 | BC: 7.5170e-08 | L2: 5.8696e-04
+  Epoch  7000 | Loss: 6.6482e-01 | PDE: 6.6482e-01 | BC: 4.4284e-07 | L2: 1.1280e-03
+  Epoch  8000 | Loss: 1.7794e-01 | PDE: 1.7794e-01 | BC: 1.5159e-07 | L2: 7.2136e-04
+  Epoch  9000 | Loss: 2.6734e-02 | PDE: 2.6734e-02 | BC: 2.2268e-08 | L2: 3.4876e-04
+  Training time: 15.3s (1.53 ms/epoch)
+  Best L2 error: 1.5900e-04
+[abl] case7 strat=S1_single scale=1.0 seed=0: best_l2=1.5900e-04 params=1944 t=15.3s
+[E16] RUN --case case7 --seed 1 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case7_S1_single_seed1.json
+  PDE collocation points after hole rejection: 20000
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + multi-hole mask
+============================================================
+  Parameters: 1,944
+  Epoch  1000 | Loss: 2.3964e-03 | PDE: 2.3964e-03 | BC: 2.3359e-10 | L2: 1.5677e-04
+  Epoch  2000 | Loss: 2.3433e-03 | PDE: 2.3433e-03 | BC: 2.2957e-10 | L2: 1.5756e-04
+  Epoch  3000 | Loss: 1.0562e-01 | PDE: 1.0562e-01 | BC: 1.0546e-07 | L2: 6.5297e-04
+  Epoch  4000 | Loss: 5.1132e-03 | PDE: 5.1132e-03 | BC: 2.3493e-09 | L2: 4.0744e-04
+  Epoch  5000 | Loss: 1.3485e-01 | PDE: 1.3485e-01 | BC: 1.1938e-07 | L2: 8.2113e-04
+  Epoch  6000 | Loss: 1.8897e-02 | PDE: 1.8897e-02 | BC: 1.6848e-08 | L2: 1.7685e-04
+  Epoch  7000 | Loss: 3.0241e-03 | PDE: 3.0241e-03 | BC: 8.2900e-10 | L2: 2.4378e-04
+  Epoch  8000 | Loss: 8.8672e-03 | PDE: 8.8672e-03 | BC: 6.2280e-09 | L2: 2.0011e-04
+  Epoch  9000 | Loss: 4.1547e-01 | PDE: 4.1547e-01 | BC: 3.0968e-07 | L2: 1.3286e-03
+  Training time: 17.1s (1.71 ms/epoch)
+  Best L2 error: 1.5476e-04
+[abl] case7 strat=S1_single scale=1.0 seed=1: best_l2=1.5476e-04 params=1944 t=17.1s
+[E16] RUN --case case7 --seed 2 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case7_S1_single_seed2.json
+  PDE collocation points after hole rejection: 20000
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + multi-hole mask
+============================================================
+  Parameters: 1,944
+  Epoch  1000 | Loss: 3.1245e-03 | PDE: 3.1245e-03 | BC: 4.3817e-10 | L2: 1.7492e-04
+  Epoch  2000 | Loss: 3.0704e-03 | PDE: 3.0704e-03 | BC: 5.0905e-10 | L2: 1.7519e-04
+  Epoch  3000 | Loss: 3.3933e-03 | PDE: 3.3933e-03 | BC: 4.8646e-10 | L2: 1.7269e-04
+  Epoch  4000 | Loss: 4.2736e-03 | PDE: 4.2736e-03 | BC: 8.8225e-10 | L2: 1.8226e-04
+  Epoch  5000 | Loss: 3.5842e-02 | PDE: 3.5842e-02 | BC: 3.1066e-08 | L2: 4.0629e-04
+  Epoch  6000 | Loss: 5.2509e-03 | PDE: 5.2509e-03 | BC: 2.9310e-09 | L2: 1.8527e-04
+  Epoch  7000 | Loss: 6.2586e-02 | PDE: 6.2586e-02 | BC: 3.9583e-08 | L2: 3.7987e-04
+  Epoch  8000 | Loss: 1.2116e-01 | PDE: 1.2116e-01 | BC: 1.1065e-07 | L2: 5.8937e-04
+  Epoch  9000 | Loss: 2.9998e-01 | PDE: 2.9998e-01 | BC: 2.6980e-07 | L2: 1.1979e-03
+  Training time: 17.6s (1.76 ms/epoch)
+  Best L2 error: 1.6898e-04
+[abl] case7 strat=S1_single scale=1.0 seed=2: best_l2=1.6898e-04 params=1944 t=17.6s
+[E16] RUN --case case7 --seed 0 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case7_S2_two_seed0.json
+  PDE collocation points after hole rejection: 20000
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + multi-hole mask
+============================================================
+  Parameters: 1,944
+  Epoch  1000 | Loss: 2.4415e+01 | PDE: 2.4414e+01 | BC: 4.3717e-04 | L2: 1.9886e-02
+  Epoch  2000 | Loss: 4.4694e+00 | PDE: 4.4686e+00 | BC: 8.0476e-04 | L2: 2.4458e-02
+  Epoch  3000 | Loss: 2.0032e+00 | PDE: 2.0023e+00 | BC: 8.7687e-04 | L2: 2.5349e-02
+  Epoch  4000 | Loss: 1.1626e+00 | PDE: 1.1616e+00 | BC: 9.3194e-04 | L2: 2.6140e-02
+  Epoch  5000 | Loss: 9.3362e-01 | PDE: 9.3274e-01 | BC: 8.8417e-04 | L2: 2.5467e-02
+  Epoch  6000 | Loss: 5.1381e-01 | PDE: 5.1305e-01 | BC: 7.6360e-04 | L2: 2.3643e-02
+  Epoch  7000 | Loss: 3.7923e-01 | PDE: 3.7859e-01 | BC: 6.4211e-04 | L2: 2.1637e-02
+  Epoch  8000 | Loss: 5.3812e-01 | PDE: 5.3757e-01 | BC: 5.4167e-04 | L2: 1.9616e-02
+  Epoch  9000 | Loss: 7.6127e-01 | PDE: 7.6082e-01 | BC: 4.5401e-04 | L2: 1.8865e-02
+  Training time: 14.4s (1.44 ms/epoch)
+  Best L2 error: 1.6516e-02
+[abl] case7 strat=S2_two scale=1.0 seed=0: best_l2=1.6516e-02 params=1944 t=14.4s
+[E16] RUN --case case7 --seed 1 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case7_S2_two_seed1.json
+  PDE collocation points after hole rejection: 20000
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + multi-hole mask
+============================================================
+  Parameters: 1,944
+  Epoch  1000 | Loss: 2.4784e+01 | PDE: 2.4784e+01 | BC: 1.4475e-04 | L2: 1.2212e-02
+  Epoch  2000 | Loss: 5.9265e+00 | PDE: 5.9257e+00 | BC: 8.4902e-04 | L2: 2.5975e-02
+  Epoch  3000 | Loss: 1.8043e+00 | PDE: 1.8025e+00 | BC: 1.8218e-03 | L2: 3.7138e-02
+  Epoch  4000 | Loss: 1.3824e+00 | PDE: 1.3804e+00 | BC: 2.0048e-03 | L2: 3.8782e-02
+  Epoch  5000 | Loss: 1.4593e+00 | PDE: 1.4575e+00 | BC: 1.8705e-03 | L2: 3.7436e-02
+  Epoch  6000 | Loss: 1.0745e+00 | PDE: 1.0728e+00 | BC: 1.6658e-03 | L2: 3.5354e-02
+  Epoch  7000 | Loss: 8.8576e-01 | PDE: 8.8435e-01 | BC: 1.4079e-03 | L2: 3.2531e-02
+  Epoch  8000 | Loss: 8.8754e-01 | PDE: 8.8643e-01 | BC: 1.1142e-03 | L2: 2.8649e-02
+  Epoch  9000 | Loss: 9.0594e-01 | PDE: 9.0510e-01 | BC: 8.4244e-04 | L2: 2.4565e-02
+  Training time: 12.9s (1.29 ms/epoch)
+  Best L2 error: 1.2212e-02
+[abl] case7 strat=S2_two scale=1.0 seed=1: best_l2=1.2212e-02 params=1944 t=12.9s
+[E16] RUN --case case7 --seed 2 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case7_S2_two_seed2.json
+  PDE collocation points after hole rejection: 20000
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + multi-hole mask
+============================================================
+  Parameters: 1,944
+  Epoch  1000 | Loss: 2.4096e+01 | PDE: 2.4094e+01 | BC: 1.8341e-03 | L2: 3.7730e-02
+  Epoch  2000 | Loss: 6.5360e+00 | PDE: 6.5340e+00 | BC: 1.9502e-03 | L2: 3.8059e-02
+  Epoch  3000 | Loss: 3.0071e+00 | PDE: 3.0053e+00 | BC: 1.7975e-03 | L2: 3.6461e-02
+  Epoch  4000 | Loss: 1.6569e+00 | PDE: 1.6555e+00 | BC: 1.4499e-03 | L2: 3.2826e-02
+  Epoch  5000 | Loss: 9.6730e-01 | PDE: 9.6623e-01 | BC: 1.0686e-03 | L2: 2.8252e-02
+  Epoch  6000 | Loss: 5.2951e-01 | PDE: 5.2873e-01 | BC: 7.8145e-04 | L2: 2.4145e-02
+  Epoch  7000 | Loss: 3.9950e-01 | PDE: 3.9893e-01 | BC: 5.7834e-04 | L2: 2.0790e-02
+  Epoch  8000 | Loss: 2.8710e-01 | PDE: 2.8667e-01 | BC: 4.2844e-04 | L2: 1.7836e-02
+  Epoch  9000 | Loss: 5.3018e-01 | PDE: 5.2986e-01 | BC: 3.2257e-04 | L2: 1.5851e-02
+  Training time: 14.2s (1.42 ms/epoch)
+  Best L2 error: 1.4007e-02
+[abl] case7 strat=S2_two scale=1.0 seed=2: best_l2=1.4007e-02 params=1944 t=14.2s
+[E16] RUN --case case7 --seed 0 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case7_S4_continuous_seed0.json
+  PDE collocation points after hole rejection: 20000
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + multi-hole mask
+============================================================
+  Parameters: 1,944
+  Epoch  1000 | Loss: 1.6360e+03 | PDE: 1.6358e+03 | BC: 1.5409e-01 | L2: 4.3930e-01
+  Epoch  2000 | Loss: 3.0920e+02 | PDE: 3.0911e+02 | BC: 8.3436e-02 | L2: 3.1441e-01
+  Epoch  3000 | Loss: 1.8132e+02 | PDE: 1.8126e+02 | BC: 6.0897e-02 | L2: 2.3119e-01
+  Epoch  4000 | Loss: 1.0827e+02 | PDE: 1.0823e+02 | BC: 3.7829e-02 | L2: 1.8813e-01
+  Epoch  5000 | Loss: 5.5473e+01 | PDE: 5.5452e+01 | BC: 2.1134e-02 | L2: 1.3803e-01
+  Epoch  6000 | Loss: 3.4813e+01 | PDE: 3.4801e+01 | BC: 1.1872e-02 | L2: 8.8378e-02
+  Epoch  7000 | Loss: 2.4090e+01 | PDE: 2.4082e+01 | BC: 8.8377e-03 | L2: 7.6657e-02
+  Epoch  8000 | Loss: 1.7380e+01 | PDE: 1.7372e+01 | BC: 7.8703e-03 | L2: 7.5420e-02
+  Epoch  9000 | Loss: 1.2699e+01 | PDE: 1.2691e+01 | BC: 7.6130e-03 | L2: 7.7326e-02
+  Training time: 15.3s (1.53 ms/epoch)
+  Best L2 error: 7.5084e-02
+[abl] case7 strat=S4_continuous scale=1.0 seed=0: best_l2=7.5084e-02 params=1944 t=15.3s
+[E16] RUN --case case7 --seed 1 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case7_S4_continuous_seed1.json
+  PDE collocation points after hole rejection: 20000
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + multi-hole mask
+============================================================
+  Parameters: 1,944
+  Epoch  1000 | Loss: 6.0079e+02 | PDE: 6.0077e+02 | BC: 2.0720e-02 | L2: 1.4062e-01
+  Epoch  2000 | Loss: 1.2242e+02 | PDE: 1.2236e+02 | BC: 6.0336e-02 | L2: 2.2113e-01
+  Epoch  3000 | Loss: 9.4655e+01 | PDE: 9.4604e+01 | BC: 5.1614e-02 | L2: 2.1573e-01
+  Epoch  4000 | Loss: 6.6788e+01 | PDE: 6.6760e+01 | BC: 2.8180e-02 | L2: 1.6210e-01
+  Epoch  5000 | Loss: 3.9165e+01 | PDE: 3.9155e+01 | BC: 9.4085e-03 | L2: 9.4749e-02
+  Epoch  6000 | Loss: 1.9110e+01 | PDE: 1.9106e+01 | BC: 3.6655e-03 | L2: 6.1689e-02
+  Epoch  7000 | Loss: 8.2111e+00 | PDE: 8.2062e+00 | BC: 4.9480e-03 | L2: 7.1321e-02
+  Epoch  8000 | Loss: 3.5801e+00 | PDE: 3.5736e+00 | BC: 6.5210e-03 | L2: 7.9797e-02
+  Epoch  9000 | Loss: 1.9932e+00 | PDE: 1.9866e+00 | BC: 6.6593e-03 | L2: 7.8949e-02
+  Training time: 15.0s (1.50 ms/epoch)
+  Best L2 error: 6.1304e-02
+[abl] case7 strat=S4_continuous scale=1.0 seed=1: best_l2=6.1304e-02 params=1944 t=15.0s
+[E16] RUN --case case7 --seed 2 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case7_S4_continuous_seed2.json
+  PDE collocation points after hole rejection: 20000
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + multi-hole mask
+============================================================
+  Parameters: 1,944
+  Epoch  1000 | Loss: 7.0292e+02 | PDE: 7.0266e+02 | BC: 2.5668e-01 | L2: 4.7509e-01
+  Epoch  2000 | Loss: 1.2096e+02 | PDE: 1.2089e+02 | BC: 6.9963e-02 | L2: 2.6391e-01
+  Epoch  3000 | Loss: 8.1508e+01 | PDE: 8.1473e+01 | BC: 3.5761e-02 | L2: 1.7602e-01
+  Epoch  4000 | Loss: 5.1170e+01 | PDE: 5.1151e+01 | BC: 1.8529e-02 | L2: 1.2015e-01
+  Epoch  5000 | Loss: 2.7421e+01 | PDE: 2.7410e+01 | BC: 1.0913e-02 | L2: 8.6023e-02
+  Epoch  6000 | Loss: 1.2715e+01 | PDE: 1.2706e+01 | BC: 9.3833e-03 | L2: 8.2606e-02
+  Epoch  7000 | Loss: 5.4713e+00 | PDE: 5.4640e+00 | BC: 7.3256e-03 | L2: 7.7870e-02
+  Epoch  8000 | Loss: 3.2161e+00 | PDE: 3.2106e+00 | BC: 5.5451e-03 | L2: 6.9718e-02
+  Epoch  9000 | Loss: 2.0611e+00 | PDE: 2.0566e+00 | BC: 4.4937e-03 | L2: 6.4874e-02
+  Training time: 14.3s (1.43 ms/epoch)
+  Best L2 error: 5.9197e-02
+[abl] case7 strat=S4_continuous scale=1.0 seed=2: best_l2=5.9197e-02 params=1944 t=14.3s
+[E16] RUN --case case7 --seed 0 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case7_S5_40_40_20_seed0.json
+  PDE collocation points after hole rejection: 20000
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + multi-hole mask
+============================================================
+  Parameters: 1,944
+  Epoch  1000 | Loss: 1.2258e+01 | PDE: 1.2258e+01 | BC: 5.9365e-04 | L2: 2.1442e-02
+  Epoch  2000 | Loss: 2.7420e+00 | PDE: 2.7411e+00 | BC: 9.6608e-04 | L2: 2.6542e-02
+  Epoch  3000 | Loss: 1.4072e+00 | PDE: 1.4062e+00 | BC: 9.8975e-04 | L2: 2.6898e-02
+  Epoch  4000 | Loss: 8.7315e-01 | PDE: 8.7224e-01 | BC: 9.0846e-04 | L2: 2.5818e-02
+  Epoch  5000 | Loss: 6.3870e-01 | PDE: 6.3791e-01 | BC: 7.8429e-04 | L2: 2.4012e-02
+  Epoch  6000 | Loss: 4.9163e-01 | PDE: 4.9095e-01 | BC: 6.7635e-04 | L2: 2.2312e-02
+  Epoch  7000 | Loss: 4.0161e-01 | PDE: 4.0103e-01 | BC: 5.7631e-04 | L2: 2.0612e-02
+  Epoch  8000 | Loss: 4.1150e-01 | PDE: 4.1103e-01 | BC: 4.6455e-04 | L2: 1.8371e-02
+  Epoch  9000 | Loss: 3.7584e-01 | PDE: 3.7548e-01 | BC: 3.6070e-04 | L2: 1.6000e-02
+  Training time: 12.3s (1.23 ms/epoch)
+  Best L2 error: 1.3989e-02
+[abl] case7 strat=S5_40_40_20 scale=1.0 seed=0: best_l2=1.3989e-02 params=1944 t=12.3s
+[E16] RUN --case case7 --seed 1 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case7_S5_40_40_20_seed1.json
+  PDE collocation points after hole rejection: 20000
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + multi-hole mask
+============================================================
+  Parameters: 1,944
+  Epoch  1000 | Loss: 1.3784e+01 | PDE: 1.3784e+01 | BC: 2.7838e-04 | L2: 1.7220e-02
+  Epoch  2000 | Loss: 3.5655e+00 | PDE: 3.5648e+00 | BC: 6.7762e-04 | L2: 2.2855e-02
+  Epoch  3000 | Loss: 1.4255e+00 | PDE: 1.4243e+00 | BC: 1.1490e-03 | L2: 2.9126e-02
+  Epoch  4000 | Loss: 1.1459e+00 | PDE: 1.1446e+00 | BC: 1.2905e-03 | L2: 3.0808e-02
+  Epoch  5000 | Loss: 1.0090e+00 | PDE: 1.0078e+00 | BC: 1.2232e-03 | L2: 3.0031e-02
+  Epoch  6000 | Loss: 8.5099e-01 | PDE: 8.4991e-01 | BC: 1.0811e-03 | L2: 2.8260e-02
+  Epoch  7000 | Loss: 8.5359e-01 | PDE: 8.5270e-01 | BC: 8.9098e-04 | L2: 2.5756e-02
+  Epoch  8000 | Loss: 1.1193e+00 | PDE: 1.1186e+00 | BC: 6.6305e-04 | L2: 2.2746e-02
+  Epoch  9000 | Loss: 6.8287e-01 | PDE: 6.8239e-01 | BC: 4.7794e-04 | L2: 1.8575e-02
+  Training time: 14.0s (1.40 ms/epoch)
+  Best L2 error: 1.5609e-02
+[abl] case7 strat=S5_40_40_20 scale=1.0 seed=1: best_l2=1.5609e-02 params=1944 t=14.0s
+[E16] RUN --case case7 --seed 2 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case7_S5_40_40_20_seed2.json
+  PDE collocation points after hole rejection: 20000
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic X_n''/Y_n'', vectorized, grid + multi-hole mask
+============================================================
+  Parameters: 1,944
+  Epoch  1000 | Loss: 2.8352e+01 | PDE: 2.8350e+01 | BC: 1.6277e-03 | L2: 3.6121e-02
+  Epoch  2000 | Loss: 7.3470e+00 | PDE: 7.3452e+00 | BC: 1.8947e-03 | L2: 3.8883e-02
+  Epoch  3000 | Loss: 3.2815e+00 | PDE: 3.2797e+00 | BC: 1.8295e-03 | L2: 3.7876e-02
+  Epoch  4000 | Loss: 1.8929e+00 | PDE: 1.8914e+00 | BC: 1.5555e-03 | L2: 3.4707e-02
+  Epoch  5000 | Loss: 1.0700e+00 | PDE: 1.0688e+00 | BC: 1.1939e-03 | L2: 3.0264e-02
+  Epoch  6000 | Loss: 6.1194e-01 | PDE: 6.1106e-01 | BC: 8.8136e-04 | L2: 2.5865e-02
+  Epoch  7000 | Loss: 4.1845e-01 | PDE: 4.1778e-01 | BC: 6.6842e-04 | L2: 2.2384e-02
+  Epoch  8000 | Loss: 3.5105e-01 | PDE: 3.5054e-01 | BC: 5.1627e-04 | L2: 1.9517e-02
+  Epoch  9000 | Loss: 2.5168e-01 | PDE: 2.5129e-01 | BC: 3.9509e-04 | L2: 1.7071e-02
+  Training time: 13.8s (1.38 ms/epoch)
+  Best L2 error: 1.4904e-02
+[abl] case7 strat=S5_40_40_20 scale=1.0 seed=2: best_l2=1.4904e-02 params=1944 t=13.8s
+[E16] case8 default seed0: reused E11 best_l2=5.8881e-03
+[E16] case8 default seed1: reused E11 best_l2=1.3496e-03
+[E16] case8 default seed2: reused E11 best_l2=2.1576e-02
+[E16] RUN --case case8 --seed 0 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case8_S1_single_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic spatial derivs, manual T_n', vectorized modes, grid eval
+============================================================
+  Parameters: 2,688
+  Epoch   100 | Loss: 4.0583e-01 | PDE: 5.5703e-02 | IC: 3.5013e-01 | L2avg: 8.7107e-01
+  Epoch  1000 | Loss: 9.2460e-04 | PDE: 8.8776e-04 | IC: 3.6849e-05 | L2avg: 1.0559e-02
+  Epoch  2000 | Loss: 6.1243e-04 | PDE: 5.8876e-04 | IC: 2.3666e-05 | L2avg: 1.2914e-02
+  Epoch  3000 | Loss: 3.9919e-04 | PDE: 3.8353e-04 | IC: 1.5660e-05 | L2avg: 1.1671e-02
+  Epoch  4000 | Loss: 4.8305e-04 | PDE: 4.5523e-04 | IC: 2.7817e-05 | L2avg: 1.2107e-02
+  Epoch  5000 | Loss: 2.7837e-04 | PDE: 2.6949e-04 | IC: 8.8803e-06 | L2avg: 9.3049e-03
+  Epoch  6000 | Loss: 3.4424e-04 | PDE: 3.2574e-04 | IC: 1.8499e-05 | L2avg: 7.7963e-03
+  Epoch  7000 | Loss: 3.1806e-04 | PDE: 3.0196e-04 | IC: 1.6108e-05 | L2avg: 7.2199e-03
+  Epoch  8000 | Loss: 3.9190e-04 | PDE: 3.6978e-04 | IC: 2.2114e-05 | L2avg: 7.8404e-03
+  Epoch  9000 | Loss: 2.9151e-04 | PDE: 2.7794e-04 | IC: 1.3573e-05 | L2avg: 9.5170e-03
+  Epoch 10000 | Loss: 2.4095e-04 | PDE: 2.3119e-04 | IC: 9.7572e-06 | L2avg: 7.6477e-03
+  Time: 33.6s | Best L2: 5.9618e-03
+[abl] case8 strat=S1_single scale=1.0 seed=0: best_l2=5.9618e-03 params=2688 t=33.6s
+[E16] RUN --case case8 --seed 1 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case8_S1_single_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic spatial derivs, manual T_n', vectorized modes, grid eval
+============================================================
+  Parameters: 2,688
+  Epoch   100 | Loss: 4.0195e-01 | PDE: 6.4765e-02 | IC: 3.3718e-01 | L2avg: 8.7828e-01
+  Epoch  1000 | Loss: 4.6054e-04 | PDE: 4.1988e-04 | IC: 4.0660e-05 | L2avg: 9.7944e-03
+  Epoch  2000 | Loss: 1.4326e-04 | PDE: 1.2822e-04 | IC: 1.5034e-05 | L2avg: 6.0874e-03
+  Epoch  3000 | Loss: 9.7580e-05 | PDE: 8.9359e-05 | IC: 8.2208e-06 | L2avg: 5.0897e-03
+  Epoch  4000 | Loss: 2.2071e-04 | PDE: 2.1245e-04 | IC: 8.2580e-06 | L2avg: 5.7671e-03
+  Epoch  5000 | Loss: 3.0027e-05 | PDE: 2.7295e-05 | IC: 2.7325e-06 | L2avg: 3.2510e-03
+  Epoch  6000 | Loss: 1.8543e-05 | PDE: 1.7148e-05 | IC: 1.3949e-06 | L2avg: 2.4021e-03
+  Epoch  7000 | Loss: 1.7376e-05 | PDE: 1.6211e-05 | IC: 1.1648e-06 | L2avg: 2.0402e-03
+  Epoch  8000 | Loss: 2.0290e-05 | PDE: 1.9332e-05 | IC: 9.5785e-07 | L2avg: 1.9448e-03
+  Epoch  9000 | Loss: 2.2316e-05 | PDE: 2.1008e-05 | IC: 1.3077e-06 | L2avg: 1.8557e-03
+  Epoch 10000 | Loss: 1.7688e-05 | PDE: 1.6669e-05 | IC: 1.0189e-06 | L2avg: 1.5567e-03
+  Time: 35.8s | Best L2: 1.2867e-03
+[abl] case8 strat=S1_single scale=1.0 seed=1: best_l2=1.2867e-03 params=2688 t=35.8s
+[E16] RUN --case case8 --seed 2 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case8_S1_single_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic spatial derivs, manual T_n', vectorized modes, grid eval
+============================================================
+  Parameters: 2,688
+  Epoch   100 | Loss: 4.8612e-01 | PDE: 4.6556e-02 | IC: 4.3956e-01 | L2avg: 9.5265e-01
+  Epoch  1000 | Loss: 1.5935e-03 | PDE: 1.2654e-03 | IC: 3.2807e-04 | L2avg: 9.8099e-02
+  Epoch  2000 | Loss: 7.8937e-04 | PDE: 6.5683e-04 | IC: 1.3254e-04 | L2avg: 6.5727e-02
+  Epoch  3000 | Loss: 6.9980e-04 | PDE: 5.6414e-04 | IC: 1.3565e-04 | L2avg: 2.2621e-02
+  Epoch  4000 | Loss: 3.4993e-04 | PDE: 2.9480e-04 | IC: 5.5131e-05 | L2avg: 2.4971e-02
+  Epoch  5000 | Loss: 3.5018e-04 | PDE: 3.0296e-04 | IC: 4.7223e-05 | L2avg: 2.6032e-02
+  Epoch  6000 | Loss: 3.5787e-04 | PDE: 3.0178e-04 | IC: 5.6090e-05 | L2avg: 2.9680e-02
+  Epoch  7000 | Loss: 2.8057e-04 | PDE: 2.3736e-04 | IC: 4.3213e-05 | L2avg: 2.7758e-02
+  Epoch  8000 | Loss: 3.4567e-04 | PDE: 2.9066e-04 | IC: 5.5017e-05 | L2avg: 2.8529e-02
+  Epoch  9000 | Loss: 3.1209e-04 | PDE: 2.4473e-04 | IC: 6.7359e-05 | L2avg: 2.0540e-02
+  Epoch 10000 | Loss: 4.8424e-04 | PDE: 4.2642e-04 | IC: 5.7824e-05 | L2avg: 2.7647e-02
+  Time: 34.7s | Best L2: 2.0472e-02
+[abl] case8 strat=S1_single scale=1.0 seed=2: best_l2=2.0472e-02 params=2688 t=34.7s
+[E16] RUN --case case8 --seed 0 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case8_S2_two_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic spatial derivs, manual T_n', vectorized modes, grid eval
+============================================================
+  Parameters: 2,688
+  Epoch   100 | Loss: 4.0583e-01 | PDE: 5.5703e-02 | IC: 3.5013e-01 | L2avg: 8.7107e-01
+  Epoch  1000 | Loss: 9.5343e-04 | PDE: 9.1146e-04 | IC: 4.1968e-05 | L2avg: 1.1259e-02
+  Epoch  2000 | Loss: 5.0734e-04 | PDE: 4.8970e-04 | IC: 1.7637e-05 | L2avg: 8.0242e-03
+  Epoch  3000 | Loss: 3.8425e-04 | PDE: 3.7236e-04 | IC: 1.1896e-05 | L2avg: 8.4695e-03
+  Epoch  4000 | Loss: 3.2867e-04 | PDE: 3.1776e-04 | IC: 1.0907e-05 | L2avg: 8.0912e-03
+  Epoch  5000 | Loss: 3.1637e-04 | PDE: 3.0221e-04 | IC: 1.4154e-05 | L2avg: 7.7756e-03
+  Epoch  6000 | Loss: 2.7011e-04 | PDE: 2.6112e-04 | IC: 8.9981e-06 | L2avg: 9.8232e-03
+  Epoch  7000 | Loss: 2.6626e-04 | PDE: 2.5601e-04 | IC: 1.0244e-05 | L2avg: 8.4464e-03
+  Epoch  8000 | Loss: 2.4464e-04 | PDE: 2.3544e-04 | IC: 9.2016e-06 | L2avg: 9.9308e-03
+  Epoch  9000 | Loss: 2.1365e-04 | PDE: 2.0759e-04 | IC: 6.0579e-06 | L2avg: 6.6643e-03
+  Epoch 10000 | Loss: 2.5070e-04 | PDE: 2.3731e-04 | IC: 1.3391e-05 | L2avg: 7.1646e-03
+  Time: 33.6s | Best L2: 6.0981e-03
+[abl] case8 strat=S2_two scale=1.0 seed=0: best_l2=6.0981e-03 params=2688 t=33.6s
+[E16] RUN --case case8 --seed 1 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case8_S2_two_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic spatial derivs, manual T_n', vectorized modes, grid eval
+============================================================
+  Parameters: 2,688
+  Epoch   100 | Loss: 4.0195e-01 | PDE: 6.4765e-02 | IC: 3.3718e-01 | L2avg: 8.7828e-01
+  Epoch  1000 | Loss: 4.9168e-04 | PDE: 4.4989e-04 | IC: 4.1797e-05 | L2avg: 9.7438e-03
+  Epoch  2000 | Loss: 1.4098e-04 | PDE: 1.2617e-04 | IC: 1.4807e-05 | L2avg: 6.2368e-03
+  Epoch  3000 | Loss: 2.8505e-04 | PDE: 2.7237e-04 | IC: 1.2681e-05 | L2avg: 6.0052e-03
+  Epoch  4000 | Loss: 5.8915e-05 | PDE: 5.4855e-05 | IC: 4.0596e-06 | L2avg: 3.7796e-03
+  Epoch  5000 | Loss: 1.2384e-04 | PDE: 1.1855e-04 | IC: 5.2808e-06 | L2avg: 4.1387e-03
+  Epoch  6000 | Loss: 5.2309e-05 | PDE: 5.0285e-05 | IC: 2.0234e-06 | L2avg: 2.8803e-03
+  Epoch  7000 | Loss: 1.7927e-05 | PDE: 1.6909e-05 | IC: 1.0181e-06 | L2avg: 2.0523e-03
+  Epoch  8000 | Loss: 2.5790e-05 | PDE: 2.4790e-05 | IC: 1.0002e-06 | L2avg: 1.7502e-03
+  Epoch  9000 | Loss: 1.8493e-05 | PDE: 1.7324e-05 | IC: 1.1688e-06 | L2avg: 1.7641e-03
+  Epoch 10000 | Loss: 6.6948e-05 | PDE: 6.4764e-05 | IC: 2.1845e-06 | L2avg: 2.4323e-03
+  Time: 39.4s | Best L2: 1.1421e-03
+[abl] case8 strat=S2_two scale=1.0 seed=1: best_l2=1.1421e-03 params=2688 t=39.4s
+[E16] RUN --case case8 --seed 2 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case8_S2_two_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic spatial derivs, manual T_n', vectorized modes, grid eval
+============================================================
+  Parameters: 2,688
+  Epoch   100 | Loss: 4.8612e-01 | PDE: 4.6555e-02 | IC: 4.3956e-01 | L2avg: 9.5265e-01
+  Epoch  1000 | Loss: 1.5309e-03 | PDE: 1.2085e-03 | IC: 3.2237e-04 | L2avg: 9.9038e-02
+  Epoch  2000 | Loss: 6.8237e-04 | PDE: 5.6137e-04 | IC: 1.2099e-04 | L2avg: 6.6402e-02
+  Epoch  3000 | Loss: 4.6667e-04 | PDE: 3.9103e-04 | IC: 7.5644e-05 | L2avg: 3.0095e-02
+  Epoch  4000 | Loss: 5.4435e-04 | PDE: 4.7710e-04 | IC: 6.7260e-05 | L2avg: 2.8809e-02
+  Epoch  5000 | Loss: 3.1564e-04 | PDE: 2.6742e-04 | IC: 4.8220e-05 | L2avg: 2.5355e-02
+  Epoch  6000 | Loss: 7.2729e-04 | PDE: 6.0922e-04 | IC: 1.1808e-04 | L2avg: 3.9406e-02
+  Epoch  7000 | Loss: 2.4281e-04 | PDE: 2.0702e-04 | IC: 3.5789e-05 | L2avg: 2.8370e-02
+  Epoch  8000 | Loss: 2.6516e-04 | PDE: 2.2318e-04 | IC: 4.1978e-05 | L2avg: 3.1082e-02
+  Epoch  9000 | Loss: 2.1607e-04 | PDE: 1.8514e-04 | IC: 3.0925e-05 | L2avg: 2.7518e-02
+  Epoch 10000 | Loss: 2.4388e-04 | PDE: 2.0308e-04 | IC: 4.0798e-05 | L2avg: 3.0659e-02
+  Time: 33.2s | Best L2: 2.2342e-02
+[abl] case8 strat=S2_two scale=1.0 seed=2: best_l2=2.2342e-02 params=2688 t=33.2s
+[E16] RUN --case case8 --seed 0 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case8_S4_continuous_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic spatial derivs, manual T_n', vectorized modes, grid eval
+============================================================
+  Parameters: 2,688
+  Epoch   100 | Loss: 4.0583e-01 | PDE: 5.5703e-02 | IC: 3.5013e-01 | L2avg: 8.7107e-01
+  Epoch  1000 | Loss: 9.6873e-04 | PDE: 9.2859e-04 | IC: 4.0137e-05 | L2avg: 1.0901e-02
+  Epoch  2000 | Loss: 4.8839e-04 | PDE: 4.7071e-04 | IC: 1.7681e-05 | L2avg: 9.1182e-03
+  Epoch  3000 | Loss: 3.7506e-04 | PDE: 3.6381e-04 | IC: 1.1242e-05 | L2avg: 8.3313e-03
+  Epoch  4000 | Loss: 3.8447e-04 | PDE: 3.7085e-04 | IC: 1.3622e-05 | L2avg: 1.0050e-02
+  Epoch  5000 | Loss: 3.3969e-04 | PDE: 3.2695e-04 | IC: 1.2748e-05 | L2avg: 1.0892e-02
+  Epoch  6000 | Loss: 3.0485e-04 | PDE: 2.9116e-04 | IC: 1.3695e-05 | L2avg: 1.1486e-02
+  Epoch  7000 | Loss: 2.4460e-04 | PDE: 2.3786e-04 | IC: 6.7423e-06 | L2avg: 1.0105e-02
+  Epoch  8000 | Loss: 7.3986e-04 | PDE: 6.8174e-04 | IC: 5.8127e-05 | L2avg: 1.0505e-02
+  Epoch  9000 | Loss: 2.2101e-04 | PDE: 2.1428e-04 | IC: 6.7263e-06 | L2avg: 9.1529e-03
+  Epoch 10000 | Loss: 3.2379e-04 | PDE: 3.0566e-04 | IC: 1.8129e-05 | L2avg: 9.0781e-03
+  Time: 34.3s | Best L2: 6.3459e-03
+[abl] case8 strat=S4_continuous scale=1.0 seed=0: best_l2=6.3459e-03 params=2688 t=34.3s
+[E16] RUN --case case8 --seed 1 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case8_S4_continuous_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic spatial derivs, manual T_n', vectorized modes, grid eval
+============================================================
+  Parameters: 2,688
+  Epoch   100 | Loss: 4.0195e-01 | PDE: 6.4766e-02 | IC: 3.3719e-01 | L2avg: 8.7828e-01
+  Epoch  1000 | Loss: 4.4963e-04 | PDE: 4.0995e-04 | IC: 3.9679e-05 | L2avg: 9.6438e-03
+  Epoch  2000 | Loss: 1.7575e-04 | PDE: 1.6100e-04 | IC: 1.4750e-05 | L2avg: 6.1941e-03
+  Epoch  3000 | Loss: 6.4367e-05 | PDE: 5.7861e-05 | IC: 6.5060e-06 | L2avg: 4.5563e-03
+  Epoch  4000 | Loss: 3.7618e-05 | PDE: 3.3756e-05 | IC: 3.8626e-06 | L2avg: 3.7803e-03
+  Epoch  5000 | Loss: 2.8778e-05 | PDE: 2.6155e-05 | IC: 2.6233e-06 | L2avg: 3.0045e-03
+  Epoch  6000 | Loss: 2.9732e-05 | PDE: 2.7584e-05 | IC: 2.1476e-06 | L2avg: 2.7934e-03
+  Epoch  7000 | Loss: 2.5576e-05 | PDE: 2.3755e-05 | IC: 1.8217e-06 | L2avg: 2.4040e-03
+  Epoch  8000 | Loss: 2.2950e-05 | PDE: 2.1982e-05 | IC: 9.6731e-07 | L2avg: 2.0035e-03
+  Epoch  9000 | Loss: 8.0146e-05 | PDE: 7.7991e-05 | IC: 2.1547e-06 | L2avg: 2.5938e-03
+  Epoch 10000 | Loss: 2.9403e-05 | PDE: 2.8032e-05 | IC: 1.3716e-06 | L2avg: 1.7866e-03
+  Time: 34.6s | Best L2: 1.1997e-03
+[abl] case8 strat=S4_continuous scale=1.0 seed=1: best_l2=1.1997e-03 params=2688 t=34.6s
+[E16] RUN --case case8 --seed 2 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case8_S4_continuous_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic spatial derivs, manual T_n', vectorized modes, grid eval
+============================================================
+  Parameters: 2,688
+  Epoch   100 | Loss: 4.8612e-01 | PDE: 4.6556e-02 | IC: 4.3956e-01 | L2avg: 9.5265e-01
+  Epoch  1000 | Loss: 1.6848e-03 | PDE: 1.3388e-03 | IC: 3.4602e-04 | L2avg: 9.8126e-02
+  Epoch  2000 | Loss: 8.2177e-04 | PDE: 6.7577e-04 | IC: 1.4599e-04 | L2avg: 6.6884e-02
+  Epoch  3000 | Loss: 4.9813e-04 | PDE: 4.2052e-04 | IC: 7.7614e-05 | L2avg: 2.8557e-02
+  Epoch  4000 | Loss: 4.3970e-04 | PDE: 3.8046e-04 | IC: 5.9237e-05 | L2avg: 2.6952e-02
+  Epoch  5000 | Loss: 3.9666e-04 | PDE: 3.2423e-04 | IC: 7.2428e-05 | L2avg: 2.3222e-02
+  Epoch  6000 | Loss: 3.4266e-04 | PDE: 2.9736e-04 | IC: 4.5302e-05 | L2avg: 2.9062e-02
+  Epoch  7000 | Loss: 5.1683e-04 | PDE: 4.4422e-04 | IC: 7.2605e-05 | L2avg: 2.8346e-02
+  Epoch  8000 | Loss: 2.6881e-04 | PDE: 2.3005e-04 | IC: 3.8760e-05 | L2avg: 2.7139e-02
+  Epoch  9000 | Loss: 2.7557e-04 | PDE: 2.3522e-04 | IC: 4.0346e-05 | L2avg: 2.7845e-02
+  Epoch 10000 | Loss: 2.8443e-04 | PDE: 2.4324e-04 | IC: 4.1184e-05 | L2avg: 2.5674e-02
+  Time: 32.5s | Best L2: 2.3211e-02
+[abl] case8 strat=S4_continuous scale=1.0 seed=2: best_l2=2.3211e-02 params=2688 t=32.5s
+[E16] RUN --case case8 --seed 0 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case8_S5_40_40_20_seed0.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic spatial derivs, manual T_n', vectorized modes, grid eval
+============================================================
+  Parameters: 2,688
+  Epoch   100 | Loss: 4.0583e-01 | PDE: 5.5700e-02 | IC: 3.5013e-01 | L2avg: 8.7107e-01
+  Epoch  1000 | Loss: 9.3305e-04 | PDE: 8.9432e-04 | IC: 3.8738e-05 | L2avg: 1.0575e-02
+  Epoch  2000 | Loss: 6.3029e-04 | PDE: 5.9568e-04 | IC: 3.4603e-05 | L2avg: 1.0343e-02
+  Epoch  3000 | Loss: 4.4338e-04 | PDE: 4.2902e-04 | IC: 1.4360e-05 | L2avg: 1.0717e-02
+  Epoch  4000 | Loss: 3.8616e-04 | PDE: 3.6876e-04 | IC: 1.7401e-05 | L2avg: 9.7737e-03
+  Epoch  5000 | Loss: 3.2934e-04 | PDE: 3.1546e-04 | IC: 1.3876e-05 | L2avg: 9.4071e-03
+  Epoch  6000 | Loss: 2.7840e-04 | PDE: 2.6663e-04 | IC: 1.1764e-05 | L2avg: 1.0265e-02
+  Epoch  7000 | Loss: 2.8381e-04 | PDE: 2.6866e-04 | IC: 1.5142e-05 | L2avg: 1.0422e-02
+  Epoch  8000 | Loss: 3.1901e-04 | PDE: 3.0008e-04 | IC: 1.8936e-05 | L2avg: 9.2536e-03
+  Epoch  9000 | Loss: 2.5064e-04 | PDE: 2.4031e-04 | IC: 1.0328e-05 | L2avg: 6.3615e-03
+  Epoch 10000 | Loss: 2.2284e-04 | PDE: 2.1378e-04 | IC: 9.0584e-06 | L2avg: 6.3860e-03
+  Time: 34.7s | Best L2: 5.9114e-03
+[abl] case8 strat=S5_40_40_20 scale=1.0 seed=0: best_l2=5.9114e-03 params=2688 t=34.7s
+[E16] RUN --case case8 --seed 1 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case8_S5_40_40_20_seed1.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic spatial derivs, manual T_n', vectorized modes, grid eval
+============================================================
+  Parameters: 2,688
+  Epoch   100 | Loss: 4.0195e-01 | PDE: 6.4765e-02 | IC: 3.3719e-01 | L2avg: 8.7828e-01
+  Epoch  1000 | Loss: 5.0500e-04 | PDE: 4.6259e-04 | IC: 4.2406e-05 | L2avg: 1.0033e-02
+  Epoch  2000 | Loss: 1.4523e-04 | PDE: 1.3010e-04 | IC: 1.5134e-05 | L2avg: 6.0733e-03
+  Epoch  3000 | Loss: 5.8015e-05 | PDE: 5.1350e-05 | IC: 6.6650e-06 | L2avg: 4.5228e-03
+  Epoch  4000 | Loss: 3.5895e-05 | PDE: 3.2042e-05 | IC: 3.8529e-06 | L2avg: 3.4791e-03
+  Epoch  5000 | Loss: 2.9736e-05 | PDE: 2.7072e-05 | IC: 2.6639e-06 | L2avg: 2.9851e-03
+  Epoch  6000 | Loss: 2.0097e-05 | PDE: 1.8472e-05 | IC: 1.6251e-06 | L2avg: 2.4549e-03
+  Epoch  7000 | Loss: 3.2509e-05 | PDE: 3.0622e-05 | IC: 1.8869e-06 | L2avg: 2.7667e-03
+  Epoch  8000 | Loss: 1.6673e-04 | PDE: 1.6183e-04 | IC: 4.9043e-06 | L2avg: 3.8887e-03
+  Epoch  9000 | Loss: 2.4186e-05 | PDE: 2.2748e-05 | IC: 1.4373e-06 | L2avg: 1.8117e-03
+  Epoch 10000 | Loss: 1.8084e-05 | PDE: 1.7184e-05 | IC: 9.0002e-07 | L2avg: 1.6626e-03
+  Time: 34.6s | Best L2: 1.2314e-03
+[abl] case8 strat=S5_40_40_20 scale=1.0 seed=1: best_l2=1.2314e-03 params=2688 t=34.6s
+[E16] RUN --case case8 --seed 2 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case8_S5_40_40_20_seed2.json
+
+============================================================
+Training SV-SNN (ACCELERATED)
+  Analytic spatial derivs, manual T_n', vectorized modes, grid eval
+============================================================
+  Parameters: 2,688
+  Epoch   100 | Loss: 4.8612e-01 | PDE: 4.6556e-02 | IC: 4.3956e-01 | L2avg: 9.5264e-01
+  Epoch  1000 | Loss: 1.5564e-03 | PDE: 1.2270e-03 | IC: 3.2937e-04 | L2avg: 9.4813e-02
+  Epoch  2000 | Loss: 7.5990e-04 | PDE: 6.3581e-04 | IC: 1.2408e-04 | L2avg: 6.7344e-02
+  Epoch  3000 | Loss: 4.4473e-04 | PDE: 3.7171e-04 | IC: 7.3018e-05 | L2avg: 3.0025e-02
+  Epoch  4000 | Loss: 3.9782e-04 | PDE: 3.3648e-04 | IC: 6.1331e-05 | L2avg: 2.7326e-02
+  Epoch  5000 | Loss: 3.8168e-04 | PDE: 3.2319e-04 | IC: 5.8491e-05 | L2avg: 2.9828e-02
+  Epoch  6000 | Loss: 2.7627e-04 | PDE: 2.3482e-04 | IC: 4.1451e-05 | L2avg: 2.6006e-02
+  Epoch  7000 | Loss: 4.9192e-04 | PDE: 4.3362e-04 | IC: 5.8298e-05 | L2avg: 2.5750e-02
+  Epoch  8000 | Loss: 4.2044e-04 | PDE: 3.3502e-04 | IC: 8.5423e-05 | L2avg: 3.4426e-02
+  Epoch  9000 | Loss: 4.7201e-04 | PDE: 4.0090e-04 | IC: 7.1110e-05 | L2avg: 3.4578e-02
+  Epoch 10000 | Loss: 2.2044e-04 | PDE: 1.8702e-04 | IC: 3.3423e-05 | L2avg: 2.4169e-02
+  Time: 34.2s | Best L2: 2.0375e-02
+[abl] case8 strat=S5_40_40_20 scale=1.0 seed=2: best_l2=2.0375e-02 params=2688 t=34.2s
+[E16] case9 default seed0: reused E11 best_l2=3.0937e-04
+[E16] case9 default seed1: reused E11 best_l2=3.5032e-04
+[E16] case9 default seed2: reused E11 best_l2=3.6029e-04
+[E16] RUN --case case9 --seed 0 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case9_S1_single_seed0.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic spatial 1st+2nd derivs, vectorized, grid + mask
+======================================================================
+  Parameters: 407
+  Epoch   100 | Loss 1.6943e+01 | PDE 1.6388e+01 | BC 5.5516e-01 | L2 7.9755e-01
+  Epoch  1000 | Loss 1.0228e+00 | PDE 8.6433e-01 | BC 1.5848e-01 | L2 4.9878e-01
+  Epoch  2000 | Loss 8.8692e-01 | PDE 7.6054e-01 | BC 1.2638e-01 | L2 4.5226e-01
+  Epoch  3000 | Loss 8.2661e-01 | PDE 7.0757e-01 | BC 1.1904e-01 | L2 4.4871e-01
+  Epoch  4000 | Loss 2.4580e-02 | PDE 2.2747e-02 | BC 1.8335e-03 | L2 5.8080e-02
+  Epoch  5000 | Loss 6.5287e-04 | PDE 6.3926e-04 | BC 1.3606e-05 | L2 1.9018e-03
+  Epoch  6000 | Loss 4.2463e-04 | PDE 4.2087e-04 | BC 3.7573e-06 | L2 9.9095e-04
+  Epoch  7000 | Loss 3.6252e-04 | PDE 3.6005e-04 | BC 2.4769e-06 | L2 8.4566e-04
+  Epoch  8000 | Loss 2.9366e-04 | PDE 2.9215e-04 | BC 1.5089e-06 | L2 6.7062e-04
+  Epoch  9000 | Loss 2.2254e-04 | PDE 2.2180e-04 | BC 7.3648e-07 | L2 5.0896e-04
+  Epoch 10000 | Loss 1.7242e-04 | PDE 1.7190e-04 | BC 5.2138e-07 | L2 4.3756e-04
+  Epoch 11000 | Loss 1.3046e-04 | PDE 1.3012e-04 | BC 3.4586e-07 | L2 3.9521e-04
+  Epoch 12000 | Loss 1.8835e-04 | PDE 1.8773e-04 | BC 6.2217e-07 | L2 5.3692e-04
+  Epoch 13000 | Loss 8.6742e-05 | PDE 8.6596e-05 | BC 1.4645e-07 | L2 3.1744e-04
+  Epoch 14000 | Loss 1.0133e-04 | PDE 1.0107e-04 | BC 2.6180e-07 | L2 4.8627e-04
+  Epoch 15000 | Loss 7.0661e-05 | PDE 7.0535e-05 | BC 1.2579e-07 | L2 4.8554e-04
+  Done: 20.3s | Params: 407 | Best L2: 3.0258e-04 | Final L2: 4.8554e-04
+[abl] case9 strat=S1_single scale=1.0 seed=0: best_l2=3.0258e-04 params=407 t=20.3s
+[E16] RUN --case case9 --seed 1 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case9_S1_single_seed1.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic spatial 1st+2nd derivs, vectorized, grid + mask
+======================================================================
+  Parameters: 407
+  Epoch   100 | Loss 3.0488e+01 | PDE 2.9733e+01 | BC 7.5518e-01 | L2 9.4383e-01
+  Epoch  1000 | Loss 1.1262e+00 | PDE 9.3627e-01 | BC 1.8996e-01 | L2 4.8870e-01
+  Epoch  2000 | Loss 8.9732e-01 | PDE 7.7397e-01 | BC 1.2335e-01 | L2 4.4962e-01
+  Epoch  3000 | Loss 8.8389e-01 | PDE 7.6454e-01 | BC 1.1934e-01 | L2 4.4961e-01
+  Epoch  4000 | Loss 8.2074e-01 | PDE 7.0136e-01 | BC 1.1937e-01 | L2 4.4817e-01
+  Epoch  5000 | Loss 7.7227e-01 | PDE 6.6119e-01 | BC 1.1108e-01 | L2 4.3492e-01
+  Epoch  6000 | Loss 5.4704e-04 | PDE 5.4096e-04 | BC 6.0816e-06 | L2 1.5801e-03
+  Epoch  7000 | Loss 5.9354e-04 | PDE 5.9143e-04 | BC 2.1139e-06 | L2 9.6007e-04
+  Epoch  8000 | Loss 3.3427e-04 | PDE 3.3308e-04 | BC 1.1858e-06 | L2 8.0873e-04
+  Epoch  9000 | Loss 3.0594e-04 | PDE 3.0501e-04 | BC 9.2975e-07 | L2 7.6646e-04
+  Epoch 10000 | Loss 2.1988e-04 | PDE 2.1913e-04 | BC 7.4887e-07 | L2 7.0226e-04
+  Epoch 11000 | Loss 1.8746e-04 | PDE 1.8714e-04 | BC 3.1752e-07 | L2 8.4809e-04
+  Epoch 12000 | Loss 1.5959e-04 | PDE 1.5909e-04 | BC 5.0305e-07 | L2 6.4925e-04
+  Epoch 13000 | Loss 9.0594e-05 | PDE 9.0258e-05 | BC 3.3595e-07 | L2 4.7547e-04
+  Epoch 14000 | Loss 8.0623e-05 | PDE 8.0340e-05 | BC 2.8328e-07 | L2 4.1945e-04
+  Epoch 15000 | Loss 9.0580e-05 | PDE 9.0231e-05 | BC 3.4864e-07 | L2 6.1073e-04
+  Done: 19.5s | Params: 407 | Best L2: 3.8288e-04 | Final L2: 6.1073e-04
+[abl] case9 strat=S1_single scale=1.0 seed=1: best_l2=3.8288e-04 params=407 t=19.5s
+[E16] RUN --case case9 --seed 2 --strategy S1_single --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case9_S1_single_seed2.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic spatial 1st+2nd derivs, vectorized, grid + mask
+======================================================================
+  Parameters: 407
+  Epoch   100 | Loss 2.7673e+01 | PDE 2.6977e+01 | BC 6.9596e-01 | L2 9.2750e-01
+  Epoch  1000 | Loss 1.0584e+00 | PDE 8.6099e-01 | BC 1.9745e-01 | L2 4.7267e-01
+  Epoch  2000 | Loss 4.1190e-01 | PDE 3.3808e-01 | BC 7.3818e-02 | L2 3.1359e-01
+  Epoch  3000 | Loss 2.4542e-02 | PDE 1.9696e-02 | BC 4.8458e-03 | L2 4.6751e-02
+  Epoch  4000 | Loss 7.3275e-03 | PDE 6.9556e-03 | BC 3.7192e-04 | L2 9.0216e-03
+  Epoch  5000 | Loss 5.5154e-03 | PDE 5.2684e-03 | BC 2.4700e-04 | L2 7.2790e-03
+  Epoch  6000 | Loss 3.4548e-03 | PDE 3.3132e-03 | BC 1.4162e-04 | L2 5.5456e-03
+  Epoch  7000 | Loss 1.4735e-03 | PDE 1.4293e-03 | BC 4.4171e-05 | L2 3.1244e-03
+  Epoch  8000 | Loss 4.6753e-04 | PDE 4.6362e-04 | BC 3.9083e-06 | L2 1.0552e-03
+  Epoch  9000 | Loss 3.0585e-04 | PDE 3.0550e-04 | BC 3.4413e-07 | L2 4.8394e-04
+  Epoch 10000 | Loss 2.5941e-04 | PDE 2.5918e-04 | BC 2.2502e-07 | L2 4.2467e-04
+  Epoch 11000 | Loss 3.0005e-04 | PDE 2.9948e-04 | BC 5.6934e-07 | L2 7.4019e-04
+  Epoch 12000 | Loss 2.3087e-04 | PDE 2.3056e-04 | BC 3.0446e-07 | L2 5.1586e-04
+  Epoch 13000 | Loss 1.9347e-04 | PDE 1.9327e-04 | BC 1.9927e-07 | L2 4.5565e-04
+  Epoch 14000 | Loss 1.9853e-04 | PDE 1.9827e-04 | BC 2.6238e-07 | L2 4.9193e-04
+  Epoch 15000 | Loss 2.1315e-04 | PDE 2.1271e-04 | BC 4.3659e-07 | L2 5.1885e-04
+  Done: 19.5s | Params: 407 | Best L2: 3.6029e-04 | Final L2: 5.1885e-04
+[abl] case9 strat=S1_single scale=1.0 seed=2: best_l2=3.6029e-04 params=407 t=19.5s
+[E16] RUN --case case9 --seed 0 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case9_S2_two_seed0.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic spatial 1st+2nd derivs, vectorized, grid + mask
+======================================================================
+  Parameters: 407
+  Epoch   100 | Loss 1.6943e+01 | PDE 1.6388e+01 | BC 5.5516e-01 | L2 7.9755e-01
+  Epoch  1000 | Loss 1.0228e+00 | PDE 8.6432e-01 | BC 1.5848e-01 | L2 4.9878e-01
+  Epoch  2000 | Loss 8.8694e-01 | PDE 7.6056e-01 | BC 1.2638e-01 | L2 4.5226e-01
+  Epoch  3000 | Loss 8.2659e-01 | PDE 7.0756e-01 | BC 1.1903e-01 | L2 4.4870e-01
+  Epoch  4000 | Loss 2.4540e-02 | PDE 2.2707e-02 | BC 1.8327e-03 | L2 5.8016e-02
+  Epoch  5000 | Loss 6.5857e-04 | PDE 6.4464e-04 | BC 1.3936e-05 | L2 1.9182e-03
+  Epoch  6000 | Loss 4.6221e-04 | PDE 4.5840e-04 | BC 3.8141e-06 | L2 1.0068e-03
+  Epoch  7000 | Loss 3.5298e-04 | PDE 3.5049e-04 | BC 2.4883e-06 | L2 8.3340e-04
+  Epoch  8000 | Loss 2.9052e-04 | PDE 2.8908e-04 | BC 1.4390e-06 | L2 6.8932e-04
+  Epoch  9000 | Loss 2.3061e-04 | PDE 2.2982e-04 | BC 7.8864e-07 | L2 5.3209e-04
+  Epoch 10000 | Loss 1.8969e-04 | PDE 1.8917e-04 | BC 5.2653e-07 | L2 5.3638e-04
+  Epoch 11000 | Loss 1.3578e-04 | PDE 1.3539e-04 | BC 3.9154e-07 | L2 5.8415e-04
+  Epoch 12000 | Loss 1.1034e-04 | PDE 1.1008e-04 | BC 2.6528e-07 | L2 3.7278e-04
+  Epoch 13000 | Loss 9.9216e-05 | PDE 9.8917e-05 | BC 2.9956e-07 | L2 5.0260e-04
+  Epoch 14000 | Loss 8.2070e-05 | PDE 8.1912e-05 | BC 1.5830e-07 | L2 4.6605e-04
+  Epoch 15000 | Loss 8.2167e-05 | PDE 8.1944e-05 | BC 2.2248e-07 | L2 5.1744e-04
+  Done: 20.1s | Params: 407 | Best L2: 3.0937e-04 | Final L2: 5.1744e-04
+[abl] case9 strat=S2_two scale=1.0 seed=0: best_l2=3.0937e-04 params=407 t=20.1s
+[E16] RUN --case case9 --seed 1 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case9_S2_two_seed1.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic spatial 1st+2nd derivs, vectorized, grid + mask
+======================================================================
+  Parameters: 407
+  Epoch   100 | Loss 3.0488e+01 | PDE 2.9733e+01 | BC 7.5518e-01 | L2 9.4383e-01
+  Epoch  1000 | Loss 1.1262e+00 | PDE 9.3624e-01 | BC 1.8996e-01 | L2 4.8870e-01
+  Epoch  2000 | Loss 8.9727e-01 | PDE 7.7392e-01 | BC 1.2335e-01 | L2 4.4962e-01
+  Epoch  3000 | Loss 8.8391e-01 | PDE 7.6457e-01 | BC 1.1934e-01 | L2 4.4961e-01
+  Epoch  4000 | Loss 8.2076e-01 | PDE 7.0139e-01 | BC 1.1937e-01 | L2 4.4817e-01
+  Epoch  5000 | Loss 7.7232e-01 | PDE 6.6121e-01 | BC 1.1110e-01 | L2 4.3494e-01
+  Epoch  6000 | Loss 5.6723e-04 | PDE 5.6117e-04 | BC 6.0592e-06 | L2 1.6009e-03
+  Epoch  7000 | Loss 4.1071e-04 | PDE 4.0884e-04 | BC 1.8677e-06 | L2 9.5342e-04
+  Epoch  8000 | Loss 3.2968e-04 | PDE 3.2838e-04 | BC 1.3011e-06 | L2 7.6963e-04
+  Epoch  9000 | Loss 2.6193e-04 | PDE 2.6084e-04 | BC 1.0980e-06 | L2 6.9933e-04
+  Epoch 10000 | Loss 2.0443e-04 | PDE 2.0358e-04 | BC 8.5576e-07 | L2 5.8772e-04
+  Epoch 11000 | Loss 1.6939e-04 | PDE 1.6894e-04 | BC 4.5410e-07 | L2 8.0698e-04
+  Epoch 12000 | Loss 1.3211e-04 | PDE 1.3179e-04 | BC 3.2402e-07 | L2 5.7388e-04
+  Epoch 13000 | Loss 1.1200e-04 | PDE 1.1153e-04 | BC 4.6899e-07 | L2 5.0381e-04
+  Epoch 14000 | Loss 9.5450e-05 | PDE 9.5151e-05 | BC 2.9912e-07 | L2 5.5414e-04
+  Epoch 15000 | Loss 6.8616e-05 | PDE 6.8351e-05 | BC 2.6485e-07 | L2 5.2967e-04
+  Done: 19.4s | Params: 407 | Best L2: 3.5032e-04 | Final L2: 5.2967e-04
+[abl] case9 strat=S2_two scale=1.0 seed=1: best_l2=3.5032e-04 params=407 t=19.4s
+[E16] RUN --case case9 --seed 2 --strategy S2_two --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case9_S2_two_seed2.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic spatial 1st+2nd derivs, vectorized, grid + mask
+======================================================================
+  Parameters: 407
+  Epoch   100 | Loss 2.7673e+01 | PDE 2.6977e+01 | BC 6.9596e-01 | L2 9.2750e-01
+  Epoch  1000 | Loss 1.0584e+00 | PDE 8.6096e-01 | BC 1.9745e-01 | L2 4.7267e-01
+  Epoch  2000 | Loss 4.1190e-01 | PDE 3.3809e-01 | BC 7.3817e-02 | L2 3.1359e-01
+  Epoch  3000 | Loss 2.4544e-02 | PDE 1.9698e-02 | BC 4.8459e-03 | L2 4.6753e-02
+  Epoch  4000 | Loss 7.2956e-03 | PDE 6.9243e-03 | BC 3.7131e-04 | L2 9.0078e-03
+  Epoch  5000 | Loss 5.5218e-03 | PDE 5.2753e-03 | BC 2.4645e-04 | L2 7.2785e-03
+  Epoch  6000 | Loss 3.4431e-03 | PDE 3.3016e-03 | BC 1.4158e-04 | L2 5.5311e-03
+  Epoch  7000 | Loss 1.4750e-03 | PDE 1.4307e-03 | BC 4.4335e-05 | L2 3.1377e-03
+  Epoch  8000 | Loss 4.5841e-04 | PDE 4.5457e-04 | BC 3.8385e-06 | L2 1.0411e-03
+  Epoch  9000 | Loss 2.9431e-04 | PDE 2.9400e-04 | BC 3.0959e-07 | L2 5.1815e-04
+  Epoch 10000 | Loss 2.8690e-04 | PDE 2.8662e-04 | BC 2.7521e-07 | L2 4.7729e-04
+  Epoch 11000 | Loss 2.4894e-04 | PDE 2.4854e-04 | BC 4.0684e-07 | L2 5.6919e-04
+  Epoch 12000 | Loss 2.3236e-04 | PDE 2.3221e-04 | BC 1.5384e-07 | L2 4.7362e-04
+  Epoch 13000 | Loss 1.9788e-04 | PDE 1.9764e-04 | BC 2.4012e-07 | L2 4.2004e-04
+  Epoch 14000 | Loss 2.0998e-04 | PDE 2.0954e-04 | BC 4.4443e-07 | L2 4.7823e-04
+  Epoch 15000 | Loss 1.7840e-04 | PDE 1.7802e-04 | BC 3.8508e-07 | L2 4.4710e-04
+  Done: 19.2s | Params: 407 | Best L2: 3.5777e-04 | Final L2: 4.4710e-04
+[abl] case9 strat=S2_two scale=1.0 seed=2: best_l2=3.5777e-04 params=407 t=19.2s
+[E16] RUN --case case9 --seed 0 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case9_S4_continuous_seed0.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic spatial 1st+2nd derivs, vectorized, grid + mask
+======================================================================
+  Parameters: 407
+  Epoch   100 | Loss 1.6943e+01 | PDE 1.6388e+01 | BC 5.5516e-01 | L2 7.9755e-01
+  Epoch  1000 | Loss 1.0228e+00 | PDE 8.6434e-01 | BC 1.5848e-01 | L2 4.9878e-01
+  Epoch  2000 | Loss 8.8694e-01 | PDE 7.6056e-01 | BC 1.2638e-01 | L2 4.5226e-01
+  Epoch  3000 | Loss 8.2659e-01 | PDE 7.0756e-01 | BC 1.1903e-01 | L2 4.4871e-01
+  Epoch  4000 | Loss 2.4551e-02 | PDE 2.2723e-02 | BC 1.8282e-03 | L2 5.8009e-02
+  Epoch  5000 | Loss 6.5385e-04 | PDE 6.4029e-04 | BC 1.3560e-05 | L2 1.9065e-03
+  Epoch  6000 | Loss 4.2188e-04 | PDE 4.1805e-04 | BC 3.8383e-06 | L2 1.0083e-03
+  Epoch  7000 | Loss 3.5096e-04 | PDE 3.4845e-04 | BC 2.5093e-06 | L2 8.3992e-04
+  Epoch  8000 | Loss 2.8292e-04 | PDE 2.8142e-04 | BC 1.4969e-06 | L2 6.6703e-04
+  Epoch  9000 | Loss 2.4830e-04 | PDE 2.4736e-04 | BC 9.4151e-07 | L2 5.4858e-04
+  Epoch 10000 | Loss 1.7692e-04 | PDE 1.7641e-04 | BC 5.1086e-07 | L2 6.8251e-04
+  Epoch 11000 | Loss 1.3948e-04 | PDE 1.3910e-04 | BC 3.7576e-07 | L2 5.1343e-04
+  Epoch 12000 | Loss 1.3997e-04 | PDE 1.3959e-04 | BC 3.8342e-07 | L2 4.4231e-04
+  Epoch 13000 | Loss 9.1119e-05 | PDE 9.0950e-05 | BC 1.6975e-07 | L2 4.8673e-04
+  Epoch 14000 | Loss 8.4371e-05 | PDE 8.4144e-05 | BC 2.2686e-07 | L2 4.5598e-04
+  Epoch 15000 | Loss 7.7406e-05 | PDE 7.7276e-05 | BC 1.3050e-07 | L2 3.6388e-04
+  Done: 18.5s | Params: 407 | Best L2: 3.1751e-04 | Final L2: 3.6388e-04
+[abl] case9 strat=S4_continuous scale=1.0 seed=0: best_l2=3.1751e-04 params=407 t=18.5s
+[E16] RUN --case case9 --seed 1 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case9_S4_continuous_seed1.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic spatial 1st+2nd derivs, vectorized, grid + mask
+======================================================================
+  Parameters: 407
+  Epoch   100 | Loss 3.0488e+01 | PDE 2.9733e+01 | BC 7.5518e-01 | L2 9.4383e-01
+  Epoch  1000 | Loss 1.1262e+00 | PDE 9.3627e-01 | BC 1.8996e-01 | L2 4.8870e-01
+  Epoch  2000 | Loss 8.9732e-01 | PDE 7.7397e-01 | BC 1.2335e-01 | L2 4.4962e-01
+  Epoch  3000 | Loss 8.8389e-01 | PDE 7.6454e-01 | BC 1.1934e-01 | L2 4.4961e-01
+  Epoch  4000 | Loss 8.2074e-01 | PDE 7.0136e-01 | BC 1.1937e-01 | L2 4.4817e-01
+  Epoch  5000 | Loss 7.7227e-01 | PDE 6.6119e-01 | BC 1.1108e-01 | L2 4.3492e-01
+  Epoch  6000 | Loss 5.4704e-04 | PDE 5.4096e-04 | BC 6.0816e-06 | L2 1.5801e-03
+  Epoch  7000 | Loss 5.9354e-04 | PDE 5.9143e-04 | BC 2.1139e-06 | L2 9.6007e-04
+  Epoch  8000 | Loss 3.3427e-04 | PDE 3.3308e-04 | BC 1.1858e-06 | L2 8.0873e-04
+  Epoch  9000 | Loss 3.0594e-04 | PDE 3.0501e-04 | BC 9.2975e-07 | L2 7.6646e-04
+  Epoch 10000 | Loss 2.1988e-04 | PDE 2.1913e-04 | BC 7.4887e-07 | L2 7.0226e-04
+  Epoch 11000 | Loss 1.8746e-04 | PDE 1.8714e-04 | BC 3.1752e-07 | L2 8.4809e-04
+  Epoch 12000 | Loss 1.5959e-04 | PDE 1.5909e-04 | BC 5.0305e-07 | L2 6.4925e-04
+  Epoch 13000 | Loss 9.0594e-05 | PDE 9.0258e-05 | BC 3.3595e-07 | L2 4.7547e-04
+  Epoch 14000 | Loss 8.0623e-05 | PDE 8.0340e-05 | BC 2.8328e-07 | L2 4.1945e-04
+  Epoch 15000 | Loss 9.0580e-05 | PDE 9.0231e-05 | BC 3.4864e-07 | L2 6.1073e-04
+  Done: 18.2s | Params: 407 | Best L2: 3.8288e-04 | Final L2: 6.1073e-04
+[abl] case9 strat=S4_continuous scale=1.0 seed=1: best_l2=3.8288e-04 params=407 t=18.2s
+[E16] RUN --case case9 --seed 2 --strategy S4_continuous --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case9_S4_continuous_seed2.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic spatial 1st+2nd derivs, vectorized, grid + mask
+======================================================================
+  Parameters: 407
+  Epoch   100 | Loss 2.7673e+01 | PDE 2.6977e+01 | BC 6.9596e-01 | L2 9.2750e-01
+  Epoch  1000 | Loss 1.0584e+00 | PDE 8.6099e-01 | BC 1.9745e-01 | L2 4.7267e-01
+  Epoch  2000 | Loss 4.1190e-01 | PDE 3.3808e-01 | BC 7.3818e-02 | L2 3.1359e-01
+  Epoch  3000 | Loss 2.4542e-02 | PDE 1.9696e-02 | BC 4.8458e-03 | L2 4.6751e-02
+  Epoch  4000 | Loss 7.3275e-03 | PDE 6.9556e-03 | BC 3.7192e-04 | L2 9.0216e-03
+  Epoch  5000 | Loss 5.5154e-03 | PDE 5.2684e-03 | BC 2.4700e-04 | L2 7.2790e-03
+  Epoch  6000 | Loss 3.4548e-03 | PDE 3.3132e-03 | BC 1.4162e-04 | L2 5.5456e-03
+  Epoch  7000 | Loss 1.4735e-03 | PDE 1.4293e-03 | BC 4.4171e-05 | L2 3.1244e-03
+  Epoch  8000 | Loss 4.6753e-04 | PDE 4.6362e-04 | BC 3.9083e-06 | L2 1.0552e-03
+  Epoch  9000 | Loss 3.0585e-04 | PDE 3.0550e-04 | BC 3.4413e-07 | L2 4.8394e-04
+  Epoch 10000 | Loss 2.5941e-04 | PDE 2.5918e-04 | BC 2.2502e-07 | L2 4.2467e-04
+  Epoch 11000 | Loss 3.0005e-04 | PDE 2.9948e-04 | BC 5.6934e-07 | L2 7.4019e-04
+  Epoch 12000 | Loss 2.3087e-04 | PDE 2.3056e-04 | BC 3.0446e-07 | L2 5.1586e-04
+  Epoch 13000 | Loss 1.9347e-04 | PDE 1.9327e-04 | BC 1.9927e-07 | L2 4.5565e-04
+  Epoch 14000 | Loss 1.9853e-04 | PDE 1.9827e-04 | BC 2.6238e-07 | L2 4.9193e-04
+  Epoch 15000 | Loss 2.1315e-04 | PDE 2.1271e-04 | BC 4.3659e-07 | L2 5.1885e-04
+  Done: 18.8s | Params: 407 | Best L2: 3.6029e-04 | Final L2: 5.1885e-04
+[abl] case9 strat=S4_continuous scale=1.0 seed=2: best_l2=3.6029e-04 params=407 t=18.8s
+[E16] RUN --case case9 --seed 0 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case9_S5_40_40_20_seed0.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic spatial 1st+2nd derivs, vectorized, grid + mask
+======================================================================
+  Parameters: 407
+  Epoch   100 | Loss 1.6943e+01 | PDE 1.6388e+01 | BC 5.5516e-01 | L2 7.9755e-01
+  Epoch  1000 | Loss 1.0228e+00 | PDE 8.6430e-01 | BC 1.5848e-01 | L2 4.9878e-01
+  Epoch  2000 | Loss 8.8696e-01 | PDE 7.6058e-01 | BC 1.2638e-01 | L2 4.5225e-01
+  Epoch  3000 | Loss 8.2657e-01 | PDE 7.0753e-01 | BC 1.1903e-01 | L2 4.4870e-01
+  Epoch  4000 | Loss 2.4551e-02 | PDE 2.2718e-02 | BC 1.8326e-03 | L2 5.8040e-02
+  Epoch  5000 | Loss 6.6060e-04 | PDE 6.4748e-04 | BC 1.3117e-05 | L2 1.8889e-03
+  Epoch  6000 | Loss 4.3102e-04 | PDE 4.2723e-04 | BC 3.7917e-06 | L2 1.0071e-03
+  Epoch  7000 | Loss 3.6122e-04 | PDE 3.5881e-04 | BC 2.4167e-06 | L2 8.4659e-04
+  Epoch  8000 | Loss 2.9479e-04 | PDE 2.9325e-04 | BC 1.5366e-06 | L2 6.7877e-04
+  Epoch  9000 | Loss 2.1955e-04 | PDE 2.1873e-04 | BC 8.1609e-07 | L2 5.2838e-04
+  Epoch 10000 | Loss 1.8778e-04 | PDE 1.8727e-04 | BC 5.0970e-07 | L2 5.1736e-04
+  Epoch 11000 | Loss 1.3205e-04 | PDE 1.3171e-04 | BC 3.4019e-07 | L2 4.8448e-04
+  Epoch 12000 | Loss 1.2402e-04 | PDE 1.2374e-04 | BC 2.7970e-07 | L2 5.7154e-04
+  Epoch 13000 | Loss 1.2290e-04 | PDE 1.2256e-04 | BC 3.3903e-07 | L2 6.6018e-04
+  Epoch 14000 | Loss 8.7914e-05 | PDE 8.7756e-05 | BC 1.5770e-07 | L2 4.3101e-04
+  Epoch 15000 | Loss 7.3390e-05 | PDE 7.3261e-05 | BC 1.2983e-07 | L2 3.8938e-04
+  Done: 18.4s | Params: 407 | Best L2: 2.7133e-04 | Final L2: 3.8938e-04
+[abl] case9 strat=S5_40_40_20 scale=1.0 seed=0: best_l2=2.7133e-04 params=407 t=18.4s
+[E16] RUN --case case9 --seed 1 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case9_S5_40_40_20_seed1.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic spatial 1st+2nd derivs, vectorized, grid + mask
+======================================================================
+  Parameters: 407
+  Epoch   100 | Loss 3.0488e+01 | PDE 2.9733e+01 | BC 7.5518e-01 | L2 9.4383e-01
+  Epoch  1000 | Loss 1.1262e+00 | PDE 9.3626e-01 | BC 1.8996e-01 | L2 4.8870e-01
+  Epoch  2000 | Loss 8.9726e-01 | PDE 7.7392e-01 | BC 1.2334e-01 | L2 4.4962e-01
+  Epoch  3000 | Loss 8.8389e-01 | PDE 7.6454e-01 | BC 1.1935e-01 | L2 4.4961e-01
+  Epoch  4000 | Loss 8.2074e-01 | PDE 7.0136e-01 | BC 1.1938e-01 | L2 4.4817e-01
+  Epoch  5000 | Loss 7.7240e-01 | PDE 6.6129e-01 | BC 1.1111e-01 | L2 4.3496e-01
+  Epoch  6000 | Loss 5.8572e-04 | PDE 5.7959e-04 | BC 6.1294e-06 | L2 1.5978e-03
+  Epoch  7000 | Loss 5.2834e-04 | PDE 5.2630e-04 | BC 2.0401e-06 | L2 1.0086e-03
+  Epoch  8000 | Loss 3.2626e-04 | PDE 3.2510e-04 | BC 1.1591e-06 | L2 8.1159e-04
+  Epoch  9000 | Loss 2.6222e-04 | PDE 2.6131e-04 | BC 9.1037e-07 | L2 7.8715e-04
+  Epoch 10000 | Loss 2.4291e-04 | PDE 2.4203e-04 | BC 8.7911e-07 | L2 6.4450e-04
+  Epoch 11000 | Loss 1.7207e-04 | PDE 1.7156e-04 | BC 5.0662e-07 | L2 6.1854e-04
+  Epoch 12000 | Loss 1.4372e-04 | PDE 1.4315e-04 | BC 5.7266e-07 | L2 7.5707e-04
+  Epoch 13000 | Loss 1.5913e-04 | PDE 1.5857e-04 | BC 5.5110e-07 | L2 6.5369e-04
+  Epoch 14000 | Loss 8.5935e-05 | PDE 8.5740e-05 | BC 1.9490e-07 | L2 4.6038e-04
+  Epoch 15000 | Loss 8.9375e-05 | PDE 8.8945e-05 | BC 4.3012e-07 | L2 6.1933e-04
+  Done: 18.7s | Params: 407 | Best L2: 3.6149e-04 | Final L2: 6.1933e-04
+[abl] case9 strat=S5_40_40_20 scale=1.0 seed=1: best_l2=3.6149e-04 params=407 t=18.7s
+[E16] RUN --case case9 --seed 2 --strategy S5_40_40_20 --scale 1.0 --out /root/autodl-tmp/rebuttal_experiments/E16_layering_ablation/saved_data/case9_S5_40_40_20_seed2.json
+
+======================================================================
+  SV-SNN (ACCELERATED)
+  Analytic spatial 1st+2nd derivs, vectorized, grid + mask
+======================================================================
+  Parameters: 407
+  Epoch   100 | Loss 2.7673e+01 | PDE 2.6977e+01 | BC 6.9596e-01 | L2 9.2750e-01
+  Epoch  1000 | Loss 1.0584e+00 | PDE 8.6099e-01 | BC 1.9746e-01 | L2 4.7267e-01
+  Epoch  2000 | Loss 4.1189e-01 | PDE 3.3807e-01 | BC 7.3818e-02 | L2 3.1359e-01
+  Epoch  3000 | Loss 2.4548e-02 | PDE 1.9707e-02 | BC 4.8412e-03 | L2 4.6738e-02
+  Epoch  4000 | Loss 7.3263e-03 | PDE 6.9545e-03 | BC 3.7174e-04 | L2 9.0195e-03
+  Epoch  5000 | Loss 5.5165e-03 | PDE 5.2701e-03 | BC 2.4639e-04 | L2 7.2723e-03
+  Epoch  6000 | Loss 3.4497e-03 | PDE 3.3082e-03 | BC 1.4153e-04 | L2 5.5327e-03
+  Epoch  7000 | Loss 1.4627e-03 | PDE 1.4186e-03 | BC 4.4063e-05 | L2 3.1578e-03
+  Epoch  8000 | Loss 4.6378e-04 | PDE 4.5991e-04 | BC 3.8714e-06 | L2 1.0575e-03
+  Epoch  9000 | Loss 3.1871e-04 | PDE 3.1839e-04 | BC 3.2169e-07 | L2 4.7787e-04
+  Epoch 10000 | Loss 2.5888e-04 | PDE 2.5853e-04 | BC 3.5546e-07 | L2 4.0746e-04
+  Epoch 11000 | Loss 2.4095e-04 | PDE 2.4064e-04 | BC 3.0965e-07 | L2 5.5116e-04
+  Epoch 12000 | Loss 2.4299e-04 | PDE 2.4268e-04 | BC 3.0546e-07 | L2 4.9644e-04
+  Epoch 13000 | Loss 2.2094e-04 | PDE 2.2058e-04 | BC 3.6042e-07 | L2 3.9020e-04
+  Epoch 14000 | Loss 1.8049e-04 | PDE 1.8034e-04 | BC 1.5144e-07 | L2 3.6257e-04
+  Epoch 15000 | Loss 1.8305e-04 | PDE 1.8280e-04 | BC 2.5860e-07 | L2 6.1904e-04
+  Done: 18.7s | Params: 407 | Best L2: 3.5583e-04 | Final L2: 6.1904e-04
+[abl] case9 strat=S5_40_40_20 scale=1.0 seed=2: best_l2=3.5583e-04 params=407 t=18.7s
+[E16] done

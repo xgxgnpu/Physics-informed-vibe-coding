@@ -1,0 +1,18 @@
+{
+  "method": "SIREN",
+  "budget": "matched",
+  "seed": 1,
+  "total_params": 1221,
+  "target_params": 1171,
+  "matched_within_tol": true,
+  "best_l2": 0.8750354051589966,
+  "final_l2": 2.1532657146453857,
+  "wall_clock_train_sec": 14.53587031364441,
+  "ms_per_100_epoch": 145.3587031364441,
+  "ms_per_epoch": 1.4535870313644408,
+  "peak_gpu_mem_mb": 289.470976,
+  "inference_time_ms": NaN,
+  "n_collocation": 10000,
+  "case": "case3",
+  "status": "ok"
+}

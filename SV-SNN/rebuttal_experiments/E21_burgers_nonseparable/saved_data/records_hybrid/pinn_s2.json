@@ -1,0 +1,21 @@
+{
+  "method": "pinn",
+  "seed": 2,
+  "total_params": 209196,
+  "target_params": 209196,
+  "matched_within_tol": true,
+  "sizes": {
+    "H": 256
+  },
+  "best_l2": 0.0001874749174794983,
+  "l2_exact": 0.0001874749174794983,
+  "l2_interp": 0.00018771843308615387,
+  "wall_clock_train_sec": 75.10926127433777,
+  "ms_per_100_epoch": 577.7635482641367,
+  "peak_gpu_mem_mb": 90.784768,
+  "inference_time_ms": 3.4094810485839844,
+  "n_modes": 300,
+  "ode_dt": 0.0005,
+  "nu": 0.003183098861837907,
+  "paradigm": "shared Galerkin-ODE substrate + temporal-representation fit"
+}

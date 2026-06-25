@@ -1,0 +1,8 @@
+  SVSNN seed=0: masked best L2=6.205e-02 params=2328 t=13.7s
+  SVSNN seed=1: masked best L2=3.624e-02 params=2328 t=11.5s
+  SVSNN seed=2: masked best L2=4.767e-02 params=2328 t=10.3s
+  FourierPINN seed=0: masked best L2=2.017e-01 params=57953 t=13.1s
+  FourierPINN seed=1: masked best L2=2.214e-01 params=57953 t=9.8s
+  FourierPINN seed=2: masked best L2=2.220e-01 params=57953 t=9.9s
+
+Saved E10 to /root/autodl-tmp/rebuttal_experiments/E10_boundary_error/saved_data

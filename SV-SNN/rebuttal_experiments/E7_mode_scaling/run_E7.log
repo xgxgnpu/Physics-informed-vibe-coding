@@ -1,0 +1,20 @@
+
+##### separable #####
+  N= 1: params=  195 best L2=1.332e-01 t=2.7s
+  N= 2: params=  390 best L2=9.324e-02 t=3.7s
+  N= 4: params=  780 best L2=3.214e-02 t=6.5s
+  N= 6: params= 1170 best L2=2.826e-02 t=8.8s
+  N= 8: params= 1560 best L2=3.654e-02 t=11.5s
+  N=12: params= 2340 best L2=2.924e-02 t=16.9s
+  N=16: params= 3120 best L2=1.799e-02 t=23.7s
+
+##### nonseparable #####
+  N= 1: params=  195 best L2=8.957e-01 t=2.1s
+  N= 2: params=  390 best L2=7.800e-01 t=4.1s
+  N= 4: params=  780 best L2=1.244e-01 t=6.9s
+  N= 6: params= 1170 best L2=6.881e-02 t=8.9s
+  N= 8: params= 1560 best L2=3.401e-02 t=11.1s
+  N=12: params= 2340 best L2=3.479e-02 t=17.1s
+  N=16: params= 3120 best L2=2.954e-02 t=24.4s
+
+Saved E7 to /root/autodl-tmp/rebuttal_experiments/E7_mode_scaling/saved_data

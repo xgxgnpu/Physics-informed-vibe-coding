@@ -1,0 +1,11 @@
+{
+  "case": "case6",
+  "seed": 1,
+  "strategy": "default",
+  "scale": 1.0,
+  "best_l2": 0.011528204217205575,
+  "final_l2": 0.011528204217205575,
+  "params": 3096,
+  "time_s": 13.359056234359741,
+  "source": "E11"
+}

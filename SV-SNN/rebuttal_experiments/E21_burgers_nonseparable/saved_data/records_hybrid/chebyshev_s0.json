@@ -1,0 +1,19 @@
+{
+  "method": "chebyshev",
+  "seed": 0,
+  "total_params": 76800,
+  "target_params": 209196,
+  "matched_within_tol": false,
+  "sizes": {},
+  "best_l2": 5.387794183419935e-06,
+  "l2_exact": 5.387794183419935e-06,
+  "l2_interp": 1.0769779903973006e-05,
+  "wall_clock_train_sec": 11.193152904510498,
+  "ms_per_100_epoch": 1119315.2904510498,
+  "peak_gpu_mem_mb": 85.362432,
+  "inference_time_ms": 1.8376588821411133,
+  "n_modes": 300,
+  "ode_dt": 0.0005,
+  "nu": 0.003183098861837907,
+  "paradigm": "shared Galerkin-ODE substrate + temporal-representation fit"
+}

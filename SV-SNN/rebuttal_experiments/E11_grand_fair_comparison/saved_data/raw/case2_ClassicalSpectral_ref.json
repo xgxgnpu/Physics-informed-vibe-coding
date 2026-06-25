@@ -1,0 +1,18 @@
+{
+  "method": "ClassicalSpectral",
+  "budget": "reference",
+  "seed": 0,
+  "total_params": 4096,
+  "target_params": null,
+  "matched_within_tol": null,
+  "best_l2": 4.363523524073456e-14,
+  "final_l2": 4.363523524073456e-14,
+  "wall_clock_train_sec": 0.004014253616333008,
+  "ms_per_100_epoch": 401.4253616333008,
+  "ms_per_epoch": 4.014253616333008,
+  "peak_gpu_mem_mb": 0.879104,
+  "inference_time_ms": 4.014253616333008,
+  "n_collocation": 65536,
+  "case": "case2",
+  "status": "ok"
+}

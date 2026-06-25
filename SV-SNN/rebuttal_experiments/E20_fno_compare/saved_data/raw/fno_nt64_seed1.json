@@ -1,0 +1,14 @@
+{
+  "test_rel_l2_mean": 0.07186883687973022,
+  "test_rel_l2_std": 0.08643781393766403,
+  "params": 4202976,
+  "train_time_s": 5.860650539398193,
+  "infer_ms_per_instance": 0.33316612243652344,
+  "peak_gpu_mb": 770.899456,
+  "n_train": 64,
+  "modes": 16,
+  "width": 32,
+  "n_layers": 4,
+  "method": "FNO",
+  "seed": 1
+}

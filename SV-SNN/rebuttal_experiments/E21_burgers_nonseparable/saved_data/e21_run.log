@@ -1,0 +1,85 @@
+>>> SVSNN seed=0
+[SVSNN seed=0] best_l2=3.2651e-01 params=1960 matched=True t=35.3s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/SVSNN_s0.json
+>>> SVSNN seed=1
+[SVSNN seed=1] best_l2=3.2424e-01 params=1960 matched=True t=33.3s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/SVSNN_s1.json
+>>> SVSNN seed=2
+[SVSNN seed=2] best_l2=3.2443e-01 params=1960 matched=True t=36.4s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/SVSNN_s2.json
+>>> PINN seed=0
+[PINN seed=0] best_l2=8.1902e-03 params=1897 matched=True t=17.3s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/PINN_s0.json
+>>> PINN seed=1
+[PINN seed=1] best_l2=7.3560e-03 params=1897 matched=True t=17.0s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/PINN_s1.json
+>>> PINN seed=2
+[PINN seed=2] best_l2=3.3620e-02 params=1897 matched=True t=17.9s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/PINN_s2.json
+>>> FourierPINN seed=0
+[FourierPINN seed=0] best_l2=5.4262e-03 params=1999 matched=True t=17.8s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/FourierPINN_s0.json
+>>> FourierPINN seed=1
+[FourierPINN seed=1] best_l2=5.9880e-03 params=1999 matched=True t=17.5s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/FourierPINN_s1.json
+>>> FourierPINN seed=2
+[FourierPINN seed=2] best_l2=5.3006e-03 params=1999 matched=True t=17.4s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/FourierPINN_s2.json
+>>> SIREN seed=0
+[SIREN seed=0] best_l2=4.6476e-03 params=1869 matched=True t=18.1s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/SIREN_s0.json
+>>> SIREN seed=1
+[SIREN seed=1] best_l2=4.5490e-03 params=1869 matched=True t=18.6s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/SIREN_s1.json
+>>> SIREN seed=2
+[SIREN seed=2] best_l2=1.1517e-02 params=1869 matched=True t=18.4s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/SIREN_s2.json
+>>> SPINN seed=0
+[SPINN seed=0] best_l2=1.0929e-02 params=1908 matched=True t=33.7s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/SPINN_s0.json
+>>> SPINN seed=1
+[SPINN seed=1] best_l2=4.2287e-02 params=1908 matched=True t=34.5s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/SPINN_s1.json
+>>> SPINN seed=2
+[SPINN seed=2] best_l2=4.0132e-02 params=1908 matched=True t=32.8s -> /root/autodl-tmp/rebuttal_experiments/E21_burgers_nonseparable/saved_data/records/SPINN_s2.json
+Track A wall time: 494.5s
+>>> Track B: reproducing v10 hybrid (Galerkin ODE + neural compression)
+=================================================================
+  SV-SNN v10 — Shared SIREN Backbone + Per-Mode Linear Heads
+  K=300, backbone 2×256, D=256
+  ω₀=30.0, Device: [CudaDevice(id=0)]
+=================================================================
+  Reference: (201, 4096)
+  Phase 0: Solving Galerkin ODE (RK4, float64)...
+    2000 steps, saved 2001 snapshots, 2.7s
+
+  Phase 1: Initialisation...
+    Backbone params: 132096
+    Head params:     77100
+    Total params:    209196
+    Init MSE loss:   3.461241e-12
+    Time: 7.1s
+
+  Phase 2: Adam warm-up (30000 epochs, lr=0.001, f64)...
+    ep      1 | loss 3.461241e-12
+    ep   5000 | loss 5.206897e+06 → head-reset → 2.731572e-12
+    ep  10000 | loss 5.641592e+06 → head-reset → 2.696563e-12
+    ep  15000 | loss 3.837706e+06 → head-reset → 2.285601e-12
+    ep  20000 | loss 3.160730e+07 → head-reset → 2.042176e-12
+    ep  25000 | loss 1.337011e+07 → head-reset → 2.400174e-12
+    ep  30000 | loss 1.045535e+06 → head-reset → 2.227561e-12
+    Adam done: 74.5s, final loss=1.045535e+06
+
+  Phase 3: LBFGS polish (f64, maxiter=100000, maxcor=100)...
+    Flat parameter vector length: 209196
+    step      1 | loss 2.227561e-12
+    LBFGS done: 1 it, 2.4s — CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+    Final loss: 2.227561e-12,  Best loss: 2.227561e-12
+
+  Evaluating on reference grid...
+    L2 (interpolated): 1.099250e-05
+    L2 (exact grid):   5.824822e-06
+    Mode errors — max: 2.4507e-05, mean: 1.1235e-07, median: 1.4271e-13
+  Saved v10_comparison.png
+  Saved v10_slices.png
+  Saved v10_mode_errors.png
+
+=================================================================
+  RESULT: L2 (exact) = 5.824822e-06  [ACHIEVED]
+  Params: 209196, Time: 86.9s
+=================================================================
+
+================ E21 SUMMARY ================
+  [A] SVSNN        params= 1960 L2=3.2506e-01 +/- 1.03e-03  matched=True
+  [A] PINN         params= 1897 L2=1.6389e-02 +/- 1.22e-02  matched=True
+  [A] FourierPINN  params= 1999 L2=5.5716e-03 +/- 2.99e-04  matched=True
+  [A] SIREN        params= 1869 L2=6.9044e-03 +/- 3.26e-03  matched=True
+  [A] SPINN        params= 1908 L2=3.1116e-02 +/- 1.43e-02  matched=True
+  [B] v10 hybrid   params=209196 L2=5.8248e-06  (Galerkin ODE + neural compression)
+=============================================

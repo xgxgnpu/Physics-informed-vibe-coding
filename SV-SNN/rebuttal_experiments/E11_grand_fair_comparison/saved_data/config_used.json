@@ -1,0 +1,29 @@
+{
+  "case1": {
+    "svsnn_params": 3730
+  },
+  "case2": {
+    "svsnn_params": 1170
+  },
+  "case3": {
+    "svsnn_params": 1171
+  },
+  "case4": {
+    "svsnn_params": 1612
+  },
+  "case5": {
+    "svsnn_params": 2322
+  },
+  "case6": {
+    "svsnn_params": 3096
+  },
+  "case7": {
+    "svsnn_params": 1944
+  },
+  "case8": {
+    "svsnn_params": 2688
+  },
+  "case9": {
+    "svsnn_params": 407
+  }
+}

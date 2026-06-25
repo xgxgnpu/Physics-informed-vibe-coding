@@ -1,0 +1,35 @@
+
+##### Q1_nonsep #####
+  Q1_nonsep SVSNN seed=0: best L2=3.166e-02 t=23.4s params=4656
+  Q1_nonsep SVSNN seed=1: best L2=4.113e-03 t=24.2s params=4656
+  Q1_nonsep SVSNN seed=2: best L2=2.264e-02 t=23.5s params=4656
+  Q1_nonsep FourierPINN seed=0: best L2=2.226e-01 t=12.7s params=57953
+  Q1_nonsep FourierPINN seed=1: best L2=2.493e-01 t=9.9s params=57953
+  Q1_nonsep FourierPINN seed=2: best L2=2.794e-01 t=9.9s params=57953
+  Q1_nonsep PINN seed=0: best L2=2.143e+00 t=12.2s params=50049
+  Q1_nonsep PINN seed=1: best L2=4.696e+00 t=11.8s params=50049
+  Q1_nonsep PINN seed=2: best L2=1.606e+00 t=11.8s params=50049
+
+##### Q2_packet #####
+  Q2_packet SVSNN seed=0: best L2=1.653e-02 t=18.2s params=3492
+  Q2_packet SVSNN seed=1: best L2=1.354e-02 t=16.3s params=3492
+  Q2_packet SVSNN seed=2: best L2=9.452e-03 t=16.2s params=3492
+  Q2_packet FourierPINN seed=0: best L2=2.266e-01 t=9.8s params=57953
+  Q2_packet FourierPINN seed=1: best L2=2.087e-01 t=9.9s params=57953
+  Q2_packet FourierPINN seed=2: best L2=1.420e-01 t=10.0s params=57953
+  Q2_packet PINN seed=0: best L2=1.606e-01 t=11.9s params=50049
+  Q2_packet PINN seed=1: best L2=4.547e-01 t=11.8s params=50049
+  Q2_packet PINN seed=2: best L2=2.980e-01 t=11.8s params=50049
+
+##### Q3_hetero #####
+  Q3_hetero SVSNN seed=0: best L2=1.486e-03 t=13.6s params=2328
+  Q3_hetero SVSNN seed=1: best L2=1.277e-03 t=10.9s params=2328
+  Q3_hetero SVSNN seed=2: best L2=2.661e-02 t=11.6s params=2328
+  Q3_hetero FourierPINN seed=0: best L2=4.083e-01 t=10.6s params=57953
+  Q3_hetero FourierPINN seed=1: best L2=4.703e-01 t=10.7s params=57953
+  Q3_hetero FourierPINN seed=2: best L2=4.813e-01 t=10.6s params=57953
+  Q3_hetero PINN seed=0: best L2=1.000e+00 t=14.2s params=50049
+  Q3_hetero PINN seed=1: best L2=1.000e+00 t=14.2s params=50049
+  Q3_hetero PINN seed=2: best L2=1.000e+00 t=14.2s params=50049
+
+Saved E8 to /root/autodl-tmp/rebuttal_experiments/E8_challenging_problems/saved_data

@@ -1,0 +1,18 @@
+{
+  "method": "SVSNN",
+  "budget": "best",
+  "seed": 0,
+  "total_params": 1170,
+  "target_params": null,
+  "matched_within_tol": null,
+  "best_l2": 0.010366970842487798,
+  "final_l2": 0.01064929506311028,
+  "wall_clock_train_sec": 11.72702932357788,
+  "ms_per_100_epoch": 117.29375198617605,
+  "ms_per_epoch": 1.1729375198617604,
+  "peak_gpu_mem_mb": 89.075712,
+  "inference_time_ms": 14.421272277832031,
+  "n_collocation": 10000,
+  "case": "case2",
+  "status": "ok"
+}

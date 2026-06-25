@@ -1,0 +1,11 @@
+{
+  "case": "case6",
+  "seed": 0,
+  "strategy": "S2_two",
+  "scale": 1.0,
+  "best_l2": 0.05534275139323167,
+  "final_l2": 0.24195525829646403,
+  "params": 3096,
+  "time_s": 15.75464415550232,
+  "source": "E16_layering_ablation/saved_data/case6_S2_two_seed0.json"
+}

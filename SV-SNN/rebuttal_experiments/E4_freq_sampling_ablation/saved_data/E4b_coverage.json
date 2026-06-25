@@ -1,0 +1,22 @@
+{
+  "C1_low_only": {
+    "best_l2_mean": 0.9178582959633447,
+    "best_l2_std": 0.0005108537883938368,
+    "best_l2_min": 0.9171706230028321
+  },
+  "C2_high_only": {
+    "best_l2_mean": 0.7071414028573789,
+    "best_l2_std": 1.0917282153392893e-05,
+    "best_l2_min": 0.7071275596733905
+  },
+  "C3_multilevel": {
+    "best_l2_mean": 0.014134811436733778,
+    "best_l2_std": 0.003487537640716613,
+    "best_l2_min": 0.010728875522183538
+  },
+  "_meta": {
+    "klo": 12.566370614359172,
+    "khi": 75.39822368615503,
+    "note": "relative residual normalized by source magnitude"
+  }
+}
