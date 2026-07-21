@@ -26,6 +26,20 @@ AI4PDE · Physics-Informed Deep Learning · Data-Driven Discovery
 
 ---
 
+## 2026 暑期课程 · PINN & 神经算子 & AI 智能体全面加速科研
+
+我们暑期课程【PINN & 神经算子 & AI 智能体全面加速科研】，自 2025 年暑期第 1 期开课以来，累计国内外硕博研究生和高校教师报名学员超 140 人，获一众好评！我们课程主打的就是帮助大家学明白，不仅会用，还要理解底层数学原理，以及代码算法高效准确实现，学会顶刊如何发表。2026 年暑期课程是我们第 2 期课程，课程更新进度第 2 课，暑期每周六晚上 8 点–10 点直播，欢迎大家扫码进群或者加我微信交流学习/课程咨询报名/论文辅导报名。
+
+<div align="center">
+
+![2026 暑期课程海报](最新课程海报.png)
+
+**扫码加入课程交流群**
+
+![PINN&神经算子2026暑期课程交流群](课程群.jpg)
+
+</div>
+
 ## Philosophy
 
 > **Vibe Coding & Vibe Researching** — Humans discover and formulate the important scientific problems; AI agents write code, execute experiments, and automatically optimize the computation pipeline; humans verify, validate, and accept the final results. Not a single line of code is written by hand.
