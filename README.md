@@ -46,9 +46,9 @@ AI4PDE · Physics-Informed Deep Learning · Data-Driven Discovery
 
 ![2026 暑期课程海报](最新课程海报.png)
 
-**扫码加入课程交流群**
-
-![PINN&神经算子2026暑期课程交流群](课程群.jpg)
+| 扫码加入课程交流群 | 添加个人微信 |
+| :---: | :---: |
+| ![PINN&神经算子2026暑期课程交流群](课程群.jpg) | ![Learn2Learn 个人微信](个人微信.jpg) |
 
 </div>
 
